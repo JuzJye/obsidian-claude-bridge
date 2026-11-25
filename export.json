@@ -1,0 +1,5 @@
+{
+  "repository": "JuzJye/obsidian-claude-bridge",
+  "branch": "main",
+  "files": ["tools/git_commands.md", "tools/markdown_commands.md"]
+}

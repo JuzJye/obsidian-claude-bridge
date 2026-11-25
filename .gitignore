@@ -1,0 +1,9 @@
+.bridge-local.json
+__pycache__/
+*.pyc
+.DS_Store
+.obsidian/
+.claudian/
+.env*
+*.pem
+*.key
