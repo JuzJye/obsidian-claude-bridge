@@ -1,12 +1,14 @@
-# 给 Claude 的选定笔记
+# Selected notes for Claude
 
-导出时间：2026-11-26T05:12:24+09:00（Asia/Tokyo）。只代表这些副本的导出时间。
+Exported at: 2026-11-26T05:12:24+09:00 (Asia/Tokyo). This is the export time of these note copies.
 
-Obsidian 是主本；本仓库为经过示例脱敏的副本。范围之外的内容未提供。
+Repository visibility: public.
+
+Obsidian is the source of truth. These are selected copies with sanitized examples; other vault content is excluded.
 
 - [tools/git_commands.md](tools/git_commands.md)
 - [tools/markdown_commands.md](tools/markdown_commands.md)
 
-请阅读选定笔记后，按“笔记路径、建议、理由”给出反馈；由本地 Codex 核对后整理回主本。
+Please respond in English, citing the note path, suggested change, and reason. Local Codex reviews feedback before updating the source vault.
 
-[同步与协作说明](README.md)
+[Sync and collaboration guide](README.md)
