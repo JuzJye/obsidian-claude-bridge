@@ -7,3 +7,8 @@ __pycache__/
 .env*
 *.pem
 *.key
+*.log
+.bridge-report*
+*.tar
+*.tar.gz
+*.zip

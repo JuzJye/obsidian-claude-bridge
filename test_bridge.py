@@ -185,9 +185,102 @@ class BridgeTests(unittest.TestCase):
         self.note.write_text('[Hidden](../private.md)\n```md\n[Example](../private.md)\n```\n')
         self.sync()
         exported = (self.root / 'tools/note.md').read_text()
-        self.assertIn('Hidden（关联内容未导出）', exported)
+        self.assertIn('Hidden (not exported: missing source)', exported)
         self.assertIn('[Example](../private.md)', exported)
         self.assertFalse((self.root / 'private.md').exists())
+
+    def set_files(self, files, **extra):
+        config = json.loads((self.root / 'export.json').read_text())
+        config.update(files=files, **extra)
+        (self.root / 'export.json').write_text(json.dumps(config))
+        self.run_git(self.root, 'add', 'export.json')
+        self.run_git(self.root, 'commit', '-m', 'Review explicit source scope')
+        self.bridge = Bridge(self.root)
+
+    def test_hard_exclusions_cannot_be_overridden(self):
+        config = json.loads((self.root / 'export.json').read_text())
+        forbidden = ['skills/外部skill/anything.md', 'tools/claude-network/operations.md',
+                     '_assets/claude/diagnostic.json', '.claudian/sessions/chat.json',
+                     '.obsidian/settings.json', 'todolist/inbox.md', 'tools/linux_commands.md',
+                     'projects/claude-workspace/memory.md', 'runbooks/internal.md',
+                     'skills/point-cloud-training/references/adapointr-case.md',
+                     '3d_learning/__pycache__/cache.py', '_assets/3d_learning/weights.pt']
+        for name in forbidden:
+            with self.subTest(name=name):
+                (self.root / 'export.json').write_text(json.dumps({**config, 'files':[name], 'exclude':[]}))
+                with self.assertRaises(BridgeError):
+                    Bridge(self.root)
+
+    def test_script_and_attachments_are_exact_bytes(self):
+        contents = {
+            '3d_learning/day1/demo.py': b'print("example")\r\n',
+            '_assets/3d_learning/day1/result.json': b'{"metric": 0.5}\r\n',
+            '_assets/3d_learning/day1/result.csv': b'name,value\r\nexample,1\r\n',
+            '_assets/3d_learning/day1/figure.png': b'\x89PNG\r\n\x1a\n\x00\xffexample-image',
+        }
+        for name, data in contents.items():
+            path=self.vault / name; path.parent.mkdir(parents=True,exist_ok=True); path.write_bytes(data)
+        self.set_files(['tools/note.md', *contents])
+        before=self.snapshot(self.vault)
+        self.sync()
+        for name,data in contents.items():
+            self.assertEqual(data, (self.root/name).read_bytes())
+        self.assertEqual(before,self.snapshot(self.vault))
+        state=json.loads((self.root/'export-state.json').read_text())
+        from bridge import digest
+        self.assertEqual(digest(contents['_assets/3d_learning/day1/figure.png']),
+                         state['files']['_assets/3d_learning/day1/figure.png'])
+
+    def test_unresolved_internal_information_blocks_without_echo(self):
+        self.note.write_text('/Users/' + 'somebody/private/path')
+        with self.assertRaises(BridgeError) as error:
+            self.bridge.preview()
+        self.assertNotIn('somebody', str(error.exception))
+
+    def test_utf8_prose_credentials_are_detected_in_bytes(self):
+        with self.assertRaises(BridgeError):
+            scan('example.md', ('密码' + ' sample123').encode('utf-8'))
+
+    def test_binary_credential_metadata_is_blocked(self):
+        name='_assets/3d_learning/day1/figure.png'
+        p=self.vault/name; p.parent.mkdir(parents=True)
+        p.write_bytes(b'\x89PNG\xff' + ('ghp_' + 'z'*36).encode())
+        self.set_files(['tools/note.md',name])
+        with self.assertRaises(BridgeError):
+            self.sync()
+        self.assertFalse((self.root/'Home.md').exists())
+
+    def test_links_cannot_expand_allowlist_or_escape_vault(self):
+        self.note.write_text('[Outside](../../outside.md)\n[Excluded](../tools/linux_commands.md)\n')
+        self.sync()
+        text=(self.root/'tools/note.md').read_text()
+        self.assertIn('outside vault',text)
+        self.assertFalse((self.root/'tools/linux_commands.md').exists())
+        self.assertTrue(self.bridge.report['excluded_references'])
+
+    def test_custom_exclusion_beats_explicit_allowlist(self):
+        config=json.loads((self.root/'export.json').read_text())
+        config['exclude']=['tools/**']
+        (self.root/'export.json').write_text(json.dumps(config))
+        with self.assertRaises(BridgeError):
+            Bridge(self.root)
+
+    def test_remote_divergence_preserves_both_histories(self):
+        self.sync()
+        other=self.base/'other'
+        self.run_git(self.base,'clone','-b','main',str(self.remote),str(other))
+        self.run_git(other,'config','user.name','Example')
+        self.run_git(other,'config','user.email','example@example.com')
+        (other/'README.md').write_text('remote version')
+        self.run_git(other,'add','README.md'); self.run_git(other,'commit','-m','Remote change')
+        self.run_git(other,'push','origin','main')
+        (self.root/'README.md').write_text('local version')
+        self.run_git(self.root,'add','README.md'); self.run_git(self.root,'commit','-m','Local change')
+        head=self.run_git(self.root,'rev-parse','HEAD')
+        with self.assertRaises(BridgeError):
+            self.sync()
+        self.assertEqual(head,self.run_git(self.root,'rev-parse','HEAD'))
+        self.assertEqual('local version',(self.root/'README.md').read_text())
 
 
 if __name__ == '__main__':
