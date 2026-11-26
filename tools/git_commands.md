@@ -2,7 +2,7 @@
 type: tool
 status: active
 created: 2026-09-06
-updated: 2026-09-10
+updated: 2026-11-26
 tags: [git, cheatsheet]
 ---
 
@@ -154,6 +154,8 @@ git submodule update --init
 ```
 
 #### 情况二：硬重置，适合大量冲突，直接对齐origin/dev
+
+**Warning:** `git reset --hard origin/dev` discards uncommitted changes to tracked files and moves the current branch to `origin/dev`. Create a backup branch with `git branch <backup-branch>` to preserve the current commits, and save uncommitted work separately before proceeding. A later force push will also move the remote branch.
 
 ```bash
 # 1. 切回个人特性分支
