@@ -1,0 +1,26 @@
+{
+  "seed": 40,
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "dataset": "80 synthetic targets, 2 analytic models",
+  "units": "m; figures mm",
+  "threshold_fraction": 0.05,
+  "attempts": 80,
+  "predictions": 68,
+  "successes": 37,
+  "recall_all": 0.4625,
+  "incorrect_conditional_recall": 0.5441176470588235,
+  "asymmetric_handle_counterexample": {
+    "add_mm": 58.36611775874631,
+    "adds_mm": 1.3113256788291956,
+    "handle_displacement_mm": 106.30145812734648
+  },
+  "checks": {
+    "identity_add": 0.0,
+    "translation_10mm": 0.01,
+    "c4_rotation_adds": 6.44068903976451e-18
+  },
+  "timing_seconds": 0.10529908305034041,
+  "scope": "No trained model, real data, BOP VSD/MSSD/MSPD evaluation or robot execution"
+}

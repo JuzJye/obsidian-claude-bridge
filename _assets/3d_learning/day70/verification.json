@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-13",
+  "checks": [
+    "all_data_and_parameter_hashes_equal",
+    "manifests_byte_identical",
+    "baseline_ledger_byte_identical",
+    "fusion_retained_rows_unchanged",
+    "duplicate_missing_extra_rejected",
+    "future_truth_and_true_stiffness_mutation_no_prediction_effect",
+    "independent_ledger_position_and_x10_recomputed"
+  ],
+  "figures_visually_checked": 4,
+  "script_lines": 216,
+  "script_sha256": "4a400cbea9878576008ff9e1e3f0138b581cddd2eb0ce1e4b67bbbf9029a7997",
+  "status": "pass"
+}

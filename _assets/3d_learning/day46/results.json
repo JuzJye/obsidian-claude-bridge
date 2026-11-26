@@ -1,0 +1,253 @@
+{
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "protocol": {
+    "methods": [
+      "L2",
+      "Huber",
+      "Cauchy",
+      "Precision",
+      "Huber+Precision"
+    ],
+    "fixed_delta_m": 0.006,
+    "solve_iterations": 25,
+    "validation_seeds": [
+      461,
+      462,
+      463
+    ],
+    "test_seeds": [
+      471,
+      472,
+      473
+    ],
+    "validation_scenes": 18,
+    "test_scenes": 36,
+    "points_per_scene": 160,
+    "probe_points": 256,
+    "pose_success": "translation <5 mm AND rotation <2 deg; synthetic diagnostic, not benchmark threshold",
+    "network_train_steps": 0,
+    "robot_interactions": 0,
+    "units": "m internally",
+    "frame": "object to camera",
+    "timestamp": "each scene independent synthetic t=0",
+    "initialization": "same unweighted Kabsch",
+    "tuning": "no hyperparameter search; select method by validation ADD only",
+    "validation_hash": "851c7a7c0a37370f58babab61caa788a6afe1257030d64e1677f81a7e34c61ea",
+    "test_hash": "13f9502a927814d923972169572ad7cf8e6f7e60fd384bd043a35dfd8f1dd941",
+    "ood_hash": "13f9502a927814d923972169572ad7cf8e6f7e60fd384bd043a35dfd8f1dd941"
+  },
+  "selected_on_validation": "Huber+Precision",
+  "validation": {
+    "L2": {
+      "add_mean_mm": 16.95015672623197,
+      "add_seed_std_mm": 0.27402255782358986,
+      "seed_means_mm": [
+        16.941594309355008,
+        16.68051572681008,
+        17.228360142530825
+      ],
+      "successes": 0,
+      "attempts": 18,
+      "median_solve_ms": 0.5674789426848292
+    },
+    "Huber": {
+      "add_mean_mm": 1.5464579832151466,
+      "add_seed_std_mm": 0.059222939197734206,
+      "seed_means_mm": [
+        1.5992426242572388,
+        1.4824134014105914,
+        1.5577179239776087
+      ],
+      "successes": 18,
+      "attempts": 18,
+      "median_solve_ms": 0.6100005703046918
+    },
+    "Cauchy": {
+      "add_mean_mm": 0.35759384478691514,
+      "add_seed_std_mm": 0.03939001942052449,
+      "seed_means_mm": [
+        0.4028802443267872,
+        0.33861536089758976,
+        0.33128592913636834
+      ],
+      "successes": 18,
+      "attempts": 18,
+      "median_solve_ms": 0.6182289798744023
+    },
+    "Precision": {
+      "add_mean_mm": 0.6575781719998401,
+      "add_seed_std_mm": 0.04214653145008363,
+      "seed_means_mm": [
+        0.6896791189737786,
+        0.6098499931697565,
+        0.6732054038559855
+      ],
+      "successes": 18,
+      "attempts": 18,
+      "median_solve_ms": 0.5938544636592269
+    },
+    "Huber+Precision": {
+      "add_mean_mm": 0.33153474095375324,
+      "add_seed_std_mm": 0.009007419082874366,
+      "seed_means_mm": [
+        0.341731686068897,
+        0.32821118565441876,
+        0.324661351137944
+      ],
+      "successes": 18,
+      "attempts": 18,
+      "median_solve_ms": 0.6281249807216227
+    }
+  },
+  "test": {
+    "L2": {
+      "add_mean_mm": 16.827258633216175,
+      "add_seed_std_mm": 0.21608691503084626,
+      "seed_means_mm": [
+        16.88495913796228,
+        17.008638121036046,
+        16.58817864065021
+      ],
+      "successes": 0,
+      "attempts": 36,
+      "median_solve_ms": 0.5334585439413786
+    },
+    "Huber": {
+      "add_mean_mm": 1.5726363374659822,
+      "add_seed_std_mm": 0.028832079610364054,
+      "seed_means_mm": [
+        1.5541455688498527,
+        1.6058579062421172,
+        1.5579055373059763
+      ],
+      "successes": 36,
+      "attempts": 36,
+      "median_solve_ms": 0.5693124840036035
+    },
+    "Cauchy": {
+      "add_mean_mm": 0.4224355248445123,
+      "add_seed_std_mm": 0.02401529465829908,
+      "seed_means_mm": [
+        0.41903446154567175,
+        0.4003020691260395,
+        0.4479700438618257
+      ],
+      "successes": 36,
+      "attempts": 36,
+      "median_solve_ms": 0.5819795187562704
+    },
+    "Precision": {
+      "add_mean_mm": 0.6879939316426527,
+      "add_seed_std_mm": 0.032110633787858965,
+      "seed_means_mm": [
+        0.665388905278628,
+        0.7247493894395677,
+        0.6738435002097624
+      ],
+      "successes": 36,
+      "attempts": 36,
+      "median_solve_ms": 0.554499973077327
+    },
+    "Huber+Precision": {
+      "add_mean_mm": 0.38367198573733063,
+      "add_seed_std_mm": 0.019099270110719862,
+      "seed_means_mm": [
+        0.39060005693729233,
+        0.3620755622403177,
+        0.39834033803438174
+      ],
+      "successes": 36,
+      "attempts": 36,
+      "median_solve_ms": 0.5904369754716754
+    }
+  },
+  "ood_uncertainty_flipped": {
+    "L2": {
+      "add_mean_mm": 16.827258633216175,
+      "add_seed_std_mm": 0.21608691503084626,
+      "seed_means_mm": [
+        16.88495913796228,
+        17.008638121036046,
+        16.58817864065021
+      ],
+      "successes": 0,
+      "attempts": 36,
+      "median_solve_ms": 0.5327704711817205
+    },
+    "Huber": {
+      "add_mean_mm": 1.5726363374659822,
+      "add_seed_std_mm": 0.028832079610364054,
+      "seed_means_mm": [
+        1.5541455688498527,
+        1.6058579062421172,
+        1.5579055373059763
+      ],
+      "successes": 36,
+      "attempts": 36,
+      "median_solve_ms": 0.5721040652133524
+    },
+    "Cauchy": {
+      "add_mean_mm": 0.4224355248445123,
+      "add_seed_std_mm": 0.02401529465829908,
+      "seed_means_mm": [
+        0.41903446154567175,
+        0.4003020691260395,
+        0.4479700438618257
+      ],
+      "successes": 36,
+      "attempts": 36,
+      "median_solve_ms": 0.5773540469817817
+    },
+    "Precision": {
+      "add_mean_mm": 74.76959765221932,
+      "add_seed_std_mm": 0.6831539235414448,
+      "seed_means_mm": [
+        74.81327408206063,
+        75.42986541173177,
+        74.0656534628656
+      ],
+      "successes": 0,
+      "attempts": 36,
+      "median_solve_ms": 0.5562500446103513
+    },
+    "Huber+Precision": {
+      "add_mean_mm": 80.72627256755061,
+      "add_seed_std_mm": 0.8673432798805913,
+      "seed_means_mm": [
+        80.94615189630568,
+        81.46251502053536,
+        79.77015078581083
+      ],
+      "successes": 0,
+      "attempts": 36,
+      "median_solve_ms": 0.5947079625912011
+    }
+  },
+  "paired_test_against_l2": {
+    "Huber": {
+      "mean_delta_mm": -15.254622295750194,
+      "better_count": 36,
+      "count": 36
+    },
+    "Cauchy": {
+      "mean_delta_mm": -16.404823108371662,
+      "better_count": 36,
+      "count": 36
+    },
+    "Precision": {
+      "mean_delta_mm": -16.13926470157352,
+      "better_count": 36,
+      "count": 36
+    },
+    "Huber+Precision": {
+      "mean_delta_mm": -16.44358664747885,
+      "better_count": 36,
+      "count": 36
+    }
+  },
+  "scope": "Five solver heads; not trained multi-scale feature networks, official datasets, or real robot success."
+}

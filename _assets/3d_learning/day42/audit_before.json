@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "code": "unit_contract"
+  },
+  {
+    "id": 12,
+    "code": "invalid_rotation"
+  },
+  {
+    "id": 23,
+    "code": "invalid_intrinsics"
+  },
+  {
+    "id": 31,
+    "code": "depth_scale"
+  },
+  {
+    "id": 44,
+    "code": "nonmonotonic_time"
+  },
+  {
+    "id": 54,
+    "code": "missing_calibration"
+  },
+  {
+    "id": 59,
+    "code": "duplicate_target"
+  },
+  {
+    "id": 59,
+    "code": "nonmonotonic_time"
+  },
+  {
+    "id": "scene:0",
+    "code": "scene_leakage"
+  }
+]

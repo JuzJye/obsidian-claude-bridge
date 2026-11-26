@@ -1,0 +1,54 @@
+{
+  "source": "preset_synthetic_fixture",
+  "corruption": "drop_failures",
+  "checks": {
+    "unique_ids": true,
+    "complete_expected_ids": false,
+    "protocol_hash": true,
+    "units_and_frame": true,
+    "initial_state_and_seed": true,
+    "time_order_and_deadline": true,
+    "success_definition": true,
+    "reference_content_hash": false
+  },
+  "artifact_integrity_pass": false,
+  "project_acceptance": "pending",
+  "pending_evidence": [
+    "official_dataset_baseline",
+    "real_or_contact_physics_closed_loop",
+    "learner_assessment"
+  ],
+  "expected_trials": 40,
+  "recorded_rows": 24,
+  "missing_ids": [
+    "t024",
+    "t025",
+    "t026",
+    "t027",
+    "t028",
+    "t029",
+    "t030",
+    "t031",
+    "t032",
+    "t033",
+    "t034",
+    "t035",
+    "t036",
+    "t037",
+    "t038",
+    "t039"
+  ],
+  "extra_ids": [],
+  "observed_successes": 24,
+  "naive_row_success_rate": 1.0,
+  "validated_success_rate": null,
+  "missing_outcome_bounds": [
+    0.6,
+    1.0
+  ],
+  "wilson_95": null,
+  "terminal_counts": {
+    "success": 24
+  },
+  "audit_compute_ms": 2.847915980964899
+}

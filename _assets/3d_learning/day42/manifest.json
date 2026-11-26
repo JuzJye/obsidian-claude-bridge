@@ -1,0 +1,9 @@
+{
+  "data_sha256": "b437ab8b2da5fc32ad73b4ff1c86362a7e6af8d0d8842a0a633e2efbcfc54dc3",
+  "config_sha256": "f078be52eeb821fec5ce59d37448cabfddfd615de5001f794de80949ebfce6de",
+  "script_sha256": "d1eaf9c65e17d59d4bf1644d7d94356c26f53809386ba0f7fbbd01fd4e316072",
+  "evaluation_sha256": "6107129da259bcf829350494b58f96c161de8468a5591c77f59f62aaf42fff55",
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9"
+}

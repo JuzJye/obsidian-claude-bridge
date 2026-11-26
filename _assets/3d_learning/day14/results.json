@@ -1,0 +1,70 @@
+{
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0"
+  },
+  "seed": 14,
+  "geometry": {
+    "triangulation_error_m": 7.926452523719082e-16,
+    "baseline_plus5_error_m": 0.04049691346263264,
+    "same_wrong_model_reprojection_px": 5.684341886080802e-14,
+    "depth_sigma_empirical_m": 0.004435834014963047,
+    "depth_sigma_linear_m": 0.004444444444444445,
+    "jacobian_fd_max_error": 2.914277152932243e-11,
+    "regular_singular_values": [
+      0.9075752288773505,
+      0.15808190176959228
+    ],
+    "straight_arm_singular_values": [
+      0.9848857801796105,
+      0.0
+    ],
+    "small_step_linearization_error_m": 1.375900824927999e-05
+  },
+  "transfer": {
+    "zero_shot": {
+      "updated_parameters": 0,
+      "weights": [
+        1.2020282533333932,
+        -0.6009699391181652,
+        0.09640654202500114
+      ],
+      "target_test_rmse": 0.39592738258197757
+    },
+    "bias_only": {
+      "updated_parameters": 1,
+      "weights": [
+        1.2020282533333932,
+        -0.6009699391181652,
+        0.3558650001797954
+      ],
+      "target_test_rmse": 0.35806354886762004
+    },
+    "full_finetune": {
+      "updated_parameters": 3,
+      "weights": [
+        1.4870362510057151,
+        -0.786170921823746,
+        0.30897448007277933
+      ],
+      "target_test_rmse": 0.02109087735099115
+    },
+    "scratch": {
+      "updated_parameters": 3,
+      "weights": [
+        1.4869721679884746,
+        -0.7861594515822901,
+        0.3089885089393019
+      ],
+      "target_test_rmse": 0.02114375715719733
+    },
+    "bias_only_no_slope_shift": {
+      "target_test_rmse": 5.940886638198602e-11
+    }
+  },
+  "pretrain_samples": 500,
+  "target_train_samples": 12,
+  "target_test_samples": 1000,
+  "scope": "geometry unit audit + fitted three-parameter linear transfer; no foundation model or robot training"
+}

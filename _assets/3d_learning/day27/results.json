@@ -1,0 +1,77 @@
+{
+  "seed": 27,
+  "versions": {
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "scope": "analytic two-plane RGB-D and linear prediction; no learned video backbone",
+  "fusion": {
+    "points": 1116,
+    "visible_points": 927,
+    "coverage": 0.8306451612903226,
+    "unknown_points": 189,
+    "naive_accuracy_all": 0.8306451612903226,
+    "naive_accuracy_on_visible": 1.0,
+    "gated_accuracy_on_visible": 1.0,
+    "extrinsic_bias_m": 0.05,
+    "biased_coverage": 0.803763440860215,
+    "common_visible_points": 855,
+    "biased_accuracy_common": 1.0
+  },
+  "backprojection": [
+    {
+      "depth_noise_std_m": 0.0,
+      "points": 1152,
+      "voxels_25mm": 1082,
+      "point_coordinate_rmse_m": 0.0
+    },
+    {
+      "depth_noise_std_m": 0.005,
+      "points": 1152,
+      "voxels_25mm": 1120,
+      "point_coordinate_rmse_m": 0.0032220314412858826
+    },
+    {
+      "depth_noise_std_m": 0.02,
+      "points": 1152,
+      "voxels_25mm": 1138,
+      "point_coordinate_rmse_m": 0.012888125765143539
+    }
+  ],
+  "trajectory_split": {
+    "train": 56,
+    "test": 24,
+    "steps": 12,
+    "dt_s": 0.2
+  },
+  "prediction": {
+    "without_action": {
+      "test_position_rmse_m": 0.011734757665076014,
+      "test_velocity_rmse_m_s": 0.11686663824197095,
+      "probe_next_positions_m": [
+        0.0007182499193267981,
+        0.0007182499193267981,
+        0.0007182499193267981
+      ]
+    },
+    "with_action": {
+      "test_position_rmse_m": 0.0009961414963733598,
+      "test_velocity_rmse_m_s": 0.0010423008361428558,
+      "probe_next_positions_m": [
+        -0.019992846296909034,
+        2.4652471486689237e-05,
+        0.020042151239882414
+      ]
+    }
+  },
+  "probe_actions_m_s2": [
+    -1.0,
+    0.0,
+    1.0
+  ],
+  "probe_true_next_positions_m": [
+    -0.020000000000000004,
+    0.0,
+    0.020000000000000004
+  ]
+}

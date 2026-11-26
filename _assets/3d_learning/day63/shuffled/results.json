@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-11-11T14:17:34.880682+00:00",
+  "seed": 63,
+  "python": "3.11.15",
+  "torch": "2.13.0.dev20260423",
+  "numpy": "1.26.4",
+  "device": "cpu",
+  "shuffle_pairs": true,
+  "train_val_test_episodes": [
+    512,
+    128,
+    128
+  ],
+  "encoder_epochs": 250,
+  "probe_epochs": 250,
+  "temperature": 0.1,
+  "encoder_parameters": 736,
+  "final_training_loss": 6.1120991706848145,
+  "final_validation_true_pair_loss": 4.989026069641113,
+  "test_retrieval_correct": 1,
+  "test_retrieval_denominator": 128,
+  "test_retrieval_R1": 0.0078125,
+  "test_probe_correct": 105,
+  "test_probe_denominator": 128,
+  "test_probe_accuracy": 0.8203125,
+  "test_confusion": [
+    [
+      61,
+      13
+    ],
+    [
+      10,
+      44
+    ]
+  ],
+  "test_embedding_std_each_dim": [
+    0.38488322496414185,
+    0.30616870522499084,
+    0.26297467947006226,
+    0.30187851190567017,
+    0.4646262228488922,
+    0.2481147050857544,
+    0.1415729522705078,
+    0.4774629473686218
+  ],
+  "robot_attempts": 0,
+  "script_sha256": "664d9fb92eff42ca6bbdb543968e4be9627f9ea986faa79ab38f583200f2aff0",
+  "limits": "Synthetic six-dimensional sensor vectors; not tactile image learning or official data validation.",
+  "wall_time_s": 0.949537624954246
+}

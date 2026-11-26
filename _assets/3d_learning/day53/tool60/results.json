@@ -1,0 +1,111 @@
+{
+  "seed": 53,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "model": "synthetic standard-DH 6R arm, not a hardware model",
+  "frame": "T_AB maps B to A; B base, C camera, O object, G TCP/grasp, F flange",
+  "units": "m/rad; reports mm/deg",
+  "timestamp": "all transforms synthetic t=0",
+  "tool_length_mm": 60.0,
+  "dh": {
+    "a_m": [
+      0.0,
+      0.3,
+      0.25,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "d_m": [
+      0.2,
+      0.0,
+      0.0,
+      0.1,
+      0.0,
+      0.08
+    ],
+    "alpha_rad": [
+      1.5707963267948966,
+      0.0,
+      0.0,
+      1.5707963267948966,
+      -1.5707963267948966,
+      0.0
+    ]
+  },
+  "joint_names": [
+    "joint_1",
+    "joint_2",
+    "joint_3",
+    "joint_4",
+    "joint_5",
+    "joint_6"
+  ],
+  "joint_limits_rad": [
+    3.0543261909900767,
+    2.443460952792061,
+    2.6179938779914944,
+    3.0543261909900767,
+    2.6179938779914944,
+    3.0543261909900767
+  ],
+  "initial_q_rad": [
+    0.3688426991838181,
+    -1.1451781564098993,
+    1.5605551634436883,
+    -0.7671391367956676,
+    0.6955798180944894,
+    0.2924224419077551
+  ],
+  "jacobian_max_abs_error": 5.4251936276727974e-11,
+  "chain_max_abs_error": 1.3877787807814457e-16,
+  "cases": {
+    "correct_tool_transform": {
+      "status": "converged",
+      "iterations": 4,
+      "q_rad": [
+        0.3500023166905798,
+        -1.0000017963012766,
+        1.4000056063523296,
+        -0.5999885773857191,
+        0.8999942477632096,
+        0.1999796117813074
+      ],
+      "solver_position_mm": 0.0006925538494859376,
+      "solver_angle_deg": 0.0010112096011881877,
+      "actual_tcp_error_mm": 0.0011740833897185146,
+      "actual_tcp_angle_deg": 0.00101120960118393,
+      "solve_ms": 0.48462499398738146,
+      "within_joint_limits": true
+    },
+    "tcp_mistaken_for_flange": {
+      "status": "converged",
+      "iterations": 4,
+      "q_rad": [
+        0.24431323014159917,
+        -1.0873316479549766,
+        1.5873828235726297,
+        -0.7194625984096188,
+        0.7966193563120199,
+        0.2293152299876234
+      ],
+      "solver_position_mm": 5.3075621419131704e-05,
+      "solver_angle_deg": 2.3946210087021582e-05,
+      "actual_tcp_error_mm": 60.00003433969286,
+      "actual_tcp_angle_deg": 2.3946210083667504e-05,
+      "solve_ms": 0.43800007551908493,
+      "within_joint_limits": true
+    }
+  },
+  "unreachable": {
+    "status": "max_steps",
+    "residual_m": 2.786902857455404
+  },
+  "success_rule": "flange translation <0.01 mm and orientation <0.0001 rad; kinematic only",
+  "collision_checked": false,
+  "robot_interactions": 0,
+  "training_steps": 0
+}

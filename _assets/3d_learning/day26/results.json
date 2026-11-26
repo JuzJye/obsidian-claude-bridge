@@ -1,0 +1,55 @@
+{
+  "seed": 26,
+  "scope": "one-ray parametric density fit plus one finite-horizon planning call",
+  "units": "metres, seconds, m/s; renderer density 1/m; RGB [0,1]",
+  "versions": {
+    "numpy": "1.26.4",
+    "torch": "2.13.0.dev20260423",
+    "matplotlib": "3.10.9"
+  },
+  "reference_density_center_m": 2.6,
+  "reference_conditional_depth_m": 2.564014200563675,
+  "reconstruction": {
+    "rgb_only": {
+      "center_m": 1.5,
+      "conditional_depth_m": 1.464014200563675,
+      "color_mse": 8.217301096052206e-33,
+      "depth_abs_error_m": 1.0999999999999999
+    },
+    "rgb_plus_depth": {
+      "center_m": 2.599948426352712,
+      "conditional_depth_m": 2.5639626269163878,
+      "color_mse": 8.217301096052206e-33,
+      "depth_abs_error_m": 5.1573647287028734e-05
+    }
+  },
+  "planning": [
+    {
+      "map_obstacle_radius_m": 0.18,
+      "feasible_candidates": 9,
+      "chosen_amplitude_m": 0.25,
+      "chosen_index": 5,
+      "predicted_clearance_m": 0.029771593408815168,
+      "true_clearance_m": -0.04022840659118484,
+      "first_velocity_m_s": [
+        0.49999999999999994,
+        0.326315480550129
+      ],
+      "cost": 1.1000471792336266
+    },
+    {
+      "map_obstacle_radius_m": 0.25,
+      "feasible_candidates": 7,
+      "chosen_amplitude_m": 0.35000000000000003,
+      "chosen_index": 7,
+      "predicted_clearance_m": 0.05937407542302018,
+      "true_clearance_m": 0.05937407542302018,
+      "first_velocity_m_s": [
+        0.49999999999999994,
+        0.4568416727701806
+      ],
+      "cost": 1.1855288978963823
+    }
+  ],
+  "boundary": "No closed-loop MPC rollout, learned policy, or neural scene network was trained."
+}

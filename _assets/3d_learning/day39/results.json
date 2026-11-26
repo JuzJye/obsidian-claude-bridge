@@ -1,0 +1,56 @@
+{
+  "day": 39,
+  "verified_on": "2026-10-24",
+  "seed": 39,
+  "device": "CPU",
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "opencv": "4.10.0",
+  "matplotlib": "3.10.9",
+  "data": "100 synthetic 3D points with oracle correspondences and injected corruptions",
+  "outlier_fraction": 0.2,
+  "noise_image_px": 0.6,
+  "noise_depth_xyz_m": 0.001,
+  "comparisons": [
+    {
+      "method": "EPnP all",
+      "translation_error_mm": 25.71087039936854,
+      "rotation_error_deg": 2.6497010869269872,
+      "mean_point_error_mm": 25.90174228144237,
+      "scale_multiplier": 1.0,
+      "inliers": null
+    },
+    {
+      "method": "RANSAC PnP",
+      "translation_error_mm": 0.5298484294298821,
+      "rotation_error_deg": 0.0697142262686415,
+      "mean_point_error_mm": 0.5379346385826159,
+      "scale_multiplier": 1.0,
+      "inliers": 76
+    },
+    {
+      "method": "rigid SVD all",
+      "translation_error_mm": 3.779924485202476,
+      "rotation_error_deg": 2.167986483956835,
+      "mean_point_error_mm": 4.274840635581632,
+      "scale_multiplier": 1.0,
+      "inliers": null
+    },
+    {
+      "method": "RANSAC 3D",
+      "translation_error_mm": 0.17683681201040366,
+      "rotation_error_deg": 0.08562088943398205,
+      "mean_point_error_mm": 0.19074693308257532,
+      "scale_multiplier": 1.0,
+      "inliers": 80
+    }
+  ],
+  "similarity_true_scale_m": 0.18,
+  "similarity_scale_m": 0.18008605706804334,
+  "similarity_scale_error_mm": 0.08605706804334923,
+  "similarity_rotation_deg": 0.12213420237320116,
+  "similarity_translation_error_mm": 0.07208537992047213,
+  "training_steps": 0,
+  "hardware_interactions": 0,
+  "elapsed_s": 0.00935116596519947
+}

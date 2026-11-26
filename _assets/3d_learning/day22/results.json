@@ -1,0 +1,51 @@
+{
+  "seed": 22,
+  "scope": "synthetic descriptors and geometry, no detector or COLMAP",
+  "units": "world/camera metres; image pixels",
+  "points": 180,
+  "mismatched_identities": 54,
+  "tentative_matches": 180,
+  "tentative_true": 126,
+  "accepted_tracks": 104,
+  "accepted_true": 104,
+  "accepted_false": 0,
+  "external_baseline_m": 0.45044422518220834,
+  "relative_rotation_error_deg": 0.6190133867117842,
+  "translation_direction_error_deg": 0.7464781217172757,
+  "triangulated_median_error_m": 0.5116573170758969,
+  "pnp_tracks": 104,
+  "pnp_inliers": 102,
+  "third_rotation_error_deg": 1.1940216966287593,
+  "third_camera_center_error_m": 0.02630963541049589,
+  "exact_dlt_max_error_m": 1.7015522277387695e-14,
+  "scale3_projection_max_difference_px": 1.9895196601282805e-13,
+  "baseline_control": [
+    {
+      "baseline_m": 0.005,
+      "median_abs_depth_error_m": 1.8150028293609748,
+      "positive_depth_fraction": 0.8944444444444445,
+      "median_reprojection_px": 0.20991299484128653
+    },
+    {
+      "baseline_m": 0.02,
+      "median_abs_depth_error_m": 0.5583787529208815,
+      "positive_depth_fraction": 1.0,
+      "median_reprojection_px": 0.20978626605519707
+    },
+    {
+      "baseline_m": 0.08,
+      "median_abs_depth_error_m": 0.14628984722019256,
+      "positive_depth_fraction": 1.0,
+      "median_reprojection_px": 0.20978120280571935
+    },
+    {
+      "baseline_m": 0.32,
+      "median_abs_depth_error_m": 0.03643512634680768,
+      "positive_depth_fraction": 1.0,
+      "median_reprojection_px": 0.20978090993124934
+    }
+  ],
+  "moving_point_true_z_m": 4.0,
+  "moving_point_static_estimated_z_m": 5.333333333333337,
+  "moving_point_static_reprojection_px": 5.684341886080802e-14
+}

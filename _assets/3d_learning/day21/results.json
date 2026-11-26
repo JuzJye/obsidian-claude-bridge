@@ -1,0 +1,139 @@
+{
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9",
+    "device": "CPU"
+  },
+  "baseline_sigma_m": 0.001,
+  "candidates": [
+    {
+      "name": "wide",
+      "score": 0.99,
+      "required_width_m": 0.136,
+      "approach_clearance_m": 0.04699999999999997,
+      "ik_branches": 2,
+      "checks": {
+        "width": false,
+        "antipodal": true,
+        "position_ik": true,
+        "tcp_approach": true,
+        "freshness": true,
+        "contact_center": true
+      },
+      "feasible": false
+    },
+    {
+      "name": "left_approach",
+      "score": 0.98,
+      "required_width_m": 0.076,
+      "approach_clearance_m": -0.053000000000000005,
+      "ik_branches": 2,
+      "checks": {
+        "width": true,
+        "antipodal": true,
+        "position_ik": true,
+        "tcp_approach": false,
+        "freshness": true,
+        "contact_center": true
+      },
+      "feasible": false
+    },
+    {
+      "name": "right_approach",
+      "score": 0.93,
+      "required_width_m": 0.076,
+      "approach_clearance_m": 0.04699999999999997,
+      "ik_branches": 2,
+      "checks": {
+        "width": true,
+        "antipodal": true,
+        "position_ik": true,
+        "tcp_approach": true,
+        "freshness": true,
+        "contact_center": true
+      },
+      "feasible": true
+    },
+    {
+      "name": "bad_normals",
+      "score": 0.97,
+      "required_width_m": 0.076,
+      "approach_clearance_m": 0.04699999999999997,
+      "ik_branches": 2,
+      "checks": {
+        "width": true,
+        "antipodal": false,
+        "position_ik": true,
+        "tcp_approach": true,
+        "freshness": true,
+        "contact_center": true
+      },
+      "feasible": false
+    },
+    {
+      "name": "far_center",
+      "score": 0.96,
+      "required_width_m": 0.076,
+      "approach_clearance_m": 0.7669999999999999,
+      "ik_branches": 0,
+      "checks": {
+        "width": true,
+        "antipodal": true,
+        "position_ik": false,
+        "tcp_approach": true,
+        "freshness": true,
+        "contact_center": false
+      },
+      "feasible": false
+    },
+    {
+      "name": "stale",
+      "score": 0.95,
+      "required_width_m": 0.076,
+      "approach_clearance_m": 0.04699999999999997,
+      "ik_branches": 2,
+      "checks": {
+        "width": true,
+        "antipodal": true,
+        "position_ik": true,
+        "tcp_approach": true,
+        "freshness": false,
+        "contact_center": true
+      },
+      "feasible": false
+    }
+  ],
+  "selected": "right_approach",
+  "high_uncertainty_sigma_m": 0.008,
+  "high_uncertainty_feasible": [],
+  "high_uncertainty_required_width_m": 0.118,
+  "score_flip_feasibility_unchanged": true,
+  "latency": {
+    "velocity_m_s": 0.2,
+    "age_s": [
+      0.02,
+      0.12,
+      0.28
+    ],
+    "stale_error_mm": [
+      4.0,
+      24.0,
+      56.00000000000001
+    ]
+  },
+  "contrastive": [
+    {
+      "tau": 1.0,
+      "loss": 0.40888143670022004,
+      "positive_probability": 0.6643930002790939
+    },
+    {
+      "tau": 0.1,
+      "loss": 4.7161854332759266e-05,
+      "positive_probability": 0.99995283925777
+    }
+  ],
+  "inappropriate_positive_loss": 10.000090795737467,
+  "boundary": "No trained model; independent synthetic filter demo. No full arm/hand collision, contact dynamics, actual detection or pose inference."
+}

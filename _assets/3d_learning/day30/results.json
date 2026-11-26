@@ -1,0 +1,49 @@
+{
+  "scope": "Planar camera + toy contact feedback; no learned slip detector",
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "servo_final_px": {
+    "depth_ratio_0.5": 0.6354578783731815,
+    "depth_ratio_1": 0.002850868487513347,
+    "depth_ratio_4": 1.861900614935455e-14
+  },
+  "pbvs_bias_final_px": 11.997131436665086,
+  "reversed_sign_15_steps_px": 448.34932155359786,
+  "interaction_shape": [
+    8,
+    6
+  ],
+  "interaction_rank": 6,
+  "interaction_singular_values": [
+    4.481125001887305,
+    4.481125001887302,
+    0.5656854249492377,
+    0.28284271247461895,
+    0.01785265975983865,
+    0.017852659759838387
+  ],
+  "derivative_max_error": 1.0527117372260975e-11,
+  "slip": {
+    "vision_only": {
+      "trigger_s": 0.6900000000000001,
+      "total_slip_mm": 7.034000000000004,
+      "final_slip_mm_per_s": 0.0,
+      "final_normal_N": 12.0
+    },
+    "fusion": {
+      "trigger_s": 0.5,
+      "total_slip_mm": 3.2340000000000027,
+      "final_slip_mm_per_s": 0.0,
+      "final_normal_N": 12.0
+    },
+    "force_cap_8N": {
+      "trigger_s": 0.5,
+      "total_slip_mm": 15.883999999999958,
+      "final_slip_mm_per_s": 9.999999999999998,
+      "final_normal_N": 8.0
+    }
+  }
+}

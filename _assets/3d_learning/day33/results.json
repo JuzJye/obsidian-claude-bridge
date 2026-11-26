@@ -1,0 +1,45 @@
+{
+  "verified_date": "2026-10-09",
+  "numpy": "1.26.4",
+  "torch": "2.13.0.dev20260423",
+  "horizon_s": 0.1,
+  "sessions": [
+    100,
+    25,
+    25
+  ],
+  "probes_per_session": 20,
+  "surface_offset_std_m": 0.002,
+  "test_prevalence": 0.31,
+  "full_threshold_05": {
+    "brier": 0.024655693950312682,
+    "false_negative_rate": 0.05806451612903226,
+    "false_positive_rate": 0.017391304347826087,
+    "accuracy": 0.97
+  },
+  "full_threshold_02": {
+    "brier": 0.024655693950312682,
+    "false_negative_rate": 0.012903225806451613,
+    "false_positive_rate": 0.057971014492753624,
+    "accuracy": 0.956
+  },
+  "gap_only_threshold_05": {
+    "brier": 0.07509074313348747,
+    "false_negative_rate": 0.13548387096774195,
+    "false_positive_rate": 0.08695652173913043,
+    "accuracy": 0.898
+  },
+  "offline_support": {
+    "unrestricted": {
+      "action": 1.5,
+      "model_score": 1.5,
+      "true_reward": -5.0
+    },
+    "distance_penalty": {
+      "action": 0.6000000000000001,
+      "model_score": 0.5999999999999999,
+      "true_reward": 0.6000000000000001
+    },
+    "train_mse": 2.4944058446912663e-39
+  }
+}

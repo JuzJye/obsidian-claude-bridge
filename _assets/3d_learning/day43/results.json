@@ -1,0 +1,118 @@
+{
+  "seed_train": 43,
+  "seed_test": 430,
+  "seed_permutation": 431,
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "radii_m": [
+    0.025,
+    0.1
+  ],
+  "train_samples": 1024,
+  "test_samples_per_condition": 512,
+  "train_points": 256,
+  "train_noise_m": 0.003,
+  "class_definition": "two independent signs: local Gaussian bump and broad x slope",
+  "scores": {
+    "dense": {
+      "small": {
+        "correct": 389,
+        "total": 512,
+        "accuracy": 0.759765625
+      },
+      "large": {
+        "correct": 428,
+        "total": 512,
+        "accuracy": 0.8359375
+      },
+      "multiscale": {
+        "correct": 502,
+        "total": 512,
+        "accuracy": 0.98046875
+      },
+      "duplicate_small": {
+        "correct": 389,
+        "total": 512,
+        "accuracy": 0.759765625
+      }
+    },
+    "sparse": {
+      "small": {
+        "correct": 211,
+        "total": 512,
+        "accuracy": 0.412109375
+      },
+      "large": {
+        "correct": 352,
+        "total": 512,
+        "accuracy": 0.6875
+      },
+      "multiscale": {
+        "correct": 385,
+        "total": 512,
+        "accuracy": 0.751953125
+      },
+      "duplicate_small": {
+        "correct": 211,
+        "total": 512,
+        "accuracy": 0.412109375
+      }
+    },
+    "noisy": {
+      "small": {
+        "correct": 360,
+        "total": 512,
+        "accuracy": 0.703125
+      },
+      "large": {
+        "correct": 373,
+        "total": 512,
+        "accuracy": 0.728515625
+      },
+      "multiscale": {
+        "correct": 481,
+        "total": 512,
+        "accuracy": 0.939453125
+      },
+      "duplicate_small": {
+        "correct": 360,
+        "total": 512,
+        "accuracy": 0.703125
+      }
+    }
+  },
+  "neighborhoods": {
+    "dense": {
+      "mean_neighbors": [
+        11.09375,
+        177.673828125
+      ],
+      "small_insufficient_fraction": 0.001953125
+    },
+    "sparse": {
+      "mean_neighbors": [
+        2.7890625,
+        44.322265625
+      ],
+      "small_insufficient_fraction": 0.46875
+    },
+    "noisy": {
+      "mean_neighbors": [
+        11.09375,
+        177.673828125
+      ],
+      "small_insufficient_fraction": 0.001953125
+    }
+  },
+  "point_order_max_error": 3.3306690738754696e-16,
+  "sparse_is_exact_dense_subset": true,
+  "parameter_counts": {
+    "small": 12,
+    "large": 12,
+    "multiscale": 20,
+    "duplicate_small": 20
+  },
+  "elapsed_seconds": 0.13320020795799792,
+  "scope": "Synthetic analytic local-plane features + linear ridge classifier; not FPN/PointNet++/NOCS/EPro-PnP training"
+}

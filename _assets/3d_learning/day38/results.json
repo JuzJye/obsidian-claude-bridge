@@ -1,0 +1,46 @@
+{
+  "day": 38,
+  "verified_on": "2026-10-24",
+  "seed": 38,
+  "device": "CPU",
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "training_steps": 0,
+  "data": "120 synthetic object points, calibrated ideal pinhole, no distortion",
+  "crop_left": 160.0,
+  "crop_top": 100.0,
+  "resize": 1.5,
+  "K_after_crop": [
+    [
+      900.0,
+      0.0,
+      240.0
+    ],
+    [
+      0.0,
+      915.0,
+      210.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "errors_px": {
+    "correct_crop": 6.079190380946625e-14,
+    "wrong_K_after_crop": 65.59884198371603,
+    "uniform_scale_pixel": 8.038873388460929e-14,
+    "mixed_units_pixel": 26277.347052662393
+  },
+  "correct_median_Z_m": 0.6950283608117713,
+  "mislabeled_scaled_median_Z_m": 695.0283608117713,
+  "inverse_positive_depth_fraction": 0.0,
+  "backprojection_max_error_m": 1.249000902703301e-16,
+  "raw_depth": 1400.0,
+  "depth_scale_mm_per_raw": 0.5,
+  "converted_depth_m": 0.7,
+  "hardware_interactions": 0,
+  "elapsed_s": 0.0005115419626235962
+}

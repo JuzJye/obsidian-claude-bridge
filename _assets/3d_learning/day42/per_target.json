@@ -1,0 +1,142 @@
+[
+  {
+    "id": 40,
+    "scene": 4,
+    "error_m": null,
+    "present": false,
+    "success": false
+  },
+  {
+    "id": 41,
+    "scene": 4,
+    "error_m": 0.003000000000000001,
+    "present": true,
+    "success": true
+  },
+  {
+    "id": 42,
+    "scene": 4,
+    "error_m": 0.019999999999999997,
+    "present": true,
+    "success": false
+  },
+  {
+    "id": 43,
+    "scene": 4,
+    "error_m": 0.0029999999999999975,
+    "present": true,
+    "success": true
+  },
+  {
+    "id": 44,
+    "scene": 4,
+    "error_m": null,
+    "present": false,
+    "success": false
+  },
+  {
+    "id": 45,
+    "scene": 4,
+    "error_m": 0.020000000000000004,
+    "present": true,
+    "success": false
+  },
+  {
+    "id": 46,
+    "scene": 4,
+    "error_m": 0.0030000000000000027,
+    "present": true,
+    "success": true
+  },
+  {
+    "id": 47,
+    "scene": 4,
+    "error_m": 0.0030000000000000027,
+    "present": true,
+    "success": true
+  },
+  {
+    "id": 48,
+    "scene": 4,
+    "error_m": null,
+    "present": false,
+    "success": false
+  },
+  {
+    "id": 49,
+    "scene": 4,
+    "error_m": 0.0029999999999999975,
+    "present": true,
+    "success": true
+  },
+  {
+    "id": 50,
+    "scene": 5,
+    "error_m": 0.003000000000000001,
+    "present": true,
+    "success": true
+  },
+  {
+    "id": 51,
+    "scene": 5,
+    "error_m": 0.020000000000000004,
+    "present": true,
+    "success": false
+  },
+  {
+    "id": 52,
+    "scene": 5,
+    "error_m": null,
+    "present": false,
+    "success": false
+  },
+  {
+    "id": 53,
+    "scene": 5,
+    "error_m": 0.0029999999999999975,
+    "present": true,
+    "success": true
+  },
+  {
+    "id": 54,
+    "scene": 5,
+    "error_m": 0.019999999999999997,
+    "present": true,
+    "success": false
+  },
+  {
+    "id": 55,
+    "scene": 5,
+    "error_m": 0.003000000000000001,
+    "present": true,
+    "success": true
+  },
+  {
+    "id": 56,
+    "scene": 5,
+    "error_m": null,
+    "present": false,
+    "success": false
+  },
+  {
+    "id": 57,
+    "scene": 5,
+    "error_m": 0.019999999999999997,
+    "present": true,
+    "success": false
+  },
+  {
+    "id": 58,
+    "scene": 5,
+    "error_m": 0.0029999999999999975,
+    "present": true,
+    "success": true
+  },
+  {
+    "id": 59,
+    "scene": 5,
+    "error_m": 0.0029999999999999975,
+    "present": true,
+    "success": true
+  }
+]

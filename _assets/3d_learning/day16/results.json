@@ -1,0 +1,186 @@
+{
+  "seed": 16,
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "training_steps": 0,
+  "point_count": 700,
+  "fps_cover_radius": 0.2422036976451541,
+  "random_cover_radius": 0.6362617377432784,
+  "fps_sparse_centers": 12,
+  "random_sparse_centers": 3,
+  "neighborhood_radius_015_counts_min_median_max": [
+    3,
+    19.0,
+    50
+  ],
+  "neighborhood_radius_035_counts_min_median_max": [
+    14,
+    90.0,
+    209
+  ],
+  "group_shape": [
+    24,
+    32,
+    3
+  ],
+  "msg_shape": [
+    24,
+    14
+  ],
+  "frustum_point_count": 400,
+  "oracle_foreground_count": 240,
+  "frustum_mean_center_error_m": 0.1400318368447627,
+  "visible_mean_center_error_m": 0.10002687307243394,
+  "supervision_center_residual_m": [
+    0.001759567817225,
+    -0.001509721081789245,
+    0.10000000000000298
+  ],
+  "candidates": [
+    {
+      "name": "wide-top",
+      "T_base_grasp": [
+        [
+          0.8660254037844387,
+          0.49999999999999994,
+          0.0,
+          0.5
+        ],
+        [
+          0.49999999999999994,
+          -0.8660254037844387,
+          0.0,
+          0.2
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "width_m": 0.10800000000000001,
+      "clearance_m": 0.09443622155478129,
+      "center_ok": true,
+      "width_ok": false,
+      "approach_ok": true,
+      "valid_in_toy_filter": false,
+      "same_object_detection_score": 0.97
+    },
+    {
+      "name": "narrow-top",
+      "T_base_grasp": [
+        [
+          -0.4999999999999999,
+          0.8660254037844387,
+          0.0,
+          0.5
+        ],
+        [
+          0.8660254037844387,
+          0.4999999999999999,
+          0.0,
+          0.2
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "width_m": 0.068,
+      "clearance_m": 0.05457653887440874,
+      "center_ok": true,
+      "width_ok": true,
+      "approach_ok": true,
+      "valid_in_toy_filter": true,
+      "same_object_detection_score": 0.97
+    },
+    {
+      "name": "narrow-near-obstacle",
+      "T_base_grasp": [
+        [
+          -0.4999999999999999,
+          0.8660254037844387,
+          0.0,
+          0.46
+        ],
+        [
+          0.8660254037844387,
+          0.4999999999999999,
+          0.0,
+          0.2692820323027551
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "width_m": 0.068,
+      "clearance_m": -0.012459252849250188,
+      "center_ok": false,
+      "width_ok": true,
+      "approach_ok": true,
+      "valid_in_toy_filter": false,
+      "same_object_detection_score": 0.97
+    },
+    {
+      "name": "narrow-from-below",
+      "T_base_grasp": [
+        [
+          -0.4999999999999999,
+          -0.8660254037844387,
+          0.0,
+          0.5
+        ],
+        [
+          0.8660254037844387,
+          -0.4999999999999999,
+          0.0,
+          0.2
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "width_m": 0.068,
+      "clearance_m": 0.05457653887440874,
+      "center_ok": true,
+      "width_ok": true,
+      "approach_ok": false,
+      "valid_in_toy_filter": false,
+      "same_object_detection_score": 0.97
+    }
+  ],
+  "scope": "2D finger clearance and simple template filters only; no IK, full hand/arm or contact simulation."
+}

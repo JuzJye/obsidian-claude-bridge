@@ -1,0 +1,144 @@
+{
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "device": "CPU",
+  "seed": 49,
+  "outlier_rate": 0.0,
+  "scenes": 30,
+  "views_per_scene": 4,
+  "measurements_per_view": 24,
+  "data": "synthetic translation-only observations",
+  "modalities": "3D measurements with known point association",
+  "unit": "m internally, mm reported",
+  "frame": "single camera frame",
+  "timestamps": "static independent scenes, four correlated views",
+  "training_samples": 0,
+  "optimizer_iterations": 12,
+  "real_robot_interactions": 0,
+  "success": "translation error <= 10 mm; not physical grasp success",
+  "results": {
+    "nominal": {
+      "methods": {
+        "mean": {
+          "attempts": 120,
+          "successes": 120,
+          "mean_mm": 3.4133392911418334,
+          "median_mm": 3.2776736684969263,
+          "p90_mm": 5.144002470425558,
+          "paired_delta_vs_mean_mm": 0.0,
+          "scene_bootstrap_95_ci_mm": [
+            0.0,
+            0.0
+          ],
+          "median_estimator_ms": 0.002417
+        },
+        "robust": {
+          "attempts": 120,
+          "successes": 120,
+          "mean_mm": 3.4144765425635115,
+          "median_mm": 3.306667367213917,
+          "p90_mm": 5.159839554793367,
+          "paired_delta_vs_mean_mm": 0.001137251421677445,
+          "scene_bootstrap_95_ci_mm": [
+            -0.023301291813770164,
+            0.02714442096058837
+          ],
+          "median_estimator_ms": 0.06925
+        },
+        "plane": {
+          "attempts": 120,
+          "successes": 120,
+          "mean_mm": 2.675458291926241,
+          "median_mm": 2.54856993216547,
+          "p90_mm": 4.220517113421807,
+          "paired_delta_vs_mean_mm": -0.7378809992155934,
+          "scene_bootstrap_95_ci_mm": [
+            -0.9900851121857613,
+            -0.5227613485709864
+          ],
+          "median_estimator_ms": 0.002417
+        },
+        "robust+plane": {
+          "attempts": 120,
+          "successes": 120,
+          "mean_mm": 2.674248283458392,
+          "median_mm": 2.5484318592330473,
+          "p90_mm": 4.208425660312652,
+          "paired_delta_vs_mean_mm": -0.7390910076834416,
+          "scene_bootstrap_95_ci_mm": [
+            -0.985892190717027,
+            -0.5218168735053127
+          ],
+          "median_estimator_ms": 0.06875
+        }
+      },
+      "interaction_mm": -0.0023472598895256575,
+      "interaction_ci_mm": [
+        -0.0124006137504698,
+        0.007168552047705327
+      ]
+    },
+    "raised": {
+      "methods": {
+        "mean": {
+          "attempts": 120,
+          "successes": 120,
+          "mean_mm": 3.413339291141837,
+          "median_mm": 3.2776736684969867,
+          "p90_mm": 5.144002470425634,
+          "paired_delta_vs_mean_mm": 0.0,
+          "scene_bootstrap_95_ci_mm": [
+            0.0,
+            0.0
+          ],
+          "median_estimator_ms": 0.002417
+        },
+        "robust": {
+          "attempts": 120,
+          "successes": 120,
+          "mean_mm": 3.414476542563521,
+          "median_mm": 3.306667367213861,
+          "p90_mm": 5.159839554793362,
+          "paired_delta_vs_mean_mm": 0.0011372514216838603,
+          "scene_bootstrap_95_ci_mm": [
+            -0.023498120943155638,
+            0.025528239782824005
+          ],
+          "median_estimator_ms": 0.069084
+        },
+        "plane": {
+          "attempts": 120,
+          "successes": 0,
+          "mean_mm": 20.21005453815916,
+          "median_mm": 20.16172652317549,
+          "p90_mm": 20.440468920177015,
+          "paired_delta_vs_mean_mm": 16.796715247017325,
+          "scene_bootstrap_95_ci_mm": [
+            16.4046817362572,
+            17.182435928922537
+          ],
+          "median_estimator_ms": 0.002417
+        },
+        "robust+plane": {
+          "attempts": 120,
+          "successes": 0,
+          "mean_mm": 20.210945579453746,
+          "median_mm": 20.161709243992025,
+          "p90_mm": 20.437980289102423,
+          "paired_delta_vs_mean_mm": 16.797606288311908,
+          "scene_bootstrap_95_ci_mm": [
+            16.404626269790874,
+            17.17411698427292
+          ],
+          "median_estimator_ms": 0.068834
+        }
+      },
+      "interaction_mm": -0.00024621012709757917,
+      "interaction_ci_mm": [
+        -0.02198500394110038,
+        0.021479424583518297
+      ]
+    }
+  }
+}

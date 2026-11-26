@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "a0-h0.025",
+    "angle_deg": 0.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06,
+    "contact_width_m": 0.056,
+    "minimum_mu": 0.0,
+    "beta_deg": 0.0,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.7475,
+    "geometric_candidate": true,
+    "score": 0.12483794714981904,
+    "perturbation_passes": 300,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a0-h0.050",
+    "angle_deg": 0.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06,
+    "contact_width_m": 0.056,
+    "minimum_mu": 0.0,
+    "beta_deg": 0.0,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.7475,
+    "geometric_candidate": true,
+    "score": 0.25,
+    "perturbation_passes": 296,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a0-h0.075",
+    "angle_deg": 0.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06,
+    "contact_width_m": 0.056,
+    "minimum_mu": 0.0,
+    "beta_deg": 0.0,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.7475,
+    "geometric_candidate": true,
+    "score": 0.12483794714981909,
+    "perturbation_passes": 294,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a1-h0.025",
+    "angle_deg": 10.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.9697084248442577,
+        0.2442653696004991
+      ],
+      [
+        0.0,
+        0.2442653696004991,
+        -0.9697084248442577
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06087197590094262,
+    "contact_width_m": 0.05687197590094262,
+    "minimum_mu": 0.12459305221149346,
+    "beta_deg": 7.102057523157959,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.5883059072883854,
+    "geometric_candidate": true,
+    "score": 0.08220564361000887,
+    "perturbation_passes": 265,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a1-h0.050",
+    "angle_deg": 10.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.9697084248442577,
+        0.2442653696004991
+      ],
+      [
+        0.0,
+        0.2442653696004991,
+        -0.9697084248442577
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06087197590094262,
+    "contact_width_m": 0.05687197590094262,
+    "minimum_mu": 0.12459305221149346,
+    "beta_deg": 7.102057523157959,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.5883059072883854,
+    "geometric_candidate": true,
+    "score": 0.1646247104483247,
+    "perturbation_passes": 255,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a1-h0.075",
+    "angle_deg": 10.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.9697084248442577,
+        0.2442653696004991
+      ],
+      [
+        0.0,
+        0.2442653696004991,
+        -0.9697084248442577
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06087197590094262,
+    "contact_width_m": 0.05687197590094262,
+    "minimum_mu": 0.12459305221149346,
+    "beta_deg": 7.102057523157959,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.5883059072883854,
+    "geometric_candidate": true,
+    "score": 0.08220564361000891,
+    "perturbation_passes": 257,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a2-h0.025",
+    "angle_deg": 20.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.8872322432773414,
+        0.4613230391916888
+      ],
+      [
+        0.0,
+        0.4613230391916888,
+        -0.8872322432773414
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06331117490684052,
+    "contact_width_m": 0.05931117490684052,
+    "minimum_mu": 0.23415834352866763,
+    "beta_deg": 13.17884303143176,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715658,
+    "geometric_candidate": true,
+    "score": 0.04318928571114852,
+    "perturbation_passes": 97,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a2-h0.050",
+    "angle_deg": 20.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.8872322432773414,
+        0.4613230391916888
+      ],
+      [
+        0.0,
+        0.4613230391916888,
+        -0.8872322432773414
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06331117490684052,
+    "contact_width_m": 0.05931117490684052,
+    "minimum_mu": 0.23415834352866763,
+    "beta_deg": 13.17884303143176,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715658,
+    "geometric_candidate": true,
+    "score": 0.0864906999378096,
+    "perturbation_passes": 97,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a2-h0.075",
+    "angle_deg": 20.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.8872322432773414,
+        0.4613230391916888
+      ],
+      [
+        0.0,
+        0.4613230391916888,
+        -0.8872322432773414
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06331117490684052,
+    "contact_width_m": 0.05931117490684052,
+    "minimum_mu": 0.23415834352866763,
+    "beta_deg": 13.17884303143176,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715658,
+    "geometric_candidate": true,
+    "score": 0.043189285711148544,
+    "perturbation_passes": 109,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a3-h0.025",
+    "angle_deg": 29.999999999999996,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.7714542762891774,
+        0.6362847629757777
+      ],
+      [
+        0.0,
+        0.6362847629757777,
+        -0.7714542762891774
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06686493458200685,
+    "contact_width_m": 0.06286493458200684,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 20,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a3-h0.050",
+    "angle_deg": 29.999999999999996,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.7714542762891774,
+        0.6362847629757777
+      ],
+      [
+        0.0,
+        0.6362847629757777,
+        -0.7714542762891774
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06686493458200685,
+    "contact_width_m": 0.06286493458200684,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 24,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a3-h0.075",
+    "angle_deg": 29.999999999999996,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.7714542762891774,
+        0.6362847629757777
+      ],
+      [
+        0.0,
+        0.6362847629757777,
+        -0.7714542762891774
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06686493458200685,
+    "contact_width_m": 0.06286493458200684,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 21,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a4-h0.025",
+    "angle_deg": 40.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.640589533209954,
+        0.7678834872178548
+      ],
+      [
+        0.0,
+        0.7678834872178548,
+        -0.640589533209954
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07096720222651957,
+    "contact_width_m": 0.06696720222651957,
+    "minimum_mu": 0.3587513957401613,
+    "beta_deg": 19.7355192333479,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584057,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 7,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a4-h0.050",
+    "angle_deg": 40.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.640589533209954,
+        0.7678834872178548
+      ],
+      [
+        0.0,
+        0.7678834872178548,
+        -0.640589533209954
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07096720222651957,
+    "contact_width_m": 0.06696720222651957,
+    "minimum_mu": 0.3587513957401613,
+    "beta_deg": 19.7355192333479,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584057,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 5,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a4-h0.075",
+    "angle_deg": 40.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.640589533209954,
+        0.7678834872178548
+      ],
+      [
+        0.0,
+        0.7678834872178548,
+        -0.640589533209954
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07096720222651957,
+    "contact_width_m": 0.06696720222651957,
+    "minimum_mu": 0.3587513957401613,
+    "beta_deg": 19.7355192333479,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584057,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 6,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a5-h0.025",
+    "angle_deg": 50.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.5064655493084098,
+        0.8622601970192818
+      ],
+      [
+        0.0,
+        0.8622601970192818,
+        -0.5064655493084098
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07507315826634153,
+    "contact_width_m": 0.07107315826634153,
+    "minimum_mu": 0.35875139574016157,
+    "beta_deg": 19.73551923334792,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584102,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 5,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a5-h0.050",
+    "angle_deg": 50.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.5064655493084098,
+        0.8622601970192818
+      ],
+      [
+        0.0,
+        0.8622601970192818,
+        -0.5064655493084098
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07507315826634153,
+    "contact_width_m": 0.07107315826634153,
+    "minimum_mu": 0.35875139574016157,
+    "beta_deg": 19.73551923334792,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584102,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 8,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a5-h0.075",
+    "angle_deg": 50.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.5064655493084098,
+        0.8622601970192818
+      ],
+      [
+        0.0,
+        0.8622601970192818,
+        -0.5064655493084098
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07507315826634153,
+    "contact_width_m": 0.07107315826634153,
+    "minimum_mu": 0.35875139574016157,
+    "beta_deg": 19.73551923334792,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584102,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 7,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a6-h0.025",
+    "angle_deg": 59.99999999999999,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.3747014093005326,
+        0.9271455408231195
+      ],
+      [
+        0.0,
+        0.9271455408231195,
+        -0.3747014093005326
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07872616676907762,
+    "contact_width_m": 0.07472616676907762,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 17,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a6-h0.050",
+    "angle_deg": 59.99999999999999,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.3747014093005326,
+        0.9271455408231195
+      ],
+      [
+        0.0,
+        0.9271455408231195,
+        -0.3747014093005326
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07872616676907762,
+    "contact_width_m": 0.07472616676907762,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 13,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a6-h0.075",
+    "angle_deg": 59.99999999999999,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.3747014093005326,
+        0.9271455408231195
+      ],
+      [
+        0.0,
+        0.9271455408231195,
+        -0.3747014093005326
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07872616676907762,
+    "contact_width_m": 0.07472616676907762,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 6,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a7-h0.025",
+    "angle_deg": 70.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.2468919680693686,
+        0.969043010450431
+      ],
+      [
+        0.0,
+        0.969043010450431,
+        -0.2468919680693686
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08157695876463689,
+    "contact_width_m": 0.07757695876463688,
+    "minimum_mu": 0.23415834352866713,
+    "beta_deg": 13.178843031431734,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715689,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 20,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a7-h0.050",
+    "angle_deg": 70.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.2468919680693686,
+        0.969043010450431
+      ],
+      [
+        0.0,
+        0.969043010450431,
+        -0.2468919680693686
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08157695876463689,
+    "contact_width_m": 0.07757695876463688,
+    "minimum_mu": 0.23415834352866713,
+    "beta_deg": 13.178843031431734,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715689,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 28,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a7-h0.075",
+    "angle_deg": 70.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.2468919680693686,
+        0.969043010450431
+      ],
+      [
+        0.0,
+        0.969043010450431,
+        -0.2468919680693686
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08157695876463689,
+    "contact_width_m": 0.07757695876463688,
+    "minimum_mu": 0.23415834352866713,
+    "beta_deg": 13.178843031431734,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715689,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 27,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a8-h0.025",
+    "angle_deg": 80.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.12249929423770806,
+        0.9924686004661626
+      ],
+      [
+        0.0,
+        0.9924686004661626,
+        -0.12249929423770806
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08338248142457252,
+    "contact_width_m": 0.07938248142457252,
+    "minimum_mu": 0.12459305221149346,
+    "beta_deg": 7.102057523157959,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.5883059072883854,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 10,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a8-h0.050",
+    "angle_deg": 80.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.12249929423770806,
+        0.9924686004661626
+      ],
+      [
+        0.0,
+        0.9924686004661626,
+        -0.12249929423770806
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08338248142457252,
+    "contact_width_m": 0.07938248142457252,
+    "minimum_mu": 0.12459305221149346,
+    "beta_deg": 7.102057523157959,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.5883059072883854,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 17,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a8-h0.075",
+    "angle_deg": 80.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.12249929423770806,
+        0.9924686004661626
+      ],
+      [
+        0.0,
+        0.9924686004661626,
+        -0.12249929423770806
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08338248142457252,
+    "contact_width_m": 0.07938248142457252,
+    "minimum_mu": 0.12459305221149346,
+    "beta_deg": 7.102057523157959,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.5883059072883854,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 11,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a9-h0.025",
+    "angle_deg": 90.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        4.286263797015736e-17,
+        1.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.286263797015736e-17
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.084,
+    "contact_width_m": 0.08,
+    "minimum_mu": 0.0,
+    "beta_deg": 0.0,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.7475,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 3,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a9-h0.050",
+    "angle_deg": 90.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        4.286263797015736e-17,
+        1.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.286263797015736e-17
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.084,
+    "contact_width_m": 0.08,
+    "minimum_mu": 0.0,
+    "beta_deg": 0.0,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.7475,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 9,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a9-h0.075",
+    "angle_deg": 90.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        4.286263797015736e-17,
+        1.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.286263797015736e-17
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.084,
+    "contact_width_m": 0.08,
+    "minimum_mu": 0.0,
+    "beta_deg": 0.0,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.7475,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 5,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a10-h0.025",
+    "angle_deg": 100.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.12249929423770797,
+        0.9924686004661626
+      ],
+      [
+        0.0,
+        0.9924686004661626,
+        0.12249929423770797
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08338248142457252,
+    "contact_width_m": 0.07938248142457252,
+    "minimum_mu": 0.12459305221149256,
+    "beta_deg": 7.1020575231579075,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.588305907288388,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 9,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a10-h0.050",
+    "angle_deg": 100.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.12249929423770797,
+        0.9924686004661626
+      ],
+      [
+        0.0,
+        0.9924686004661626,
+        0.12249929423770797
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08338248142457252,
+    "contact_width_m": 0.07938248142457252,
+    "minimum_mu": 0.12459305221149256,
+    "beta_deg": 7.1020575231579075,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.588305907288388,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 9,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a10-h0.075",
+    "angle_deg": 100.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.12249929423770797,
+        0.9924686004661626
+      ],
+      [
+        0.0,
+        0.9924686004661626,
+        0.12249929423770797
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08338248142457252,
+    "contact_width_m": 0.07938248142457252,
+    "minimum_mu": 0.12459305221149256,
+    "beta_deg": 7.1020575231579075,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.588305907288388,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 15,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a11-h0.025",
+    "angle_deg": 110.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.24689196806936853,
+        0.969043010450431
+      ],
+      [
+        0.0,
+        0.969043010450431,
+        0.24689196806936853
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08157695876463689,
+    "contact_width_m": 0.07757695876463688,
+    "minimum_mu": 0.23415834352866713,
+    "beta_deg": 13.178843031431734,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715689,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 28,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a11-h0.050",
+    "angle_deg": 110.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.24689196806936853,
+        0.969043010450431
+      ],
+      [
+        0.0,
+        0.969043010450431,
+        0.24689196806936853
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08157695876463689,
+    "contact_width_m": 0.07757695876463688,
+    "minimum_mu": 0.23415834352866713,
+    "beta_deg": 13.178843031431734,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715689,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 25,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a11-h0.075",
+    "angle_deg": 110.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.24689196806936853,
+        0.969043010450431
+      ],
+      [
+        0.0,
+        0.969043010450431,
+        0.24689196806936853
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.08157695876463689,
+    "contact_width_m": 0.07757695876463688,
+    "minimum_mu": 0.23415834352866713,
+    "beta_deg": 13.178843031431734,
+    "width_ok": false,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715689,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 24,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a12-h0.025",
+    "angle_deg": 119.99999999999999,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.3747014093005323,
+        0.9271455408231195
+      ],
+      [
+        0.0,
+        0.9271455408231195,
+        0.3747014093005323
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07872616676907762,
+    "contact_width_m": 0.07472616676907762,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 17,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a12-h0.050",
+    "angle_deg": 119.99999999999999,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.3747014093005323,
+        0.9271455408231195
+      ],
+      [
+        0.0,
+        0.9271455408231195,
+        0.3747014093005323
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07872616676907762,
+    "contact_width_m": 0.07472616676907762,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 18,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a12-h0.075",
+    "angle_deg": 119.99999999999999,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.3747014093005323,
+        0.9271455408231195
+      ],
+      [
+        0.0,
+        0.9271455408231195,
+        0.3747014093005323
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07872616676907762,
+    "contact_width_m": 0.07472616676907762,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 20,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a13-h0.025",
+    "angle_deg": 130.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.5064655493084098,
+        0.8622601970192818
+      ],
+      [
+        0.0,
+        0.8622601970192818,
+        0.5064655493084098
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07507315826634153,
+    "contact_width_m": 0.07107315826634153,
+    "minimum_mu": 0.35875139574016157,
+    "beta_deg": 19.73551923334792,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584102,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 8,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a13-h0.050",
+    "angle_deg": 130.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.5064655493084098,
+        0.8622601970192818
+      ],
+      [
+        0.0,
+        0.8622601970192818,
+        0.5064655493084098
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07507315826634153,
+    "contact_width_m": 0.07107315826634153,
+    "minimum_mu": 0.35875139574016157,
+    "beta_deg": 19.73551923334792,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584102,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 6,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a13-h0.075",
+    "angle_deg": 130.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.5064655493084098,
+        0.8622601970192818
+      ],
+      [
+        0.0,
+        0.8622601970192818,
+        0.5064655493084098
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.07507315826634153,
+    "contact_width_m": 0.07107315826634153,
+    "minimum_mu": 0.35875139574016157,
+    "beta_deg": 19.73551923334792,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584102,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 10,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a14-h0.025",
+    "angle_deg": 140.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.6405895332099538,
+        0.7678834872178548
+      ],
+      [
+        0.0,
+        0.7678834872178548,
+        0.6405895332099538
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.0709672022265196,
+    "contact_width_m": 0.0669672022265196,
+    "minimum_mu": 0.35875139574016196,
+    "beta_deg": 19.735519233347937,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584164,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 13,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a14-h0.050",
+    "angle_deg": 140.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.6405895332099538,
+        0.7678834872178548
+      ],
+      [
+        0.0,
+        0.7678834872178548,
+        0.6405895332099538
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.0709672022265196,
+    "contact_width_m": 0.0669672022265196,
+    "minimum_mu": 0.35875139574016196,
+    "beta_deg": 19.735519233347937,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584164,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 5,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a14-h0.075",
+    "angle_deg": 140.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.6405895332099538,
+        0.7678834872178548
+      ],
+      [
+        0.0,
+        0.7678834872178548,
+        0.6405895332099538
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.0709672022265196,
+    "contact_width_m": 0.0669672022265196,
+    "minimum_mu": 0.35875139574016196,
+    "beta_deg": 19.735519233347937,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -1.0372134892584164,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 7,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a15-h0.025",
+    "angle_deg": 150.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.7714542762891774,
+        0.6362847629757777
+      ],
+      [
+        0.0,
+        0.6362847629757777,
+        0.7714542762891774
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06686493458200685,
+    "contact_width_m": 0.06286493458200684,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 18,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a15-h0.050",
+    "angle_deg": 150.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.7714542762891774,
+        0.6362847629757777
+      ],
+      [
+        0.0,
+        0.6362847629757777,
+        0.7714542762891774
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06686493458200685,
+    "contact_width_m": 0.06286493458200684,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 14,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a15-h0.075",
+    "angle_deg": 150.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.7714542762891774,
+        0.6362847629757777
+      ],
+      [
+        0.0,
+        0.6362847629757777,
+        0.7714542762891774
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06686493458200685,
+    "contact_width_m": 0.06286493458200684,
+    "minimum_mu": 0.31548068280718855,
+    "beta_deg": 17.50947888336288,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": false,
+    "coupled_load_margin_N": -0.4852165731312006,
+    "geometric_candidate": false,
+    "score": 0.0,
+    "perturbation_passes": 19,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a16-h0.025",
+    "angle_deg": 160.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.8872322432773414,
+        0.46132303919168904
+      ],
+      [
+        0.0,
+        0.46132303919168904,
+        0.8872322432773414
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06331117490684052,
+    "contact_width_m": 0.059311174906840514,
+    "minimum_mu": 0.23415834352866713,
+    "beta_deg": 13.178843031431734,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715689,
+    "geometric_candidate": true,
+    "score": 0.043189285711148655,
+    "perturbation_passes": 109,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a16-h0.050",
+    "angle_deg": 160.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.8872322432773414,
+        0.46132303919168904
+      ],
+      [
+        0.0,
+        0.46132303919168904,
+        0.8872322432773414
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06331117490684052,
+    "contact_width_m": 0.059311174906840514,
+    "minimum_mu": 0.23415834352866713,
+    "beta_deg": 13.178843031431734,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715689,
+    "geometric_candidate": true,
+    "score": 0.08649069993780986,
+    "perturbation_passes": 120,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a16-h0.075",
+    "angle_deg": 160.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.8872322432773414,
+        0.46132303919168904
+      ],
+      [
+        0.0,
+        0.46132303919168904,
+        0.8872322432773414
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06331117490684052,
+    "contact_width_m": 0.059311174906840514,
+    "minimum_mu": 0.23415834352866713,
+    "beta_deg": 13.178843031431734,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.1418923546715689,
+    "geometric_candidate": true,
+    "score": 0.043189285711148676,
+    "perturbation_passes": 110,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a17-h0.025",
+    "angle_deg": 169.99999999999997,
+    "center_m": [
+      0.0,
+      0.0,
+      0.025
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.9697084248442576,
+        0.24426536960049963
+      ],
+      [
+        0.0,
+        0.24426536960049963,
+        0.9697084248442576
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06087197590094262,
+    "contact_width_m": 0.056871975900942624,
+    "minimum_mu": 0.12459305221149256,
+    "beta_deg": 7.1020575231579075,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.588305907288388,
+    "geometric_candidate": true,
+    "score": 0.08220564361000915,
+    "perturbation_passes": 268,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a17-h0.050",
+    "angle_deg": 169.99999999999997,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.9697084248442576,
+        0.24426536960049963
+      ],
+      [
+        0.0,
+        0.24426536960049963,
+        0.9697084248442576
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06087197590094262,
+    "contact_width_m": 0.056871975900942624,
+    "minimum_mu": 0.12459305221149256,
+    "beta_deg": 7.1020575231579075,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.588305907288388,
+    "geometric_candidate": true,
+    "score": 0.16462471044832525,
+    "perturbation_passes": 254,
+    "perturbation_trials": 300
+  },
+  {
+    "id": "a17-h0.075",
+    "angle_deg": 169.99999999999997,
+    "center_m": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "rotation": [
+      [
+        0.0,
+        -0.9697084248442576,
+        0.24426536960049963
+      ],
+      [
+        0.0,
+        0.24426536960049963,
+        0.9697084248442576
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06087197590094262,
+    "contact_width_m": 0.056871975900942624,
+    "minimum_mu": 0.12459305221149256,
+    "beta_deg": 7.1020575231579075,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.588305907288388,
+    "geometric_candidate": true,
+    "score": 0.08220564361000919,
+    "perturbation_passes": 268,
+    "perturbation_trials": 300
+  }
+]

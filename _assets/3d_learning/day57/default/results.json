@@ -1,0 +1,98 @@
+{
+  "data_kind": "synthetic_nonperiodic_contact_and_clock_fixture",
+  "created_utc": "2026-11-11T08:16:32.033833+00:00",
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "seed": 57,
+  "drift_ppm": 300.0,
+  "truth_a": 1.0003,
+  "truth_b_s": 0.075,
+  "script_sha256": "0b441ac2045b3b8f95a2f301897f33b0330d5c22ff0c079d7e0288da3d7ce54d",
+  "fit_alpha": 0.9996998795119694,
+  "fit_beta_s": -0.07499496011402194,
+  "offset_only_s": 0.07201536852126153,
+  "calibration_max_abs_residual_us": 15.784675806429505,
+  "calibration_interval_s": [
+    -20,
+    0
+  ],
+  "evaluation_interval_s": [
+    1,
+    60.96666666666667
+  ],
+  "sampling_hz": {
+    "vision": 30,
+    "touch": 100
+  },
+  "dropped_touch_count": 52,
+  "online_max_age_s": 0.025,
+  "decision_after_vision_capture_s": 0.03,
+  "touch_record_count": 6148,
+  "contact_threshold_kpa": 0.4,
+  "metrics": {
+    "raw_offline": {
+      "reference_count": 1800,
+      "valid_count": 1787,
+      "missing_count": 13,
+      "coverage": 0.9927777777777778,
+      "physical_mae_ms_valid": 84.23764223092614,
+      "physical_p95_abs_ms_valid": 94.66666666666157,
+      "contact_correct_count": 1763,
+      "contact_agreement_valid": 0.9865696698377169,
+      "correct_and_covered_fraction_all": 0.9794444444444445,
+      "estimated_future_count_valid": 903,
+      "physical_future_count_valid": 0,
+      "unavailable_at_decision_count_valid": 1
+    },
+    "offset_offline": {
+      "reference_count": 1800,
+      "valid_count": 1787,
+      "missing_count": 13,
+      "coverage": 0.9927777777777778,
+      "physical_mae_ms_valid": 12.335385189329415,
+      "physical_p95_abs_ms_valid": 21.333333333330984,
+      "contact_correct_count": 1784,
+      "contact_agreement_valid": 0.9983212087297146,
+      "correct_and_covered_fraction_all": 0.9911111111111112,
+      "estimated_future_count_valid": 874,
+      "physical_future_count_valid": 1,
+      "unavailable_at_decision_count_valid": 9
+    },
+    "affine_offline": {
+      "reference_count": 1800,
+      "valid_count": 1787,
+      "missing_count": 13,
+      "coverage": 0.9927777777777778,
+      "physical_mae_ms_valid": 2.6838276440960676,
+      "physical_p95_abs_ms_valid": 4.666666666668817,
+      "contact_correct_count": 1786,
+      "contact_agreement_valid": 0.9994404029099049,
+      "correct_and_covered_fraction_all": 0.9922222222222222,
+      "estimated_future_count_valid": 595,
+      "physical_future_count_valid": 595,
+      "unavailable_at_decision_count_valid": 10
+    },
+    "affine_online": {
+      "reference_count": 1800,
+      "valid_count": 1776,
+      "missing_count": 24,
+      "coverage": 0.9866666666666667,
+      "physical_mae_ms_valid": 4.666666666665781,
+      "physical_p95_abs_ms_valid": 8.000000000002672,
+      "contact_correct_count": 1775,
+      "contact_agreement_valid": 0.9994369369369369,
+      "correct_and_covered_fraction_all": 0.9861111111111112,
+      "estimated_future_count_valid": 0,
+      "physical_future_count_valid": 0,
+      "unavailable_at_decision_count_valid": 0
+    }
+  },
+  "robot_attempt_count": 0,
+  "training_interaction_count": 0,
+  "limits": "No hardware, physical contact simulation, modality-response lag or neural network. True physical times are evaluation labels only; calibrator uses separate pulse pairs.",
+  "wall_time_s_including_figures": 0.9522666250122711
+}

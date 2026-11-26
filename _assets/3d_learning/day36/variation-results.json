@@ -1,0 +1,54 @@
+{
+  "day": 36,
+  "verified_on": "2026-10-24",
+  "seed": 36,
+  "device": "CPU",
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "data": "120 synthetic single-object targets; no real images",
+  "training_steps": 0,
+  "target_count": 60,
+  "emitted_count": 60,
+  "success_count": 60,
+  "add_threshold_m": 0.02,
+  "coverage": 1.0,
+  "conditional_success": 1.0,
+  "all_target_success": 1.0,
+  "min_visibility": 0.5,
+  "manifest_sha256": "0bdcc163c65d13ea7df1eaecc2dc0ae8f2470b146cb75201bfb08ba9e14181dd",
+  "schema_negative_cases": [
+    {
+      "fault": "length_unit",
+      "detected": [
+        "length_unit"
+      ]
+    },
+    {
+      "fault": "pose_direction",
+      "detected": [
+        "pose_direction"
+      ]
+    },
+    {
+      "fault": "SO3",
+      "detected": [
+        "SO3"
+      ]
+    },
+    {
+      "fault": "visibility",
+      "detected": [
+        "visibility"
+      ]
+    },
+    {
+      "fault": "positive_depth",
+      "detected": [
+        "positive_depth"
+      ]
+    }
+  ],
+  "hardware_interactions": 0,
+  "elapsed_s": 0.00872483302373439
+}

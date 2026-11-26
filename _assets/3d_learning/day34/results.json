@@ -1,0 +1,117 @@
+{
+  "verified_date": "2026-10-09",
+  "torch": "2.13.0.dev20260423",
+  "numpy": "1.26.4",
+  "grounding": {
+    "test_feature_accuracy": 1.0,
+    "candidates": [
+      {
+        "id": 2,
+        "score": 0.9519599080085754,
+        "u": 50.0,
+        "v": 70.0,
+        "pixel_width": 27,
+        "z": 0.45
+      },
+      {
+        "id": 3,
+        "score": 0.12750038504600525,
+        "u": 110.0,
+        "v": 90.0,
+        "pixel_width": 27,
+        "z": 0.48
+      },
+      {
+        "id": 1,
+        "score": -0.6981238722801208,
+        "u": 110.0,
+        "v": 40.0,
+        "pixel_width": 27,
+        "z": 0.52
+      }
+    ],
+    "semantic_margin": 0.8244595229625702,
+    "point_camera_m": [
+      -0.1125,
+      0.0375,
+      0.45
+    ],
+    "point_base_m": [
+      0.2625,
+      -0.012499999999999997,
+      0.65
+    ],
+    "pregrasp_base_m": [
+      0.2625,
+      -0.012499999999999997,
+      0.71
+    ],
+    "contract_cases": {
+      "nominal": true,
+      "depth_in_mm": false,
+      "stale_observation": false,
+      "ambiguous_goal": false
+    },
+    "proposal": {
+      "frame": "base",
+      "mode": "absolute_pose",
+      "position_m": [
+        0.2625,
+        -0.012499999999999997,
+        0.71
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "gripper_width_m": 0.11125,
+      "observation_age_s": 0.03,
+      "execution_authorized": false
+    }
+  },
+  "lora": {
+    "frozen": {
+      "trainable": 0,
+      "test_mse": 0.29043304920196533
+    },
+    "rank_1": {
+      "trainable": 24,
+      "test_mse": 0.05674927681684494,
+      "base_max_change": 0.0,
+      "merge_max_error": 4.76837158203125e-07,
+      "first_gradient": {
+        "A_norm": 0.0,
+        "B_norm": 0.012392516247928143,
+        "frozen_grad_is_none": true
+      }
+    },
+    "rank_2": {
+      "trainable": 48,
+      "test_mse": 2.4894394300645217e-05,
+      "base_max_change": 0.0,
+      "merge_max_error": 9.5367431640625e-07,
+      "first_gradient": {
+        "A_norm": 0.0,
+        "B_norm": 0.039930932223796844,
+        "frozen_grad_is_none": true
+      }
+    },
+    "rank_4": {
+      "trainable": 96,
+      "test_mse": 2.5084316803258844e-05,
+      "base_max_change": 0.0,
+      "merge_max_error": 5.960464477539062e-07,
+      "first_gradient": {
+        "A_norm": 0.0,
+        "B_norm": 0.03643535450100899,
+        "frozen_grad_is_none": true
+      }
+    },
+    "full": {
+      "trainable": 128,
+      "test_mse": 2.555912760726642e-05
+    }
+  }
+}

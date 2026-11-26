@@ -1,0 +1,56 @@
+{
+  "seed": 41,
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "unit": "m, m/s, s",
+  "action": "applied world-x velocity held on [t,t+0.05)",
+  "state": "synthetic noiseless position; camera measurements linearly interpolated",
+  "latency_base_ms": 80,
+  "dt_seconds": 0.05,
+  "train_transitions": 120,
+  "test_transitions": 65,
+  "metrics": {
+    "oracle": {
+      "gain": 0.9999999999999998,
+      "heldout_label_rmse_mm": 2.3478096052208355e-14,
+      "heldout_true_step_rmse_mm": 2.3478096052208355e-14
+    },
+    "exposure": {
+      "gain": 0.9778104075054794,
+      "heldout_label_rmse_mm": 0.3259298121075045,
+      "heldout_true_step_rmse_mm": 0.09698750819434525
+    },
+    "arrival": {
+      "gain": 0.6422517392523158,
+      "heldout_label_rmse_mm": 3.260914970263636,
+      "heldout_true_step_rmse_mm": 1.5636660465642327
+    }
+  },
+  "rollout_true_rmse_mm": {
+    "oracle": {
+      "1": 3.1501485116826263e-14,
+      "5": 3.175668359097524e-14,
+      "10": 2.9373740229761034e-14
+    },
+    "exposure": {
+      "1": 0.09734919897692505,
+      "5": 0.37606172324073767,
+      "10": 0.34277106346180486
+    },
+    "arrival": {
+      "1": 1.5694973500651632,
+      "5": 6.062996761043267,
+      "10": 5.526273266098697
+    }
+  },
+  "online_mean_age_ms": 102.03003223731058,
+  "online_stale_position_rmse_mm": 8.84682487313131,
+  "offline_future_brackets": 186,
+  "reset_pairs_rejected": 1,
+  "reset_jump_mm": 33.45367911092401,
+  "wrong_period_gain": 0.4999999999999999,
+  "all_online_observations_already_arrived": true,
+  "elapsed_seconds": 0.0009895829716697335,
+  "scope": "Known synthetic dynamics; no trained robot, ROS stream, VLA or world-model benchmark"
+}

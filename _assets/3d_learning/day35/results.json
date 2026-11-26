@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-09",
+  "seed": 35,
+  "device": "cpu",
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "torch": "2.13.0.dev20260423",
+  "pnp": {
+    "train_points": 48,
+    "heldout_points": 120,
+    "noise_px": 0.7,
+    "initial_train_coordinate_rmse_px": 0.7532022602290885,
+    "final_train_coordinate_rmse_px": 0.6451352486702439,
+    "heldout_euclidean_rms_px": 0.27787301495634825,
+    "translation_error_mm": 0.2267572195616808,
+    "rotation_error_deg": 0.20663777008647988,
+    "analytic_jacobian_max_difference": 2.640285856614355e-08,
+    "planar_input_rejected": true,
+    "model_mm_translation_z": 1100.0247016181042,
+    "model_m_translation_z": 1.1000247016180698,
+    "simultaneous_scale_projection_max_difference_px": 2.2225776774575934e-11
+  },
+  "pointnet": {
+    "classification_permutation_max_difference": 0.0,
+    "segmentation_aligned_max_difference": 0.0,
+    "segmentation_unaligned_max_difference": 0.19589614868164062,
+    "training_steps": 0,
+    "input_shape": [
+      3,
+      96,
+      3
+    ],
+    "source": "day15/demo.py"
+  },
+  "ba": {
+    "source": "day23/demo.py",
+    "fixed_metric_camera_poses": 2,
+    "optimized_camera_poses": 1,
+    "points": 16,
+    "train_observations": 44,
+    "heldout_observations": 4,
+    "initial_heldout_coordinate_rmse_px": 7.9709888737878565,
+    "final_heldout_coordinate_rmse_px": 0.1289586581950989,
+    "schur_direct_max_difference": 3.1433189384699745e-15,
+    "median_point_error_mm": 5.142141850289626
+  },
+  "continual": {
+    "task_A_loss_after_A": 2.348542582916368e-12,
+    "task_A_loss_after_B": 3.999987740054462,
+    "task_B_loss_after_B": 9.394155934324045e-12,
+    "balanced_replay_optimal_w": 0.0,
+    "balanced_replay_each_task_mse": 1.0,
+    "task_conditioned_two_head_each_mse": 0.0,
+    "warning": "Opposite labels for the same input require task context or a distribution; replay is not magic."
+  },
+  "rendering_mass_error": 0.0,
+  "seconds_main": 9.478489040979184,
+  "scope": "Synthetic module audits; no user assessment, trained PointNet accuracy, official VLA inference or robot execution."
+}

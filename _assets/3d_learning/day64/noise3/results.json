@@ -1,0 +1,79 @@
+{
+  "created_utc": "2026-11-11T12:44:44.979793+00:00",
+  "seed": 64,
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "data": "synthetic scalar local position in mm",
+  "train_val_test_independent_episodes": [
+    2400,
+    800,
+    800
+  ],
+  "test_touch_noise_multiplier": 3.0,
+  "late_visual_weight": 0.4862533357165189,
+  "estimated_visual_residual_variance_mm2": [
+    0.4359152122963996,
+    0.0705597989684499
+  ],
+  "estimated_touch_residual_variance_mm2": [
+    0.42539920471349535,
+    0.0611168709299135
+  ],
+  "metrics": {
+    "both_present": {
+      "vision_only": {
+        "rmse_mm": 0.4832461501347165,
+        "mae_mm": 0.3598486137001573,
+        "denominator": 800
+      },
+      "early_linear": {
+        "rmse_mm": 0.9161597390310424,
+        "mae_mm": 0.6516027643731825,
+        "denominator": 800
+      },
+      "late_fixed": {
+        "rmse_mm": 0.7558057929939224,
+        "mae_mm": 0.5532452932658155,
+        "denominator": 800
+      },
+      "gated_quality": {
+        "rmse_mm": 0.3498772011959035,
+        "mae_mm": 0.2794300352238328,
+        "denominator": 800
+      }
+    },
+    "touch_missing": {
+      "vision_only": {
+        "rmse_mm": 0.4832461501347165,
+        "mae_mm": 0.3598486137001573,
+        "denominator": 800
+      },
+      "early_linear": {
+        "rmse_mm": 0.5739952346141732,
+        "mae_mm": 0.45673928052076646,
+        "denominator": 800
+      },
+      "late_fixed": {
+        "rmse_mm": 0.4832461501347165,
+        "mae_mm": 0.3598486137001573,
+        "denominator": 800
+      },
+      "gated_quality": {
+        "rmse_mm": 0.4832461501347165,
+        "mae_mm": 0.3598486137001573,
+        "denominator": 800
+      }
+    }
+  },
+  "robot_attempts": 0,
+  "parameters": {
+    "early": 7,
+    "shared_unimodal_heads": 4,
+    "late_weight": 1,
+    "gate_variances": 4
+  },
+  "limits": "Gate uses declared quality categories, not oracle test errors; test noise change leaves those categories stale. Different inductive biases and parameter counts; equal data budget is not equal capacity.",
+  "script_sha256": "41c1915ad62f2564adb0acbdfaa09464ed8c462fb3265367c42f0e81d5b2824f",
+  "wall_time_s": 0.19242350000422448
+}

@@ -1,0 +1,66 @@
+{
+  "seed": 66,
+  "selected": "masked",
+  "results": {
+    "masked": {
+      "retrieval_correct": 255,
+      "query_count": 256,
+      "value_mae": 0.02130288816988468,
+      "padded_mass": 0.0,
+      "batch_latency_ms": 1.0806249920278788
+    },
+    "ignored": {
+      "retrieval_correct": 184,
+      "query_count": 256,
+      "value_mae": 1.4483025074005127,
+      "padded_mass": 0.31881728768348694,
+      "batch_latency_ms": 0.11575000826269388
+    }
+  },
+  "checks": {
+    "all_empty_output_max_abs": 0.0,
+    "all_empty_weights_sum": 0.0,
+    "key_value_joint_permutation_max_abs": 1.1920928955078125e-07
+  },
+  "best_step": 300,
+  "train_steps": 301,
+  "train_seconds": 0.20914529194124043,
+  "samples": {
+    "train": 512,
+    "validation": 128,
+    "test": 128
+  },
+  "shapes": {
+    "query": [
+      128,
+      2,
+      3
+    ],
+    "key": [
+      128,
+      6,
+      3
+    ],
+    "value": [
+      128,
+      6,
+      1
+    ],
+    "attention": [
+      128,
+      2,
+      6
+    ]
+  },
+  "supervision": "known synthetic geometric correspondence index; no language or semantic training",
+  "units": "unit-sphere directions and dimensionless contact proxy, padding value 5 invalid",
+  "robot_trials": 0,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "torch": "2.13.0.dev20260423",
+    "matplotlib": "3.10.9",
+    "device": "cpu"
+  },
+  "project_acceptance": "pending"
+}

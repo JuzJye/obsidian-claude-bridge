@@ -1,0 +1,106 @@
+{
+  "scope": "Synthetic actions and sensor estimates; no VLA inference",
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "contract": {
+    "key": "teaching_base_delta",
+    "translation": "base-frame delta m per action",
+    "rotation": "base-frame small rotation-vector delta rad per action",
+    "gripper": "0=open, 1=closed target, not force",
+    "control_period_s": 0.1,
+    "mask": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "vocab_size": 32000
+  },
+  "action": [
+    0.012,
+    -0.008,
+    0.004,
+    0.04,
+    -0.02,
+    0.01,
+    1.0
+  ],
+  "normalized": [
+    0.6000000000000001,
+    -0.4,
+    0.19999999999999996,
+    0.40000000000000013,
+    -0.20000000000000007,
+    0.09999999999999987,
+    1.0
+  ],
+  "tokens": [
+    31795,
+    31923,
+    31846,
+    31821,
+    31898,
+    31859,
+    31744
+  ],
+  "decoded_normalized": [
+    0.603921568627451,
+    -0.4,
+    0.20392156862745092,
+    0.3999999999999999,
+    -0.20392156862745098,
+    0.10196078431372557,
+    0.996078431372549
+  ],
+  "correct_key_action": [
+    0.012078431372549023,
+    -0.008,
+    0.00407843137254902,
+    0.03999999999999998,
+    -0.020392156862745092,
+    0.01019607843137256,
+    0.996078431372549
+  ],
+  "wrong_key_action": [
+    0.1207843137254902,
+    -0.08000000000000002,
+    0.040784313725490184,
+    0.3999999999999999,
+    -0.20392156862745092,
+    0.10196078431372557,
+    0.996078431372549
+  ],
+  "quantization": {
+    "edges": 256,
+    "centers": 255,
+    "normalized_max_error": 0.0039215686274509665,
+    "normalized_bound": 0.00392156862745098,
+    "translation_bound_mm": 0.0784313725490196,
+    "out_of_range_input_2_error": 1.003921568627451,
+    "invalid_token_rejected": true
+  },
+  "translation_error_mm": {
+    "correct": 0.11091871077436305,
+    "wrong": 135.54007764857286
+  },
+  "frame_counterexample_error_mm": 14.142135623730951,
+  "fusion_rmse_mm_per_s": {
+    "vision": 2.0084056612169285,
+    "valid_contact": 0.1985022578515914,
+    "invalid_blind": 5.252035276089355,
+    "invalid_gated": 2.0084056612169285
+  },
+  "contact_adapter": {
+    "limit_N": 6.0,
+    "measured_N": 7.0,
+    "request_before": 0.8,
+    "request_after": 0.0,
+    "caveat": "Stops extra closing in toy interface; does not actively remove existing force"
+  }
+}

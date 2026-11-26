@@ -1,0 +1,69 @@
+{
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4"
+  },
+  "seed": 9,
+  "pixel_noise_std": 0.2,
+  "triangulation": [
+    {
+      "baseline_m": 0.03,
+      "max_epipolar_residual": 0.0,
+      "clean_max_3d_error_m": 6.40098920212204e-14,
+      "noisy_depth_rmse_m": 0.12408281823188928,
+      "positive_depth_fraction": 1.0
+    },
+    {
+      "baseline_m": 0.12,
+      "max_epipolar_residual": 0.0,
+      "clean_max_3d_error_m": 1.8723578865829632e-14,
+      "noisy_depth_rmse_m": 0.030336028691499633,
+      "positive_depth_fraction": 1.0
+    },
+    {
+      "baseline_m": 0.24,
+      "max_epipolar_residual": 0.0,
+      "clean_max_3d_error_m": 1.0675618501476112e-14,
+      "noisy_depth_rmse_m": 0.015128508402166566,
+      "positive_depth_fraction": 1.0
+    }
+  ],
+  "goal_m": [
+    0.6,
+    0.2
+  ],
+  "analytical_ik_rad": [
+    [
+      -0.362713480122307,
+      1.5957989316942578
+    ],
+    [
+      1.0062145889155913,
+      -1.5957989316942578
+    ]
+  ],
+  "numeric_ik_rad": [
+    [
+      -0.3627134801222615,
+      1.5957989316965082
+    ],
+    [
+      1.0062145889155945,
+      -1.5957989316942682
+    ]
+  ],
+  "numeric_iterations": [
+    6,
+    6
+  ],
+  "numeric_final_error_m": [
+    9.179572049847425e-13,
+    3.4157405643722234e-15
+  ],
+  "unreachable_goal_m": [
+    1.0,
+    0.0
+  ],
+  "unreachable_solutions": 0,
+  "scope": "known stereo extrinsics; no E/F estimation, collision checks or robot execution"
+}

@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "date": "2026-09-22",
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "device": "CPU",
+    "seed": 18,
+    "data": "synthetic optical depth + supplied semantic masks",
+    "length_unit": "m",
+    "angle_unit": "rad",
+    "time_unit": "s",
+    "capture_time_s": 0.0,
+    "obstacles_static": true,
+    "camera_to_base": {
+      "R": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "t": [
+        0.4,
+        0,
+        1.2
+      ]
+    },
+    "training_steps": 0,
+    "robot_interactions": 0,
+    "planning_checks_elapsed_ms": 26.801166000950616,
+    "latency_scope": "IK, three edges, cubic samples; no sensor/inference/control"
+  },
+  "perception": {
+    "cup_surface_center_m": [
+      0.6,
+      0.2000000000000001,
+      0.19999999999999976
+    ],
+    "biased_surface_center_m": [
+      0.61,
+      0.21000000000000002,
+      0.1500000000000002
+    ],
+    "depth_scale": 1.05,
+    "center_error_m": 0.051961524227065896,
+    "valid_pixels": 11420,
+    "total_pixels": 11520,
+    "cup_pixels": 69,
+    "fine_empty_cells": 199,
+    "fine_quantization_max_m": 0.01414213562373112,
+    "coarse_quantization_max_m": 0.07071067811865493
+  },
+  "depth_ambiguity": {
+    "depths_m": [
+      0.6,
+      1.4
+    ],
+    "masses": [
+      0.5,
+      0.5
+    ],
+    "hypotheses_base_m": [
+      [
+        0.52,
+        0.12,
+        0.6
+      ],
+      [
+        0.6799999999999999,
+        0.27999999999999997,
+        -0.19999999999999996
+      ]
+    ],
+    "mean_point_m": [
+      0.6,
+      0.19999999999999998,
+      0.2
+    ],
+    "mean_is_a_supported_hypothesis": false
+  },
+  "fusion": [
+    {
+      "case": "independent_unbiased",
+      "weights": [
+        0.9411764705882353,
+        0.058823529411764705
+      ],
+      "trials": 5000,
+      "actual_second_noise_std_m": 0.04,
+      "reported_second_std_m": 0.04,
+      "bias_m": -0.00013359149592510362,
+      "rmse_m": 0.009772270983754223,
+      "claimed_std_m": 0.00970142500145332
+    },
+    {
+      "case": "biased_overconfident_second_source",
+      "weights": [
+        0.2,
+        0.8
+      ],
+      "trials": 5000,
+      "actual_second_noise_std_m": 0.04,
+      "reported_second_std_m": 0.005,
+      "bias_m": 0.06405994334181506,
+      "rmse_m": 0.07189062885583639,
+      "claimed_std_m": 0.00447213595499958
+    }
+  ],
+  "planning": {
+    "link_lengths_m": [
+      0.5,
+      0.4
+    ],
+    "link_radius_m": 0.02,
+    "obstacles_x_y_radius_m": [
+      [
+        0.28,
+        0.25,
+        0.09
+      ],
+      [
+        0.7,
+        -0.4,
+        0.06
+      ]
+    ],
+    "ik_branches": [
+      {
+        "q_rad": [
+          -0.36271348012230686,
+          1.5957989316942578
+        ],
+        "fk_error_m": 0.0,
+        "clearance_m": 0.2084913951381288
+      },
+      {
+        "q_rad": [
+          1.0062145889155916,
+          -1.5957989316942578
+        ],
+        "fk_error_m": 2.7755575615628914e-17,
+        "clearance_m": -0.007218135647858861
+      }
+    ],
+    "start_q_rad": [
+      -1.0,
+      -0.8
+    ],
+    "goal_q_rad": [
+      -0.36271348012230686,
+      1.5957989316942578
+    ],
+    "via_q_rad": [
+      -1.6,
+      1.8
+    ],
+    "direct": {
+      "sample_min_clearance_m": -0.07911823214790169,
+      "continuous_lower_bound_m": -0.08294792574932075,
+      "samples": 201,
+      "certified_in_toy_model": false,
+      "colliding_samples": 25
+    },
+    "detour": [
+      {
+        "sample_min_clearance_m": 0.2215235895534354,
+        "continuous_lower_bound_m": 0.2175735895534354,
+        "samples": 201,
+        "certified_in_toy_model": true,
+        "colliding_samples": 0
+      },
+      {
+        "sample_min_clearance_m": 0.1413398561626856,
+        "continuous_lower_bound_m": 0.13835176042465505,
+        "samples": 201,
+        "certified_in_toy_model": true,
+        "colliding_samples": 0
+      }
+    ],
+    "planner": "manually supplied waypoint, not RRT or a complete planner",
+    "collision_scope": "planar link capsules vs circles; no self/base/tool/payload check",
+    "timing": {
+      "segments": [
+        {
+          "duration_s": 3.2825000000000006,
+          "max_speed_rad_s": [
+            0.2741812642802742,
+            1.188118811881188
+          ],
+          "max_accel_rad_s2": [
+            0.33411273636590905,
+            1.4478218575856057
+          ]
+        },
+        {
+          "duration_s": 2.3431113470183815,
+          "max_speed_rad_s": [
+            0.7920792079207921,
+            0.13072430503500543
+          ],
+          "max_accel_rad_s2": [
+            1.3521836406600412,
+            0.2231636242150466
+          ]
+        }
+      ],
+      "total_duration_s": 5.625611347018382,
+      "velocity_limits_rad_s": [
+        0.8,
+        1.2
+      ],
+      "accel_limits_rad_s2": [
+        1.5,
+        2.0
+      ],
+      "acceleration_continuous_at_waypoints": false,
+      "torque_limits_verified": false
+    }
+  }
+}

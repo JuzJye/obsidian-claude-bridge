@@ -1,0 +1,211 @@
+{
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "delay_ms": 0.0,
+  "dt_s": 0.005,
+  "stiffness_N_m": 1800.0,
+  "gain_m_per_N_s": 0.012,
+  "force_limit_N": 8.0,
+  "speed_limit_m_s": 0.02,
+  "stale_limit_ms": 50.0,
+  "successes": 20,
+  "attempts": 20,
+  "trials": [
+    {
+      "seed": 61,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.22654486123663,
+      "slip_mm": 0.04508405486993716,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 62,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.229810414030238,
+      "slip_mm": 0.04531038473216494,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 63,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.225876604824335,
+      "slip_mm": 0.045076029771979935,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 64,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.211539415886249,
+      "slip_mm": 0.045413767561520414,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 65,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.231049187438373,
+      "slip_mm": 0.04521775083928922,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 66,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.2189768207706875,
+      "slip_mm": 0.04470840670326529,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 67,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.227820000603086,
+      "slip_mm": 0.045523153790319196,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 68,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.218568440641224,
+      "slip_mm": 0.046471586401917384,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 69,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.224456051114294,
+      "slip_mm": 0.044628759326184576,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 70,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.2261249214896015,
+      "slip_mm": 0.04592092108564956,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 71,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.218172070595657,
+      "slip_mm": 0.045419919167871886,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 72,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.227034275925522,
+      "slip_mm": 0.04542838865179396,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 73,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.219546167406228,
+      "slip_mm": 0.045386150410195635,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 74,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.219776258919835,
+      "slip_mm": 0.04557630674543176,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 75,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.218655138716262,
+      "slip_mm": 0.04570756219495784,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 76,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.219140715714664,
+      "slip_mm": 0.045322689278442754,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 77,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.221656602634165,
+      "slip_mm": 0.045383076736207895,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 78,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.223406434099351,
+      "slip_mm": 0.04581176172939869,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 79,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.220990266827721,
+      "slip_mm": 0.04591672619041678,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    },
+    {
+      "seed": 80,
+      "terminal_state": "done",
+      "success": true,
+      "peak_force_N": 5.225471477084801,
+      "slip_mm": 0.045653583226048906,
+      "max_speed_m_s": 0.02,
+      "max_age_ms": 0.0
+    }
+  ],
+  "sweep_delays_ms": [
+    0,
+    10,
+    30,
+    80
+  ],
+  "sweep_successes": [
+    20,
+    20,
+    20,
+    0
+  ],
+  "runtime_s": 0.7956280410289764,
+  "data": "analytic spring contact and algebraic slip proxy; no inertial/contact simulation or hardware",
+  "robot_trials": 0,
+  "learning_status": "not_assessed"
+}

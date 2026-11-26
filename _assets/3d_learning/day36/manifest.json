@@ -1,0 +1,4082 @@
+[
+  {
+    "scene_id": 0,
+    "frame_id": 0,
+    "obj_id": 0,
+    "target_id": "000/000/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.04082253236489668
+  },
+  {
+    "scene_id": 0,
+    "frame_id": 1,
+    "obj_id": 1,
+    "target_id": "000/001/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 0,
+    "frame_id": 2,
+    "obj_id": 2,
+    "target_id": "000/002/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.028092947042942674
+  },
+  {
+    "scene_id": 0,
+    "frame_id": 3,
+    "obj_id": 0,
+    "target_id": "000/003/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.024475329614279513
+  },
+  {
+    "scene_id": 0,
+    "frame_id": 4,
+    "obj_id": 1,
+    "target_id": "000/004/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.017713544030058672
+  },
+  {
+    "scene_id": 0,
+    "frame_id": 5,
+    "obj_id": 2,
+    "target_id": "000/005/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.014832018492111885
+  },
+  {
+    "scene_id": 0,
+    "frame_id": 6,
+    "obj_id": 0,
+    "target_id": "000/006/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.010944323660854379
+  },
+  {
+    "scene_id": 0,
+    "frame_id": 7,
+    "obj_id": 1,
+    "target_id": "000/007/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.008641706212329221
+  },
+  {
+    "scene_id": 0,
+    "frame_id": 8,
+    "obj_id": 2,
+    "target_id": "000/008/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.008401417827281163
+  },
+  {
+    "scene_id": 0,
+    "frame_id": 9,
+    "obj_id": 0,
+    "target_id": "000/009/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005084207778448896
+  },
+  {
+    "scene_id": 1,
+    "frame_id": 0,
+    "obj_id": 1,
+    "target_id": "001/000/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 1,
+    "frame_id": 1,
+    "obj_id": 2,
+    "target_id": "001/001/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 1,
+    "frame_id": 2,
+    "obj_id": 0,
+    "target_id": "001/002/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.027068589072742656
+  },
+  {
+    "scene_id": 1,
+    "frame_id": 3,
+    "obj_id": 1,
+    "target_id": "001/003/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.02221448374106025
+  },
+  {
+    "scene_id": 1,
+    "frame_id": 4,
+    "obj_id": 2,
+    "target_id": "001/004/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.017733979570260093
+  },
+  {
+    "scene_id": 1,
+    "frame_id": 5,
+    "obj_id": 0,
+    "target_id": "001/005/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.01472900386005922
+  },
+  {
+    "scene_id": 1,
+    "frame_id": 6,
+    "obj_id": 1,
+    "target_id": "001/006/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.012637676067165968
+  },
+  {
+    "scene_id": 1,
+    "frame_id": 7,
+    "obj_id": 2,
+    "target_id": "001/007/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.007367306911847409
+  },
+  {
+    "scene_id": 1,
+    "frame_id": 8,
+    "obj_id": 0,
+    "target_id": "001/008/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.0060185771322733604
+  },
+  {
+    "scene_id": 1,
+    "frame_id": 9,
+    "obj_id": 1,
+    "target_id": "001/009/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.004893368486957275
+  },
+  {
+    "scene_id": 2,
+    "frame_id": 0,
+    "obj_id": 2,
+    "target_id": "002/000/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 2,
+    "frame_id": 1,
+    "obj_id": 0,
+    "target_id": "002/001/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.03483700970616912
+  },
+  {
+    "scene_id": 2,
+    "frame_id": 2,
+    "obj_id": 1,
+    "target_id": "002/002/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.027577030958179698
+  },
+  {
+    "scene_id": 2,
+    "frame_id": 3,
+    "obj_id": 2,
+    "target_id": "002/003/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.02394479964939179
+  },
+  {
+    "scene_id": 2,
+    "frame_id": 4,
+    "obj_id": 0,
+    "target_id": "002/004/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.019779751291711948
+  },
+  {
+    "scene_id": 2,
+    "frame_id": 5,
+    "obj_id": 1,
+    "target_id": "002/005/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.014632283917730152
+  },
+  {
+    "scene_id": 2,
+    "frame_id": 6,
+    "obj_id": 2,
+    "target_id": "002/006/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.008985308940689204
+  },
+  {
+    "scene_id": 2,
+    "frame_id": 7,
+    "obj_id": 0,
+    "target_id": "002/007/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.00834240379880345
+  },
+  {
+    "scene_id": 2,
+    "frame_id": 8,
+    "obj_id": 1,
+    "target_id": "002/008/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.007141167196952592
+  },
+  {
+    "scene_id": 2,
+    "frame_id": 9,
+    "obj_id": 2,
+    "target_id": "002/009/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005196909040210865
+  },
+  {
+    "scene_id": 3,
+    "frame_id": 0,
+    "obj_id": 0,
+    "target_id": "003/000/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.04169573330860678
+  },
+  {
+    "scene_id": 3,
+    "frame_id": 1,
+    "obj_id": 1,
+    "target_id": "003/001/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 3,
+    "frame_id": 2,
+    "obj_id": 2,
+    "target_id": "003/002/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.028200332110540505
+  },
+  {
+    "scene_id": 3,
+    "frame_id": 3,
+    "obj_id": 0,
+    "target_id": "003/003/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.02156117268820353
+  },
+  {
+    "scene_id": 3,
+    "frame_id": 4,
+    "obj_id": 1,
+    "target_id": "003/004/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.01644122129470351
+  },
+  {
+    "scene_id": 3,
+    "frame_id": 5,
+    "obj_id": 2,
+    "target_id": "003/005/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.01400202421013692
+  },
+  {
+    "scene_id": 3,
+    "frame_id": 6,
+    "obj_id": 0,
+    "target_id": "003/006/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.012074639769909735
+  },
+  {
+    "scene_id": 3,
+    "frame_id": 7,
+    "obj_id": 1,
+    "target_id": "003/007/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.007632295164216746
+  },
+  {
+    "scene_id": 3,
+    "frame_id": 8,
+    "obj_id": 2,
+    "target_id": "003/008/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.007357902551215689
+  },
+  {
+    "scene_id": 3,
+    "frame_id": 9,
+    "obj_id": 0,
+    "target_id": "003/009/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.004250778198655049
+  },
+  {
+    "scene_id": 4,
+    "frame_id": 0,
+    "obj_id": 1,
+    "target_id": "004/000/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 4,
+    "frame_id": 1,
+    "obj_id": 2,
+    "target_id": "004/001/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 4,
+    "frame_id": 2,
+    "obj_id": 0,
+    "target_id": "004/002/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.030023811133573088
+  },
+  {
+    "scene_id": 4,
+    "frame_id": 3,
+    "obj_id": 1,
+    "target_id": "004/003/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.024493646560948126
+  },
+  {
+    "scene_id": 4,
+    "frame_id": 4,
+    "obj_id": 2,
+    "target_id": "004/004/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.019811924198603618
+  },
+  {
+    "scene_id": 4,
+    "frame_id": 5,
+    "obj_id": 0,
+    "target_id": "004/005/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.013456829049643966
+  },
+  {
+    "scene_id": 4,
+    "frame_id": 6,
+    "obj_id": 1,
+    "target_id": "004/006/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.010512343355304975
+  },
+  {
+    "scene_id": 4,
+    "frame_id": 7,
+    "obj_id": 2,
+    "target_id": "004/007/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.007291849352030425
+  },
+  {
+    "scene_id": 4,
+    "frame_id": 8,
+    "obj_id": 0,
+    "target_id": "004/008/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005545051237507954
+  },
+  {
+    "scene_id": 4,
+    "frame_id": 9,
+    "obj_id": 1,
+    "target_id": "004/009/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005062284174090707
+  },
+  {
+    "scene_id": 5,
+    "frame_id": 0,
+    "obj_id": 2,
+    "target_id": "005/000/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 5,
+    "frame_id": 1,
+    "obj_id": 0,
+    "target_id": "005/001/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.03517003481789089
+  },
+  {
+    "scene_id": 5,
+    "frame_id": 2,
+    "obj_id": 1,
+    "target_id": "005/002/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.03021579300891706
+  },
+  {
+    "scene_id": 5,
+    "frame_id": 3,
+    "obj_id": 2,
+    "target_id": "005/003/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.023074311224785846
+  },
+  {
+    "scene_id": 5,
+    "frame_id": 4,
+    "obj_id": 0,
+    "target_id": "005/004/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.016821140205772914
+  },
+  {
+    "scene_id": 5,
+    "frame_id": 5,
+    "obj_id": 1,
+    "target_id": "005/005/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.013868405368135746
+  },
+  {
+    "scene_id": 5,
+    "frame_id": 6,
+    "obj_id": 2,
+    "target_id": "005/006/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.011788046436661651
+  },
+  {
+    "scene_id": 5,
+    "frame_id": 7,
+    "obj_id": 0,
+    "target_id": "005/007/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.007787158533409664
+  },
+  {
+    "scene_id": 5,
+    "frame_id": 8,
+    "obj_id": 1,
+    "target_id": "005/008/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.00648301960190149
+  },
+  {
+    "scene_id": 5,
+    "frame_id": 9,
+    "obj_id": 2,
+    "target_id": "005/009/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.006077507401663388
+  },
+  {
+    "scene_id": 6,
+    "frame_id": 0,
+    "obj_id": 0,
+    "target_id": "006/000/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.042295597737042015
+  },
+  {
+    "scene_id": 6,
+    "frame_id": 1,
+    "obj_id": 1,
+    "target_id": "006/001/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 6,
+    "frame_id": 2,
+    "obj_id": 2,
+    "target_id": "006/002/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.029944748919989314
+  },
+  {
+    "scene_id": 6,
+    "frame_id": 3,
+    "obj_id": 0,
+    "target_id": "006/003/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.02439134450129815
+  },
+  {
+    "scene_id": 6,
+    "frame_id": 4,
+    "obj_id": 1,
+    "target_id": "006/004/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.017357594227817814
+  },
+  {
+    "scene_id": 6,
+    "frame_id": 5,
+    "obj_id": 2,
+    "target_id": "006/005/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.012651981713161769
+  },
+  {
+    "scene_id": 6,
+    "frame_id": 6,
+    "obj_id": 0,
+    "target_id": "006/006/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.009430983382192866
+  },
+  {
+    "scene_id": 6,
+    "frame_id": 7,
+    "obj_id": 1,
+    "target_id": "006/007/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.006710845859287325
+  },
+  {
+    "scene_id": 6,
+    "frame_id": 8,
+    "obj_id": 2,
+    "target_id": "006/008/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.0061232111126145366
+  },
+  {
+    "scene_id": 6,
+    "frame_id": 9,
+    "obj_id": 0,
+    "target_id": "006/009/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005043341131972706
+  },
+  {
+    "scene_id": 7,
+    "frame_id": 0,
+    "obj_id": 1,
+    "target_id": "007/000/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 7,
+    "frame_id": 1,
+    "obj_id": 2,
+    "target_id": "007/001/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 7,
+    "frame_id": 2,
+    "obj_id": 0,
+    "target_id": "007/002/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.026518453307019216
+  },
+  {
+    "scene_id": 7,
+    "frame_id": 3,
+    "obj_id": 1,
+    "target_id": "007/003/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.023755571007912434
+  },
+  {
+    "scene_id": 7,
+    "frame_id": 4,
+    "obj_id": 2,
+    "target_id": "007/004/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.019818771490931145
+  },
+  {
+    "scene_id": 7,
+    "frame_id": 5,
+    "obj_id": 0,
+    "target_id": "007/005/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.014822429602674464
+  },
+  {
+    "scene_id": 7,
+    "frame_id": 6,
+    "obj_id": 1,
+    "target_id": "007/006/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.01249786989598521
+  },
+  {
+    "scene_id": 7,
+    "frame_id": 7,
+    "obj_id": 2,
+    "target_id": "007/007/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.008589045515719824
+  },
+  {
+    "scene_id": 7,
+    "frame_id": 8,
+    "obj_id": 0,
+    "target_id": "007/008/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005624544860317703
+  },
+  {
+    "scene_id": 7,
+    "frame_id": 9,
+    "obj_id": 1,
+    "target_id": "007/009/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005791640469020353
+  },
+  {
+    "scene_id": 8,
+    "frame_id": 0,
+    "obj_id": 2,
+    "target_id": "008/000/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 8,
+    "frame_id": 1,
+    "obj_id": 0,
+    "target_id": "008/001/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.03342874579753607
+  },
+  {
+    "scene_id": 8,
+    "frame_id": 2,
+    "obj_id": 1,
+    "target_id": "008/002/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.026717703314414434
+  },
+  {
+    "scene_id": 8,
+    "frame_id": 3,
+    "obj_id": 2,
+    "target_id": "008/003/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.023727766247716997
+  },
+  {
+    "scene_id": 8,
+    "frame_id": 4,
+    "obj_id": 0,
+    "target_id": "008/004/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.018554581608669105
+  },
+  {
+    "scene_id": 8,
+    "frame_id": 5,
+    "obj_id": 1,
+    "target_id": "008/005/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.013251338714962499
+  },
+  {
+    "scene_id": 8,
+    "frame_id": 6,
+    "obj_id": 2,
+    "target_id": "008/006/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.010755903986801988
+  },
+  {
+    "scene_id": 8,
+    "frame_id": 7,
+    "obj_id": 0,
+    "target_id": "008/007/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.009086544390880365
+  },
+  {
+    "scene_id": 8,
+    "frame_id": 8,
+    "obj_id": 1,
+    "target_id": "008/008/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.008361319401860695
+  },
+  {
+    "scene_id": 8,
+    "frame_id": 9,
+    "obj_id": 2,
+    "target_id": "008/009/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.007845795063149037
+  },
+  {
+    "scene_id": 9,
+    "frame_id": 0,
+    "obj_id": 0,
+    "target_id": "009/000/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.04242819587381043
+  },
+  {
+    "scene_id": 9,
+    "frame_id": 1,
+    "obj_id": 1,
+    "target_id": "009/001/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 9,
+    "frame_id": 2,
+    "obj_id": 2,
+    "target_id": "009/002/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.029485951303445605
+  },
+  {
+    "scene_id": 9,
+    "frame_id": 3,
+    "obj_id": 0,
+    "target_id": "009/003/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.024159460389548918
+  },
+  {
+    "scene_id": 9,
+    "frame_id": 4,
+    "obj_id": 1,
+    "target_id": "009/004/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.01963919128801038
+  },
+  {
+    "scene_id": 9,
+    "frame_id": 5,
+    "obj_id": 2,
+    "target_id": "009/005/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.014087153538284861
+  },
+  {
+    "scene_id": 9,
+    "frame_id": 6,
+    "obj_id": 0,
+    "target_id": "009/006/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.010217042082227746
+  },
+  {
+    "scene_id": 9,
+    "frame_id": 7,
+    "obj_id": 1,
+    "target_id": "009/007/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.010076988100555542
+  },
+  {
+    "scene_id": 9,
+    "frame_id": 8,
+    "obj_id": 2,
+    "target_id": "009/008/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005655130778930135
+  },
+  {
+    "scene_id": 9,
+    "frame_id": 9,
+    "obj_id": 0,
+    "target_id": "009/009/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005782726009946915
+  },
+  {
+    "scene_id": 10,
+    "frame_id": 0,
+    "obj_id": 1,
+    "target_id": "010/000/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 10,
+    "frame_id": 1,
+    "obj_id": 2,
+    "target_id": "010/001/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 10,
+    "frame_id": 2,
+    "obj_id": 0,
+    "target_id": "010/002/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.030342906588987403
+  },
+  {
+    "scene_id": 10,
+    "frame_id": 3,
+    "obj_id": 1,
+    "target_id": "010/003/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.02182934723513909
+  },
+  {
+    "scene_id": 10,
+    "frame_id": 4,
+    "obj_id": 2,
+    "target_id": "010/004/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.01683719686656695
+  },
+  {
+    "scene_id": 10,
+    "frame_id": 5,
+    "obj_id": 0,
+    "target_id": "010/005/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.014081838247274304
+  },
+  {
+    "scene_id": 10,
+    "frame_id": 6,
+    "obj_id": 1,
+    "target_id": "010/006/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.011486052621118546
+  },
+  {
+    "scene_id": 10,
+    "frame_id": 7,
+    "obj_id": 2,
+    "target_id": "010/007/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.008390160145640905
+  },
+  {
+    "scene_id": 10,
+    "frame_id": 8,
+    "obj_id": 0,
+    "target_id": "010/008/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.007888709636636699
+  },
+  {
+    "scene_id": 10,
+    "frame_id": 9,
+    "obj_id": 1,
+    "target_id": "010/009/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.007040043599473224
+  },
+  {
+    "scene_id": 11,
+    "frame_id": 0,
+    "obj_id": 2,
+    "target_id": "011/000/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.05,
+    "diameter_m": 0.2,
+    "emitted": false,
+    "add_m": null
+  },
+  {
+    "scene_id": 11,
+    "frame_id": 1,
+    "obj_id": 0,
+    "target_id": "011/001/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.15,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.03389435891246167
+  },
+  {
+    "scene_id": 11,
+    "frame_id": 2,
+    "obj_id": 1,
+    "target_id": "011/002/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.25,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.02714665781231452
+  },
+  {
+    "scene_id": 11,
+    "frame_id": 3,
+    "obj_id": 2,
+    "target_id": "011/003/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.35,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.021770918590268418
+  },
+  {
+    "scene_id": 11,
+    "frame_id": 4,
+    "obj_id": 0,
+    "target_id": "011/004/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.45,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.019065328820452178
+  },
+  {
+    "scene_id": 11,
+    "frame_id": 5,
+    "obj_id": 1,
+    "target_id": "011/005/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.55,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.013534465153343823
+  },
+  {
+    "scene_id": 11,
+    "frame_id": 6,
+    "obj_id": 2,
+    "target_id": "011/006/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.65,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.010174844518331626
+  },
+  {
+    "scene_id": 11,
+    "frame_id": 7,
+    "obj_id": 0,
+    "target_id": "011/007/0",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.75,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.0071945629101977035
+  },
+  {
+    "scene_id": 11,
+    "frame_id": 8,
+    "obj_id": 1,
+    "target_id": "011/008/1",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.85,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005110332594906598
+  },
+  {
+    "scene_id": 11,
+    "frame_id": 9,
+    "obj_id": 2,
+    "target_id": "011/009/2",
+    "length_unit": "m",
+    "pose_direction": "object_to_camera",
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.02,
+      -0.01,
+      0.8
+    ],
+    "visibility": 0.95,
+    "diameter_m": 0.2,
+    "emitted": true,
+    "add_m": 0.005202490421015525
+  }
+]

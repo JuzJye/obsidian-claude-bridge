@@ -1,0 +1,86 @@
+{
+  "seed": 28,
+  "versions": {
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "metric_definition": "Chamfer: half sum of unsquared directed means; metres",
+  "reference_points": 949,
+  "critical_points": 49,
+  "surface": {
+    "A_incomplete": {
+      "chamfer_mean_m": 0.004355537665938035,
+      "precision_at_10mm": 1.0,
+      "recall_at_10mm": 0.9483667017913593,
+      "fscore_at_10mm": 0.973499188750676,
+      "critical_region_recall": 0.0,
+      "accuracy_mean_m": 0.00047499621971922837,
+      "completeness_mean_m": 0.008236079112156841,
+      "image_psnr_db": 33.624824747511745
+    },
+    "B_complete_noisy": {
+      "chamfer_mean_m": 0.001598014578570102,
+      "precision_at_10mm": 1.0,
+      "recall_at_10mm": 1.0,
+      "fscore_at_10mm": 1.0,
+      "critical_region_recall": 1.0,
+      "accuracy_mean_m": 0.001598014578570102,
+      "completeness_mean_m": 0.001598014578570102,
+      "image_psnr_db": 29.160225384992636
+    }
+  },
+  "image_scope": "Two diagnostic synthetic images, not renderings of the point clouds",
+  "scale2_projection_max_error_px": 0.0,
+  "dynamics": {
+    "dt_s": 0.1,
+    "training_action_range": [
+      -0.5,
+      0.5
+    ],
+    "true_acceleration_clip": [
+      -1,
+      1
+    ],
+    "train_samples": 1200,
+    "test_trajectories": 120,
+    "position_rmse_m": {
+      "in_distribution_rollout": {
+        "1": 2.9239916989692037e-05,
+        "5": 8.279415104187807e-05,
+        "10": 0.00014125631557774154,
+        "20": 0.0002528397115576913
+      },
+      "in_distribution_teacher": {
+        "1": 2.9239916989692037e-05,
+        "5": 2.805978728578779e-05,
+        "10": 2.736486977990979e-05,
+        "20": 2.9782851892107906e-05
+      },
+      "outside_action_range_rollout": {
+        "1": 0.0044757934981756765,
+        "5": 0.030232180449356078,
+        "10": 0.0735764537990042,
+        "20": 0.16371558147815463
+      },
+      "outside_action_range_teacher": {
+        "1": 0.0044757934981756765,
+        "5": 0.004310069366943741,
+        "10": 0.004191018003617832,
+        "20": 0.004267048028673467
+      },
+      "constant_ood_rollout": {
+        "1": 0.00513828504896855,
+        "5": 0.07088972478596242,
+        "10": 0.23911509525078933,
+        "20": 0.7847732355471948
+      },
+      "position_bias_rollout": {
+        "1": 0.0010119280835653526,
+        "5": 0.005051064941405527,
+        "10": 0.010099605677909317,
+        "20": 0.02020270156775332
+      }
+    }
+  },
+  "protocol": "Frozen model; no heldout feedback in rollout; teacher uses true previous state."
+}

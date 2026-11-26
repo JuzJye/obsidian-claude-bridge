@@ -1,0 +1,55 @@
+{
+  "seed": 44,
+  "data": "synthetic metric correspondences; fixed object, independent held-out points",
+  "units": "m; outputs mm and deg",
+  "frame": "object to camera",
+  "timestamp": "synthetic single instant t=0",
+  "initial_state": "unweighted Kabsch for every method",
+  "train_samples": 160,
+  "heldout_samples": 400,
+  "optimizer_steps": 30,
+  "network_train_steps": 0,
+  "robot_interactions": 0,
+  "outlier_fraction": 0.2,
+  "delta_mm": 8.0,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "corrupted": {
+    "L2": {
+      "translation_mm": 20.204801773786908,
+      "rotation_deg": 3.8514665746754777,
+      "held_add_mm": 20.128912901730974,
+      "observed_rmse_mm": 40.13879338208622,
+      "inlier_weight": 1.0,
+      "outlier_weight": 1.0,
+      "fit_ms": 0.8383329259231687
+    },
+    "Huber": {
+      "translation_mm": 2.16628326386544,
+      "rotation_deg": 0.4293260511656713,
+      "held_add_mm": 2.1860150195731496,
+      "observed_rmse_mm": 44.06735852043627,
+      "inlier_weight": 0.9997925147413678,
+      "outlier_weight": 0.08148937234464321,
+      "fit_ms": 0.7376669673249125
+    },
+    "Cauchy": {
+      "translation_mm": 0.43642881460236815,
+      "rotation_deg": 0.4052022829432606,
+      "held_add_mm": 0.5246049333613148,
+      "observed_rmse_mm": 44.8313815053282,
+      "inlier_weight": 0.8582755550094997,
+      "outlier_weight": 0.006365176914231071,
+      "fit_ms": 0.7220829138532281
+    }
+  },
+  "clean_held_add_mm": {
+    "L2": 0.348143894420803,
+    "Huber": 0.348143894420803,
+    "Cauchy": 0.31710180417019873
+  },
+  "scope": "Known correspondences, rigid object; no correspondence network, NOCS/EPro-PnP reproduction, or robot execution."
+}

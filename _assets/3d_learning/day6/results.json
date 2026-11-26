@@ -1,0 +1,587 @@
+{
+  "environment": {
+    "python": "3.14.3",
+    "system": "Darwin",
+    "seed": 7
+  },
+  "attention": {
+    "weights": [
+      0.6697615493266569,
+      0.3302384506733431
+    ],
+    "context_m": [
+      0.33209538026933727,
+      0.16604769013466864
+    ]
+  },
+  "quantization": [
+    {
+      "input_m": 0.013,
+      "token": 5,
+      "decoded_m": 0.015,
+      "abs_error_m": 0.002
+    },
+    {
+      "input_m": 0.0,
+      "token": 4,
+      "decoded_m": 0.0049999999999999975,
+      "abs_error_m": 0.0049999999999999975
+    },
+    {
+      "input_m": 0.08,
+      "token": 7,
+      "decoded_m": 0.034999999999999996,
+      "abs_error_m": 0.045000000000000005
+    }
+  ],
+  "dynamics": {
+    "rho_fit": 0.8199999999999997,
+    "gain_fit": 1.200000000000001,
+    "rho_bias": -0.08,
+    "paired_next_x_m": [
+      0.194,
+      0.20600000000000002
+    ],
+    "actionless_rmse_m": 0.006000000000000005,
+    "rollout": [
+      {
+        "step": 1,
+        "action_m_s2": 0.28694243635980915,
+        "true_x_m": 0.019843309236317712,
+        "fit_x_m": 0.01984330923631771,
+        "biased_x_m": 0.01824330923631771,
+        "teacher_forced_error_m": 0.0016000000000000007,
+        "rollout_error_m": 0.0016000000000000007
+      },
+      {
+        "step": 2,
+        "action_m_s2": 0.3998294412166021,
+        "true_x_m": 0.04091277610469746,
+        "fit_x_m": 0.04091277610469746,
+        "biased_x_m": 0.03654131136579204,
+        "teacher_forced_error_m": 0.0015874647389054128,
+        "rollout_error_m": 0.0043714647389054145
+      },
+      {
+        "step": 3,
+        "action_m_s2": 0.27018527222046024,
+        "true_x_m": 0.061431962203414375,
+        "fit_x_m": 0.061431962203414375,
+        "biased_x_m": 0.053324056208248566,
+        "teacher_forced_error_m": 0.0016855573494703874,
+        "rollout_error_m": 0.00810790599516581
+      },
+      {
+        "step": 4,
+        "action_m_s2": -0.023349657371032034,
+        "true_x_m": 0.07797749891590985,
+        "fit_x_m": 0.07797749891590985,
+        "biased_x_m": 0.065463091503214,
+        "teacher_forced_error_m": 0.001641534887897353,
+        "rollout_error_m": 0.012514407412695855
+      },
+      {
+        "step": 5,
+        "action_m_s2": -0.3027209981231713,
+        "true_x_m": 0.0879121870426781,
+        "fit_x_m": 0.08791218704267809,
+        "biased_x_m": 0.07081332564401037,
+        "teacher_forced_error_m": 0.0013236429369996444,
+        "rollout_error_m": 0.01709886139866773
+      },
+      {
+        "step": 6,
+        "action_m_s2": -0.39846584353433623,
+        "true_x_m": 0.09127704118421602,
+        "fit_x_m": 0.09127704118421599,
+        "biased_x_m": 0.06999090878578763,
+        "teacher_forced_error_m": 0.000794775050141458,
+        "rollout_error_m": 0.021286132398428387
+      },
+      {
+        "step": 7,
+        "action_m_s2": -0.2525066551489284,
+        "true_x_m": 0.09100614171848997,
+        "fit_x_m": 0.09100614171848993,
+        "biased_x_m": 0.06635224044891568,
+        "teacher_forced_error_m": 0.000269188331323042,
+        "rollout_error_m": 0.0246539012695743
+      },
+      {
+        "step": 8,
+        "action_m_s2": 0.04661968194019746,
+        "true_x_m": 0.09134344033987699,
+        "fit_x_m": 0.09134344033987693,
+        "biased_x_m": 0.0642190620629128,
+        "teacher_forced_error_m": 2.1671957258093122e-05,
+        "rollout_error_m": 0.027124378276964192
+      },
+      {
+        "step": 9,
+        "action_m_s2": 0.31746714553966127,
+        "true_x_m": 0.09542963095589027,
+        "fit_x_m": 0.09542963095589022,
+        "biased_x_m": 0.0664501158037466,
+        "teacher_forced_error_m": 2.6983889710952003e-05,
+        "rollout_error_m": 0.02897951515214367
+      },
+      {
+        "step": 10,
+        "action_m_s2": 0.39574329864935276,
+        "true_x_m": 0.1035292268448134,
+        "fit_x_m": 0.10352922684481335,
+        "biased_x_m": 0.07285001515575586,
+        "teacher_forced_error_m": 0.00032689524928106173,
+        "rollout_error_m": 0.030679211689057545
+      }
+    ]
+  },
+  "bev": {
+    "counts": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "max_height_m": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        0,
+        null,
+        0,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        0.30000000000000004,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        0.30000000000000004,
+        0.30000000000000004,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        0,
+        null,
+        0,
+        null,
+        null,
+        0,
+        null,
+        0,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "observed": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "extent_m": [
+      -0.5,
+      0.5,
+      -0.5,
+      0.5
+    ],
+    "resolution_m": 0.1
+  },
+  "points_table_m": [
+    [
+      -0.375,
+      0.375,
+      0
+    ],
+    [
+      -0.125,
+      0.375,
+      0
+    ],
+    [
+      0.125,
+      0.375,
+      0
+    ],
+    [
+      0.375,
+      0.375,
+      0
+    ],
+    [
+      -0.375,
+      0.125,
+      0
+    ],
+    [
+      -0.0875,
+      0.0875,
+      0.30000000000000004
+    ],
+    [
+      0.0875,
+      0.0875,
+      0.30000000000000004
+    ],
+    [
+      0.375,
+      0.125,
+      0
+    ],
+    [
+      -0.375,
+      -0.125,
+      0
+    ],
+    [
+      -0.0875,
+      -0.0875,
+      0.30000000000000004
+    ],
+    [
+      0.375,
+      -0.125,
+      0
+    ],
+    [
+      -0.125,
+      -0.375,
+      0
+    ],
+    [
+      0.125,
+      -0.375,
+      0
+    ],
+    [
+      0.375,
+      -0.375,
+      0
+    ]
+  ],
+  "checks": "passed"
+}

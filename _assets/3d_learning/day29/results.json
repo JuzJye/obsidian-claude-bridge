@@ -1,0 +1,64 @@
+{
+  "scope": "CPU teaching simulation; no robot or GelSight inference",
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "static_force": [
+    {
+      "wall_stiffness_N_per_m": 500.0,
+      "ideal_position_force_N": 2.5,
+      "impedance_K200_force_N": 0.7142857142857143
+    },
+    {
+      "wall_stiffness_N_per_m": 2000.0,
+      "ideal_position_force_N": 10.0,
+      "impedance_K200_force_N": 0.9090909090909091
+    },
+    {
+      "wall_stiffness_N_per_m": 8000.0,
+      "ideal_position_force_N": 40.0,
+      "impedance_K200_force_N": 0.9756097560975611
+    }
+  ],
+  "responses": {
+    "impedance_K200": {
+      "peak_N": 0.9090950873736198,
+      "final_N": 0.9090909090909081,
+      "theory_N": 0.9090909090909091
+    },
+    "impedance_K2000": {
+      "peak_N": 5.342286572377023,
+      "final_N": 4.9999999999999964,
+      "theory_N": 5.0
+    },
+    "admittance_B20": {
+      "peak_N": 6.475310146834274,
+      "final_N": 5.0000000075384
+    },
+    "admittance_B90": {
+      "peak_N": 4.999999999999982,
+      "final_N": 4.999999999999982
+    }
+  },
+  "shifted_wall_final_position_mm": 5.499999999999982,
+  "discrete_force": {
+    "stable_multiplier": 0.4,
+    "unstable_multiplier": -1.4,
+    "stable_final_N": 4.999999967014651,
+    "unstable_final_signed_N": -2505.047662758537,
+    "caveat": "Unstable signed linear spring loses unilateral-contact validity"
+  },
+  "tactile_shapes": {
+    "height": [
+      49,
+      61
+    ],
+    "normals": [
+      49,
+      61,
+      3
+    ]
+  }
+}

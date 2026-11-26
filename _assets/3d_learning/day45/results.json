@@ -1,0 +1,66 @@
+{
+  "seed": 45,
+  "timestamp": "synthetic t=0",
+  "units": "canonical unitless, metric m, images px",
+  "frame": "object to camera",
+  "network_train_steps": 0,
+  "robot_interactions": 0,
+  "data_points": 80,
+  "assumptions": "Known rotation and correspondences; uniform scale unknown; algebraic weighted least squares, not full 6D PnP or NOCS reproduction.",
+  "nominal_scale_m": 0.12,
+  "nominal_translation_m": [
+    0.03,
+    -0.01,
+    0.8
+  ],
+  "depth_bias_mm": 30.0,
+  "image_noise_px": 0.4,
+  "depth_noise_m": 0.002,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "results": {
+    "depth_correct": {
+      "scale_m": 0.12026693042166527,
+      "translation_m": [
+        0.03006341563006676,
+        -0.01004054201210318,
+        0.8001209279933859
+      ],
+      "translation_error_mm": 0.1424386761608564,
+      "scale_error_mm": 0.2669304216652707,
+      "clean_reprojection_rms_px": 0.09390584408771867,
+      "point_error_mm": 0.17762114829185705,
+      "solve_ms": 0.2656669821590185
+    },
+    "depth_biased": {
+      "scale_m": 0.12460743646846513,
+      "translation_m": [
+        0.031203930615815112,
+        -0.010414996788109115,
+        0.8302250731357627
+      ],
+      "translation_error_mm": 30.251887830745982,
+      "scale_error_mm": 4.607436468465134,
+      "clean_reprojection_rms_px": 0.06348976924096697,
+      "point_error_mm": 30.1393705334159,
+      "solve_ms": 0.15020801220089197
+    }
+  },
+  "scale_ambiguity_max_pixel_coordinate_rmse": 1.2510395820910254e-14,
+  "noisy_projection_singular_values": [
+    8.96792166772686,
+    8.945987715752151,
+    3.461665504577203,
+    0.008569055816839387
+  ],
+  "rotation_constraints": {
+    "raw_orthogonality_error": 0.30573014244591584,
+    "raw_det": 1.0626,
+    "projected_orthogonality_error": 4.345984349733556e-15,
+    "projected_det": 1.0000000000000036,
+    "projected_angle_error_deg": 2.430318590386243
+  }
+}

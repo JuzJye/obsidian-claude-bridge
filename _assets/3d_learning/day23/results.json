@@ -1,0 +1,61 @@
+{
+  "seed": 23,
+  "scope": "anchored synthetic BA, first two camera poses fixed",
+  "cameras": 4,
+  "free_camera_pose_parameters": 12,
+  "points": 32,
+  "point_parameters": 96,
+  "training_observations": 112,
+  "heldout_observations": 16,
+  "injected_outliers": 10,
+  "huber_delta_px": 1.0,
+  "initial_heldout_coordinate_rmse_px": 20.314857611737146,
+  "analytic_jacobian_max_abs_error": 1.7316594380645256e-08,
+  "schur_dense_step_max_abs_difference": 2.4980018054066022e-15,
+  "similarity_gauge_max_pixel_difference": 8.526512829121202e-14,
+  "optimizers": {
+    "least_squares": {
+      "train_all_coordinate_rmse_px": 2.7790601172787186,
+      "train_clean_coordinate_rmse_px": 2.3068291395171348,
+      "heldout_clean_coordinate_rmse_px": 3.753087631404751,
+      "median_point_error_m": 0.05130021510082304,
+      "mean_free_camera_center_error_m": 0.17138167490874867,
+      "mean_free_rotation_error_deg": 1.7931244722139255,
+      "iterations": 45
+    },
+    "huber": {
+      "train_all_coordinate_rmse_px": 3.8297291967563427,
+      "train_clean_coordinate_rmse_px": 0.8069061935250004,
+      "heldout_clean_coordinate_rmse_px": 0.6984486368328348,
+      "median_point_error_m": 0.020035741531153218,
+      "mean_free_camera_center_error_m": 0.022632795709471486,
+      "mean_free_rotation_error_deg": 0.22910758338144555,
+      "iterations": 45
+    }
+  },
+  "partial_observation": {
+    "dt_s": 0.1,
+    "current_position_m": [
+      0.0,
+      0.0
+    ],
+    "previous_position_m": [
+      0.020000000000000004,
+      -0.020000000000000004
+    ],
+    "hidden_velocity_m_s": [
+      -0.2,
+      0.2
+    ],
+    "next_position_m": [
+      -0.020000000000000004,
+      0.020000000000000004
+    ],
+    "history_recovered_velocity_m_s": [
+      -0.20000000000000004,
+      0.20000000000000004
+    ],
+    "position_only_mean_predictor_abs_error_m": 0.020000000000000004,
+    "velocity_noise_std_at_position_sigma_1mm_m_s": 0.014142135623730952
+  }
+}

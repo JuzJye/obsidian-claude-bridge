@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "verified_date": "2026-09-23",
+    "seed": 19,
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "device": "CPU",
+    "elapsed_ms": 39.966000003914814,
+    "training_steps": 0,
+    "robot_interactions": 0
+  },
+  "data": {
+    "N": 180,
+    "coordinate_definition": "centered NOCS x = nocs - 0.5; bounding-box center=0 and diagonal=1, dimensionless",
+    "scale_true_m_per_canonical_unit": 0.32,
+    "R_camera_object": [
+      [
+        0.7697511313200572,
+        -0.573576436351046,
+        -0.2801664995932355
+      ],
+      [
+        0.5389855446957562,
+        0.8191520442889918,
+        -0.19617469496901108
+      ],
+      [
+        0.3420201433256687,
+        0.0,
+        0.9396926207859084
+      ]
+    ],
+    "t_camera_object_m": [
+      0.1,
+      -0.04,
+      0.8
+    ],
+    "coordinate_noise_std_m": 0.0006,
+    "permuted_correspondences": 54,
+    "ransac_threshold_m": 0.003,
+    "ransac_trials": 300
+  },
+  "exact_alignment_max_error_m": 4.477603233993732e-16,
+  "alignment": {
+    "ordinary_ls": {
+      "scale_m_per_unit": 0.2158062203338878,
+      "scale_relative_error_percent": 32.56055614566007,
+      "rotation_error_deg": 1.558470006646796,
+      "translation_error_m": 0.006137615282714746,
+      "clean_correspondence_rmse_m": 0.02826623970152384,
+      "observed_correspondence_rmse_m": 0.06392677377159249
+    },
+    "ransac_refit": {
+      "scale_m_per_unit": 0.31977485948543377,
+      "scale_relative_error_percent": 0.07035641080195276,
+      "rotation_error_deg": 0.12104962057109546,
+      "translation_error_m": 3.725636469562519e-05,
+      "clean_correspondence_rmse_m": 0.00016500382301149884,
+      "observed_correspondence_rmse_m": 0.06987455267263887
+    }
+  },
+  "ransac_consensus": {
+    "count": 126,
+    "true_positives": 126,
+    "false_positives": 0,
+    "true_inliers": 126
+  },
+  "icp": {
+    "good_initialization": {
+      "updates": 5,
+      "nn_rmse_m": 0.0009918328293922673,
+      "rotation_error_deg": 0.06916641156650422,
+      "translation_error_m": 4.321921650269494e-05,
+      "known_correspondence_rmse_m": 0.00011138483245972888
+    },
+    "half_turn_initialization": {
+      "updates": 7,
+      "nn_rmse_m": 0.01982061131403014,
+      "rotation_error_deg": 179.21939501674242,
+      "translation_error_m": 0.03280306157083436,
+      "known_correspondence_rmse_m": 0.16286579635451257
+    }
+  },
+  "symmetry": {
+    "points": 648,
+    "radius_m": 0.05,
+    "height_m": 0.12,
+    "rotation_difference_deg": 180.0,
+    "axis": "object z (teaching convention, not NOCS dataset symmetry-axis convention)",
+    "ADD_m": 0.09999999999999999,
+    "ADD_S_m": 1.6956679958635295e-17,
+    "ADD_S_direction": "ground-truth points -> estimated surface, one-sided mean",
+    "tracked_semantic_point_error_m": 0.1,
+    "scope": "Unlabelled discrete cylindrical side samples; no handle, label, grasp or tool geometry"
+  },
+  "action": {
+    "current_T_base_tcp": [
+      [
+        6.123233995736766e-17,
+        -1.0,
+        0.0,
+        0.4
+      ],
+      [
+        1.0,
+        6.123233995736766e-17,
+        0.0,
+        0.1
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.3
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "tool_delta_m": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "base_delta_m": [
+      1.2246467991473532e-18,
+      0.02,
+      0.0
+    ],
+    "absolute_base_target_m": [
+      0.4,
+      0.12000000000000001,
+      0.3
+    ],
+    "wrong_left_translation_target_m": [
+      0.42000000000000004,
+      0.1,
+      0.3
+    ],
+    "wrong_left_translation_error_m": 0.028284271247461915,
+    "wrong_point_as_delta_target_m": [
+      0.8,
+      0.22000000000000003,
+      0.6
+    ],
+    "wrong_point_as_delta_error_m": 0.5099019513592785,
+    "pure_left_rotation_position_m": [
+      -0.09999999999999998,
+      0.4,
+      0.3
+    ],
+    "rotate_about_current_tcp_position_m": [
+      0.4,
+      0.1,
+      0.3
+    ],
+    "rotation_pivot_position_difference_m": 0.5830951894845301
+  },
+  "rotation_6d": {
+    "convention": "concatenated first two COLUMNS of R",
+    "degenerate_inputs_rejected": 2,
+    "roundtrip_max_entry_error": 1.1102230246251565e-16
+  },
+  "limits": [
+    "No NOCS network: correspondence oracle plus artificial mismatches",
+    "RANSAC assumes one isotropic positive scale and a rigid object",
+    "ICP uses full clouds, known fixed metric scale and nearest neighbours; no occlusion or outlier rejection",
+    "Nearest-neighbour fit quality is separate from pose error; symmetry can make the pose unidentifiable",
+    "No robot, collision, kinematic or dynamic validation of action examples"
+  ]
+}

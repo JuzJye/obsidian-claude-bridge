@@ -1,0 +1,46 @@
+{
+  "seed": 51,
+  "shift_px": 0,
+  "depth_gate_center_m": 0.7216612839791774,
+  "metrics": {
+    "box": {
+      "points": 7449,
+      "target_points": 2580,
+      "retention": 1.0,
+      "contamination": 0.6536447845348369,
+      "visible_centroid_error_mm": 156.00910212637817
+    },
+    "instance_mask": {
+      "points": 3541,
+      "target_points": 2547,
+      "retention": 0.9872093023255814,
+      "contamination": 0.2807116633719288,
+      "visible_centroid_error_mm": 53.534902635963114
+    },
+    "mask_depth_gate": {
+      "points": 3531,
+      "target_points": 2547,
+      "retention": 0.9872093023255814,
+      "contamination": 0.2786745964316058,
+      "visible_centroid_error_mm": 53.54190658966525
+    }
+  },
+  "frame": "camera_optical: x right, y down, z forward",
+  "length_unit": "m",
+  "image_shape": [
+    128,
+    192
+  ],
+  "data": "procedural mock RGB-D and mask probabilities",
+  "timestamp_s": 0.0,
+  "pairing": "same synthetic instant",
+  "physical_robot_trials": 0,
+  "training_samples": 0,
+  "runtime": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0",
+    "matplotlib": "3.10.9"
+  },
+  "synthetic_generation_and_geometry_ms": 6.112416973337531
+}

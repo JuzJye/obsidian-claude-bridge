@@ -1,0 +1,81 @@
+{
+  "seed": [
+    58,
+    158,
+    258
+  ],
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "drift": 0.0,
+  "data": "independent synthetic patches; intensity is not force",
+  "n_train": 300,
+  "n_val": 150,
+  "n_test": 150,
+  "input_shape": [
+    150,
+    32,
+    32
+  ],
+  "feature_shape": [
+    150,
+    4
+  ],
+  "results": {
+    "fixed_reference": {
+      "validation_correct": 150,
+      "validation_n": 150,
+      "test_correct": 150,
+      "test_n": 150,
+      "accuracy": 1.0,
+      "confusion": [
+        [
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          50
+        ]
+      ],
+      "loss_first": 1.0986122886651095,
+      "loss_last": 0.03526645313267859
+    },
+    "border_corrected": {
+      "validation_correct": 150,
+      "validation_n": 150,
+      "test_correct": 150,
+      "test_n": 150,
+      "accuracy": 1.0,
+      "confusion": [
+        [
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          50
+        ]
+      ],
+      "loss_first": 1.0986122886651095,
+      "loss_last": 0.03520721743638331
+    }
+  },
+  "runtime_s": 0.8728003749856725,
+  "robot_trials": 0,
+  "learning_status": "not_assessed"
+}

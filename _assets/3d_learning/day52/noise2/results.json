@@ -1,0 +1,44 @@
+{
+  "seed": 52,
+  "noise_px": 2.0,
+  "correspondences": 90,
+  "injected_outliers": 15,
+  "ransac_inliers": 58,
+  "ransac_threshold_px": 4,
+  "inlier_rmse_px": 2.193391960596177,
+  "all_observation_rmse_px": 14.669441439890045,
+  "heldout_clean_rmse_px": 1.0064486079763377,
+  "cases": {
+    "estimated": {
+      "rotation_deg": 2.024144723617433,
+      "translation_mm": 2.7980753256527304,
+      "add_mm": 3.119436304226898,
+      "clean_reprojection_rmse_px": 0.99591112890806
+    },
+    "transpose_bug": {
+      "rotation_deg": 70.77038086906012,
+      "translation_mm": 2.7980753256527304,
+      "add_mm": 50.91318805138979,
+      "clean_reprojection_rmse_px": 24.911090701840077
+    },
+    "z_plus_20mm": {
+      "rotation_deg": 2.024144723617433,
+      "translation_mm": 17.40791044597822,
+      "add_mm": 17.357104998600903,
+      "clean_reprojection_rmse_px": 2.1187426691167763
+    }
+  },
+  "solver_ms": 1.9340409198775887,
+  "input_contract": "known synthetic model and 2D-3D identities; no correspondence network",
+  "frame": "T_CO: object -> camera optical (x right, y down, z forward)",
+  "length_unit": "m",
+  "timestamp_s": 0.0,
+  "physical_robot_trials": 0,
+  "training_samples": 0,
+  "runtime": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0",
+    "matplotlib": "3.10.9"
+  }
+}

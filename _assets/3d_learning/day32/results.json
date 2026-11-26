@@ -1,0 +1,47 @@
+{
+  "verified_date": "2026-10-09",
+  "torch": "2.13.0.dev20260423",
+  "numpy": "1.26.4",
+  "train_pairs": 4096,
+  "test_pairs": 2048,
+  "steps": 3000,
+  "parameters": 4610,
+  "conditional_mean": {
+    "center_corridor_rate": 1.0,
+    "positive_mode_fraction": 1.0,
+    "nearest_mode_rmse": 0.6929771974968059,
+    "goal_coordinate_rmse": 0.00044345661411737463
+  },
+  "reference": {
+    "center_corridor_rate": 0.0,
+    "positive_mode_fraction": 0.484375,
+    "nearest_mode_rmse": 0.08480600780083934,
+    "goal_coordinate_rmse": 0.060560986399650574
+  },
+  "integration": {
+    "1": {
+      "center_corridor_rate": 0.94091796875,
+      "positive_mode_fraction": 0.396484375,
+      "nearest_mode_rmse": 0.5618194649304162,
+      "goal_coordinate_rmse": 0.07998407632112503
+    },
+    "4": {
+      "center_corridor_rate": 0.138671875,
+      "positive_mode_fraction": 0.53955078125,
+      "nearest_mode_rmse": 0.2404465112845866,
+      "goal_coordinate_rmse": 0.029150528833270073
+    },
+    "16": {
+      "center_corridor_rate": 0.02734375,
+      "positive_mode_fraction": 0.51953125,
+      "nearest_mode_rmse": 0.13530349871852732,
+      "goal_coordinate_rmse": 0.05651235952973366
+    },
+    "64": {
+      "center_corridor_rate": 0.01220703125,
+      "positive_mode_fraction": 0.5166015625,
+      "nearest_mode_rmse": 0.12022201446641631,
+      "goal_coordinate_rmse": 0.0638241395354271
+    }
+  }
+}

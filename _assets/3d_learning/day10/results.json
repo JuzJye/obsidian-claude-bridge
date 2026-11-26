@@ -1,0 +1,118 @@
+{
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0"
+  },
+  "seed": 10,
+  "pnp": [
+    {
+      "pixel_noise_std": 0.0,
+      "translation_error_m": 7.757919228897728e-18,
+      "rotation_error_deg": 0.0,
+      "reprojection_rmse_px": 2.1078103847843474e-14
+    },
+    {
+      "pixel_noise_std": 0.5,
+      "translation_error_m": 0.0005757396325003512,
+      "rotation_error_deg": 0.16459502162357145,
+      "reprojection_rmse_px": 0.6466403662021871
+    },
+    {
+      "pixel_noise_std": 2.0,
+      "translation_error_m": 0.002331497706052602,
+      "rotation_error_deg": 0.6563979719486349,
+      "reprojection_rmse_px": 2.5866091758335403
+    }
+  ],
+  "stereo": {
+    "true_disparity_px": 12,
+    "true_depth_m": 6.0,
+    "valid_fraction_in_roi": 1.0,
+    "depth_median_m": 6.0,
+    "disparity_mae_px": 0.029863281175494194,
+    "textured_best_disparity": 12,
+    "flat_equal_minima": 24
+  },
+  "jacobian": [
+    [
+      -0.5888890631497093,
+      -0.39417989199538406
+    ],
+    [
+      0.528517354161539,
+      0.06798685716009642
+    ]
+  ],
+  "finite_difference_max_error": 3.028877149091613e-11,
+  "local_linearization": [
+    {
+      "scale": 1.0,
+      "delta_q_rad": [
+        0.3,
+        -0.2
+      ],
+      "exact_delta_m": [
+        -0.11780137985221362,
+        0.13221777511075794
+      ],
+      "linear_delta_m": [
+        -0.09783074054583597,
+        0.14495783481644242
+      ],
+      "linearization_error_m": 0.02368829997297909
+    },
+    {
+      "scale": 0.1,
+      "delta_q_rad": [
+        0.03,
+        -0.020000000000000004
+      ],
+      "exact_delta_m": [
+        -0.009992754702163986,
+        0.014386378470436223
+      ],
+      "linear_delta_m": [
+        -0.009783074054583596,
+        0.01449578348164424
+      ],
+      "linearization_error_m": 0.0002365067238941809
+    },
+    {
+      "scale": 0.01,
+      "delta_q_rad": [
+        0.003,
+        -0.002
+      ],
+      "exact_delta_m": [
+        -0.0009804128426789127,
+        0.0014485029839043095
+      ],
+      "linear_delta_m": [
+        -0.00097830740545836,
+        0.0014495783481644241
+      ],
+      "linearization_error_m": 2.36416458429208e-06
+    }
+  ],
+  "near_singular_values": [
+    0.984873533246897,
+    0.0020306837368651034
+  ],
+  "near_singular_condition": 484.9960214717184,
+  "desired_delta_m": [
+    -0.01,
+    0.0
+  ],
+  "pinv_delta_q_rad": [
+    -1.9999333328888715,
+    4.499975000041638
+  ],
+  "dls_delta_q_rad": [
+    -0.0032438685837508185,
+    0.0074323666773627485
+  ],
+  "pinv_nonlinear_residual_m": 1.4381843944881778,
+  "dls_nonlinear_residual_m": 0.009977249749365246,
+  "scope": "synthetic non-planar PnP, ideal textured plane, single-step DLS; no full IK or robot execution"
+}

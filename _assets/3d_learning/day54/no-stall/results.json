@@ -1,0 +1,82 @@
+{
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "seed": "deterministic; no random sampling",
+  "model": "ideal joint-velocity integrator; no rigid-body dynamics or contact",
+  "joint_names": [
+    "joint_1",
+    "joint_2",
+    "joint_3",
+    "joint_4",
+    "joint_5",
+    "joint_6"
+  ],
+  "q0_rad": [
+    0.0,
+    -0.5,
+    0.6,
+    -0.2,
+    0.3,
+    0.0
+  ],
+  "q1_rad": [
+    0.35,
+    -1.0,
+    1.4,
+    -0.6,
+    0.9,
+    0.2
+  ],
+  "velocity_limits_rad_s": [
+    0.7,
+    0.6,
+    0.8,
+    1.0,
+    1.0,
+    1.2
+  ],
+  "acceleration_limits_rad_s2": [
+    1.2,
+    1.0,
+    1.4,
+    2.0,
+    2.0,
+    2.0
+  ],
+  "nominal_dt_s": 0.02,
+  "minimum_duration_s": 1.8749999999999996,
+  "rounded_duration_s": 1.8800000000000001,
+  "intervals": 94,
+  "time_scalings": {
+    "feasible": {
+      "duration_s": 1.8800000000000001,
+      "maximum_velocity_ratio": 0.9973404255319147,
+      "maximum_acceleration_ratio": 0.9334383191968338
+    },
+    "half_duration": {
+      "duration_s": 0.9400000000000001,
+      "maximum_velocity_ratio": 1.9946808510638294,
+      "maximum_acceleration_ratio": 3.7337532767873354
+    }
+  },
+  "stall_periods": 0.0,
+  "actual_duration_s": 1.88,
+  "largest_applied_dt_s": 0.025,
+  "replay_max_abs_rad": 4.440892098500626e-16,
+  "nominal_replay_terminal_error_rad": 3.4219371797089426e-16,
+  "nominal_replay_max_error_rad": 0.1017529065827318,
+  "simulated_terminal_goal_error_rad": 2.830524433501838e-16,
+  "velocity_as_increment_terminal_goal_error_rad": 61.44568739952381,
+  "duplicate_rejected": true,
+  "chunk_contract": "10 rows per chunk except final partial chunk; velocity rad/s; nominal 50 Hz; full available chunk executed; no learned VLA invoked",
+  "collision_checked": false,
+  "torque_checked": false,
+  "actual_hardware_feedback": false,
+  "training_steps": 0,
+  "robot_interactions": 0,
+  "synthetic_applied_intervals": 94,
+  "elapsed_ms": 201.95837505161762
+}

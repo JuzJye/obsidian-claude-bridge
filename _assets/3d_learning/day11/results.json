@@ -1,0 +1,180 @@
+{
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0"
+  },
+  "seed": 11,
+  "truth_disparity_px": 8,
+  "stereo": {
+    "sad1_offset0": {
+      "all": {
+        "coverage": 0.9713669950738916,
+        "epe_px": 3.8779714107513428,
+        "bad1_fraction": 0.53486529318542,
+        "n": 6310
+      },
+      "textured": {
+        "coverage": 0.973381601362862,
+        "epe_px": 3.5272369384765625,
+        "bad1_fraction": 0.48304528549551523,
+        "n": 4571
+      },
+      "flat": {
+        "coverage": 0.9619047619047619,
+        "epe_px": 6.707921028137207,
+        "bad1_fraction": 0.8960396039603961,
+        "n": 202
+      }
+    },
+    "sad7_offset0": {
+      "all": {
+        "coverage": 0.9952278325123153,
+        "epe_px": 0.5631864070892334,
+        "bad1_fraction": 0.0917246713070379,
+        "n": 6465
+      },
+      "textured": {
+        "coverage": 1.0,
+        "epe_px": 0.0,
+        "bad1_fraction": 0.0,
+        "n": 4696
+      },
+      "flat": {
+        "coverage": 0.9761904761904762,
+        "epe_px": 6.497560977935791,
+        "bad1_fraction": 0.9024390243902439,
+        "n": 205
+      }
+    },
+    "sgbm_offset0": {
+      "all": {
+        "coverage": 0.999384236453202,
+        "epe_px": 0.08308302611112595,
+        "bad1_fraction": 0.02279728897104128,
+        "n": 6492
+      },
+      "textured": {
+        "coverage": 1.0,
+        "epe_px": 0.0012909923680126667,
+        "bad1_fraction": 0.0,
+        "n": 4696
+      },
+      "flat": {
+        "coverage": 1.0,
+        "epe_px": 0.8330357074737549,
+        "bad1_fraction": 0.21428571428571427,
+        "n": 210
+      }
+    },
+    "sad1_offset30": {
+      "all": {
+        "coverage": 0.9545874384236454,
+        "epe_px": 6.447669506072998,
+        "bad1_fraction": 0.8430898242218997,
+        "n": 6201
+      },
+      "textured": {
+        "coverage": 0.9563458262350937,
+        "epe_px": 6.135159015655518,
+        "bad1_fraction": 0.8289913159652639,
+        "n": 4491
+      },
+      "flat": {
+        "coverage": 0.9857142857142858,
+        "epe_px": 8.024154663085938,
+        "bad1_fraction": 0.9033816425120773,
+        "n": 207
+      }
+    },
+    "sad7_offset30": {
+      "all": {
+        "coverage": 0.9946120689655172,
+        "epe_px": 0.989784836769104,
+        "bad1_fraction": 0.12381984212970129,
+        "n": 6461
+      },
+      "textured": {
+        "coverage": 1.0,
+        "epe_px": 0.12350936979055405,
+        "bad1_fraction": 0.01575809199318569,
+        "n": 4696
+      },
+      "flat": {
+        "coverage": 0.9857142857142858,
+        "epe_px": 7.782608509063721,
+        "bad1_fraction": 0.9420289855072463,
+        "n": 207
+      }
+    },
+    "sgbm_offset30": {
+      "all": {
+        "coverage": 0.9946120689655172,
+        "epe_px": 0.08272713422775269,
+        "bad1_fraction": 0.021513697570035597,
+        "n": 6461
+      },
+      "textured": {
+        "coverage": 1.0,
+        "epe_px": 0.005962521303445101,
+        "bad1_fraction": 0.0,
+        "n": 4696
+      },
+      "flat": {
+        "coverage": 0.9571428571428572,
+        "epe_px": 0.8215174078941345,
+        "bad1_fraction": 0.19402985074626866,
+        "n": 201
+      }
+    }
+  },
+  "stereo_runtime_ms": 7.312041998375207,
+  "depth_sigma": {
+    "z_m": [
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "sigma_d_px": 0.25,
+    "sigma_z_m": [
+      0.001736111111111111,
+      0.006944444444444444,
+      0.027777777777777776,
+      0.1111111111111111
+    ]
+  },
+  "affine_learning": {
+    "coefficients": [
+      1.1003378514193578,
+      0.02960802441511845
+    ],
+    "test_rmse_m": 0.011906797575227996,
+    "split_sizes": [
+      100,
+      30,
+      30
+    ],
+    "batch_size": 20,
+    "epochs": 60,
+    "updates": 300
+  },
+  "leakage": {
+    "random_frames": {
+      "rmse": 0.0,
+      "shared_scenes": 39
+    },
+    "grouped_scenes": {
+      "rmse": 0.29996886699190783,
+      "shared_scenes": 0
+    }
+  },
+  "soft_argmin_bimodal": {
+    "modes": [
+      2,
+      8
+    ],
+    "expectation": 5.0
+  },
+  "scope": "synthetic rectified plane; no learned stereo model training; affine training only"
+}

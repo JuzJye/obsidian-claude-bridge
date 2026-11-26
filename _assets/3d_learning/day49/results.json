@@ -1,0 +1,144 @@
+{
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "device": "CPU",
+  "seed": 49,
+  "outlier_rate": 0.25,
+  "scenes": 30,
+  "views_per_scene": 4,
+  "measurements_per_view": 24,
+  "data": "synthetic translation-only observations",
+  "modalities": "3D measurements with known point association",
+  "unit": "m internally, mm reported",
+  "frame": "single camera frame",
+  "timestamps": "static independent scenes, four correlated views",
+  "training_samples": 0,
+  "optimizer_iterations": 12,
+  "real_robot_interactions": 0,
+  "success": "translation error <= 10 mm; not physical grasp success",
+  "results": {
+    "nominal": {
+      "methods": {
+        "mean": {
+          "attempts": 120,
+          "successes": 39,
+          "mean_mm": 12.081675026054398,
+          "median_mm": 11.965461602511821,
+          "p90_mm": 17.186783708628692,
+          "paired_delta_vs_mean_mm": 0.0,
+          "scene_bootstrap_95_ci_mm": [
+            0.0,
+            0.0
+          ],
+          "median_estimator_ms": 0.006709
+        },
+        "robust": {
+          "attempts": 120,
+          "successes": 119,
+          "mean_mm": 4.1905234545385195,
+          "median_mm": 3.848324626772029,
+          "p90_mm": 6.707286436804129,
+          "paired_delta_vs_mean_mm": -7.89115157151588,
+          "scene_bootstrap_95_ci_mm": [
+            -8.36517176750304,
+            -7.374414009900421
+          ],
+          "median_estimator_ms": 0.177292
+        },
+        "plane": {
+          "attempts": 120,
+          "successes": 105,
+          "mean_mm": 6.887225312219931,
+          "median_mm": 6.91981103379984,
+          "p90_mm": 10.195534609578827,
+          "paired_delta_vs_mean_mm": -5.194449713834468,
+          "scene_bootstrap_95_ci_mm": [
+            -5.995008995731805,
+            -4.4283787945814215
+          ],
+          "median_estimator_ms": 0.0025
+        },
+        "robust+plane": {
+          "attempts": 120,
+          "successes": 120,
+          "mean_mm": 3.025690753468345,
+          "median_mm": 2.90843770601094,
+          "p90_mm": 4.857218824267985,
+          "paired_delta_vs_mean_mm": -9.055984272586052,
+          "scene_bootstrap_95_ci_mm": [
+            -9.729745908660057,
+            -8.34629146457356
+          ],
+          "median_estimator_ms": 0.06983349999999999
+        }
+      },
+      "interaction_mm": 4.029617012764293,
+      "interaction_ci_mm": [
+        3.587008306847666,
+        4.49613329323715
+      ]
+    },
+    "raised": {
+      "methods": {
+        "mean": {
+          "attempts": 120,
+          "successes": 39,
+          "mean_mm": 12.081675026054398,
+          "median_mm": 11.965461602511741,
+          "p90_mm": 17.1867837086287,
+          "paired_delta_vs_mean_mm": 0.0,
+          "scene_bootstrap_95_ci_mm": [
+            0.0,
+            0.0
+          ],
+          "median_estimator_ms": 0.006542
+        },
+        "robust": {
+          "attempts": 120,
+          "successes": 119,
+          "mean_mm": 4.190523454538521,
+          "median_mm": 3.8483246267719116,
+          "p90_mm": 6.70728643680403,
+          "paired_delta_vs_mean_mm": -7.891151571515879,
+          "scene_bootstrap_95_ci_mm": [
+            -8.391957272826753,
+            -7.375465935354069
+          ],
+          "median_estimator_ms": 0.0703955
+        },
+        "plane": {
+          "attempts": 120,
+          "successes": 0,
+          "mean_mm": 21.29686956372832,
+          "median_mm": 21.163312857483433,
+          "p90_mm": 22.448869937098742,
+          "paired_delta_vs_mean_mm": 9.215194537673918,
+          "scene_bootstrap_95_ci_mm": [
+            8.442231640649846,
+            9.998379831496093
+          ],
+          "median_estimator_ms": 0.002417
+        },
+        "robust+plane": {
+          "attempts": 120,
+          "successes": 0,
+          "mean_mm": 20.277129377570045,
+          "median_mm": 20.21037117292809,
+          "p90_mm": 20.58137385320118,
+          "paired_delta_vs_mean_mm": 8.195454351515648,
+          "scene_bootstrap_95_ci_mm": [
+            7.403067797782329,
+            9.0126944816972
+          ],
+          "median_estimator_ms": 0.0703955
+        }
+      },
+      "interaction_mm": 6.871411385357606,
+      "interaction_ci_mm": [
+        6.428989809944842,
+        7.300697523649955
+      ]
+    }
+  }
+}

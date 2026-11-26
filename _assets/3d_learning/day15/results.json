@@ -1,0 +1,47 @@
+{
+  "seed": 15,
+  "python": "3.11.15",
+  "torch": "2.13.0.dev20260423",
+  "numpy": "1.26.4",
+  "device": "cpu",
+  "training_steps": 0,
+  "shapes": {
+    "points": [
+      2,
+      128,
+      3
+    ],
+    "encoded": [
+      2,
+      64,
+      128
+    ],
+    "global": [
+      2,
+      64
+    ],
+    "classification": [
+      2,
+      3
+    ],
+    "segmentation": [
+      2,
+      128,
+      2
+    ]
+  },
+  "max_abs_logit_error_permutation": 0.0,
+  "max_abs_segmentation_error_aligned": 0.0,
+  "max_abs_segmentation_error_wrong_alignment": 0.0381794273853302,
+  "max_abs_flatten_logit_error_permutation": 0.4567481279373169,
+  "max_abs_logit_error_translation": 0.006857782602310181,
+  "critical_point_count_of_128": 24,
+  "critical_only_global_error": 5.960464477539063e-08,
+  "outlier_x": 6.0,
+  "outlier_logit_error": 0.017105400562286377,
+  "invalid_padding_masked_error": 0.0,
+  "invalid_padding_unmasked_error": 0.20172569155693054,
+  "cross_entropy_random_model": 1.1303646564483643,
+  "first_layer_gradient_norm": 0.0067848204635083675,
+  "interpretation": "Architecture and autograd checks only; weights are random, no trained accuracy."
+}

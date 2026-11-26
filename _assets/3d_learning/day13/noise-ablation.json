@@ -1,0 +1,108 @@
+{
+  "purpose": "one-variable control: pixel sigma 0.25 -> 0.5 px, same seed and standardized noise",
+  "metadata": {
+    "data": "synthetic ideal rectified stereo; no distortion or hardware",
+    "modalities": [
+      "ideal image coordinates",
+      "synthetic actions"
+    ],
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "device": "CPU",
+    "seed": 13,
+    "pixel_sigma_px": 0.5,
+    "length_unit": "m",
+    "camera_axes": "x right, y down, z forward",
+    "timing": "synthetic seconds; each action dt explicit; no sensor clock",
+    "initial_action_position_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_tool_yaw_rad": 1.5707963267948966,
+    "robot_interactions": 0,
+    "training_steps": 0,
+    "dlt_100_points_mean_ms_50_repeats": 0.14637249999395863,
+    "latency_scope": "local DLT + validity checks, no IO/perception/control"
+  },
+  "stereo_noise": [
+    {
+      "baseline_m": 0.06,
+      "depth_m": 0.5,
+      "disparity_px": 72.0,
+      "trials": 5000,
+      "valid": 5000,
+      "sigma_z_linear_m": 0.004910463758239913,
+      "sigma_z_empirical_m": 0.00494023388947846,
+      "bias_m": 0.00017579613373670035,
+      "rmse_m": 0.004942866979922856,
+      "p95_absolute_error_m": 0.009677086970463161,
+      "within_20mm": 4999
+    },
+    {
+      "baseline_m": 0.06,
+      "depth_m": 1.0,
+      "disparity_px": 36.0,
+      "trials": 5000,
+      "valid": 5000,
+      "sigma_z_linear_m": 0.019641855032959652,
+      "sigma_z_empirical_m": 0.019786433384590994,
+      "bias_m": 0.0008989417161825027,
+      "rmse_m": 0.01980486661663576,
+      "p95_absolute_error_m": 0.03907101256169027,
+      "within_20mm": 3448
+    },
+    {
+      "baseline_m": 0.06,
+      "depth_m": 2.0,
+      "disparity_px": 18.0,
+      "trials": 5000,
+      "valid": 5000,
+      "sigma_z_linear_m": 0.07856742013183861,
+      "sigma_z_empirical_m": 0.07953707373626796,
+      "bias_m": 0.005173239853631159,
+      "rmse_m": 0.07969719744063788,
+      "p95_absolute_error_m": 0.15543869171920174,
+      "within_20mm": 948
+    },
+    {
+      "baseline_m": 0.12,
+      "depth_m": 0.5,
+      "disparity_px": 144.0,
+      "trials": 5000,
+      "valid": 5000,
+      "sigma_z_linear_m": 0.0024552318791199565,
+      "sigma_z_empirical_m": 0.0024692459796148316,
+      "bias_m": 7.568884437244772e-05,
+      "rmse_m": 0.0024701589167227434,
+      "p95_absolute_error_m": 0.004829031912744273,
+      "within_20mm": 5000
+    },
+    {
+      "baseline_m": 0.12,
+      "depth_m": 1.0,
+      "disparity_px": 72.0,
+      "trials": 5000,
+      "valid": 5000,
+      "sigma_z_linear_m": 0.009820927516479826,
+      "sigma_z_empirical_m": 0.00988046777895692,
+      "bias_m": 0.0003515922674734007,
+      "rmse_m": 0.009885733959845712,
+      "p95_absolute_error_m": 0.019354173940926322,
+      "within_20mm": 4778
+    },
+    {
+      "baseline_m": 0.12,
+      "depth_m": 2.0,
+      "disparity_px": 36.0,
+      "trials": 5000,
+      "valid": 5000,
+      "sigma_z_linear_m": 0.039283710065919304,
+      "sigma_z_empirical_m": 0.03957286676918199,
+      "bias_m": 0.0017978834323650055,
+      "rmse_m": 0.03960973323327152,
+      "p95_absolute_error_m": 0.07814202512338055,
+      "within_20mm": 1888
+    }
+  ]
+}

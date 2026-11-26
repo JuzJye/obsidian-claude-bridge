@@ -1,0 +1,94 @@
+{
+  "seed": 65,
+  "data": "synthetic complementary feature vectors, no image encoder or real contact",
+  "units": "latent xyz scaled by 30 mm; binary contact is synthetic rule",
+  "split_groups": {
+    "train": [
+      0,
+      79
+    ],
+    "val": [
+      80,
+      99
+    ],
+    "test": [
+      100,
+      119
+    ]
+  },
+  "split_samples": {
+    "train": 640,
+    "val": 160,
+    "test": 160
+  },
+  "best_epoch": 51,
+  "train_seconds": 0.23239087499678135,
+  "train_steps": 401,
+  "selected": "aligned",
+  "evaluation": {
+    "aligned": {
+      "xyz_rmse_mm": 4.756135940551758,
+      "contact_correct": 159,
+      "contact_total": 160,
+      "contact_accuracy": 0.9937499761581421,
+      "batch_latency_ms": 0.06716698408126831,
+      "mean_position_l2_mm": 7.229560852050781
+    },
+    "shuffled": {
+      "xyz_rmse_mm": 19.612594604492188,
+      "contact_correct": 118,
+      "contact_total": 160,
+      "contact_accuracy": 0.737500011920929,
+      "batch_latency_ms": 0.055541982874274254,
+      "mean_position_l2_mm": 27.5653018951416
+    }
+  },
+  "normalization_fit": "training only",
+  "normalization": [
+    {
+      "mean": [
+        -0.04953601462302723,
+        0.1076989347139069,
+        0.020378730136990163,
+        -0.032721678883287406,
+        0.663655700603136,
+        0.010830284985828071
+      ],
+      "std": [
+        0.8805769585015698,
+        0.9222558420453971,
+        0.8274561797109323,
+        0.6485458295498131,
+        0.40958109331973047,
+        0.12489168117440913
+      ]
+    },
+    {
+      "mean": [
+        0.05899785421973436,
+        0.027761613359240416,
+        0.017142903709837627,
+        -0.004467647460270847,
+        0.7753910356458732,
+        1.0009447576967418
+      ],
+      "std": [
+        0.8864015713851692,
+        0.5942526270326616,
+        0.209112938065364,
+        0.15677841437339768,
+        1.2027567270462765,
+        0.12309052269493896
+      ]
+    }
+  ],
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "torch": "2.13.0.dev20260423",
+    "matplotlib": "3.10.9",
+    "device": "cpu"
+  },
+  "robot_trials": 0,
+  "project_acceptance": "pending"
+}

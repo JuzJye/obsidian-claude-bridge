@@ -1,0 +1,4508 @@
+{
+  "validation": [
+    {
+      "seed": 461,
+      "scene_id": "461-0",
+      "method": "L2",
+      "add_mm": 16.46115715240727,
+      "trans_mm": 16.431725661924556,
+      "angle_deg": 2.6964201310346336,
+      "success": false,
+      "latency_ms": 1.0659999679774046
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-0",
+      "method": "Huber",
+      "add_mm": 1.6066196042294287,
+      "trans_mm": 1.574486933078475,
+      "angle_deg": 0.6900850212054737,
+      "success": true,
+      "latency_ms": 0.6410829955711961
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-0",
+      "method": "Cauchy",
+      "add_mm": 0.4977635202778735,
+      "trans_mm": 0.3108958080694959,
+      "angle_deg": 0.5806694869140784,
+      "success": true,
+      "latency_ms": 0.6337499944493175
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-0",
+      "method": "Precision",
+      "add_mm": 0.7754458498883,
+      "trans_mm": 0.6832286071583579,
+      "angle_deg": 0.6178379809315441,
+      "success": true,
+      "latency_ms": 0.6038339342921972
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-0",
+      "method": "Huber+Precision",
+      "add_mm": 0.4586532936905513,
+      "trans_mm": 0.25211428279876347,
+      "angle_deg": 0.5887842150149989,
+      "success": true,
+      "latency_ms": 0.6422919686883688
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-1",
+      "method": "L2",
+      "add_mm": 17.106791930110624,
+      "trans_mm": 17.132010581805087,
+      "angle_deg": 1.4985807289362227,
+      "success": false,
+      "latency_ms": 0.5725410301238298
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-1",
+      "method": "Huber",
+      "add_mm": 1.7433462735808447,
+      "trans_mm": 1.7348680551540396,
+      "angle_deg": 0.20956045224112124,
+      "success": true,
+      "latency_ms": 0.6130830151960254
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-1",
+      "method": "Cauchy",
+      "add_mm": 0.48259673037390044,
+      "trans_mm": 0.4345285810010341,
+      "angle_deg": 0.3195983296975922,
+      "success": true,
+      "latency_ms": 0.6216249894350767
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-1",
+      "method": "Precision",
+      "add_mm": 0.8281755511145179,
+      "trans_mm": 0.8094419590596278,
+      "angle_deg": 0.2319473105873796,
+      "success": true,
+      "latency_ms": 0.5968339974060655
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-1",
+      "method": "Huber+Precision",
+      "add_mm": 0.3575681692700632,
+      "trans_mm": 0.3070302836012126,
+      "angle_deg": 0.2744236337315352,
+      "success": true,
+      "latency_ms": 0.6393750663846731
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-2",
+      "method": "L2",
+      "add_mm": 17.54714013183394,
+      "trans_mm": 17.14292436536057,
+      "angle_deg": 5.0568560889786065,
+      "success": false,
+      "latency_ms": 0.5758330225944519
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-2",
+      "method": "Huber",
+      "add_mm": 1.8241117660891877,
+      "trans_mm": 1.770097151679349,
+      "angle_deg": 0.6599087524233679,
+      "success": true,
+      "latency_ms": 0.6170000415295362
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-2",
+      "method": "Cauchy",
+      "add_mm": 0.4331892157311716,
+      "trans_mm": 0.4151956408888815,
+      "angle_deg": 0.16316110763849412,
+      "success": true,
+      "latency_ms": 0.6231669103726745
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-2",
+      "method": "Precision",
+      "add_mm": 0.8637394977465858,
+      "trans_mm": 0.8393181240060623,
+      "angle_deg": 0.30355933233234056,
+      "success": true,
+      "latency_ms": 0.5973340012133121
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-2",
+      "method": "Huber+Precision",
+      "add_mm": 0.3357164495619241,
+      "trans_mm": 0.32913850109983733,
+      "angle_deg": 0.09521665384097103,
+      "success": true,
+      "latency_ms": 0.6372090429067612
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-3",
+      "method": "L2",
+      "add_mm": 17.15028023122018,
+      "trans_mm": 17.047430831839087,
+      "angle_deg": 2.1015566207417455,
+      "success": false,
+      "latency_ms": 0.5787499248981476
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-3",
+      "method": "Huber",
+      "add_mm": 1.544144731385849,
+      "trans_mm": 1.548176992139119,
+      "angle_deg": 0.2575443086370453,
+      "success": true,
+      "latency_ms": 0.6145830266177654
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-3",
+      "method": "Cauchy",
+      "add_mm": 0.3692571376473159,
+      "trans_mm": 0.33519622871865645,
+      "angle_deg": 0.33843669554474565,
+      "success": true,
+      "latency_ms": 0.6253749597817659
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-3",
+      "method": "Precision",
+      "add_mm": 0.6578104855824805,
+      "trans_mm": 0.6543967353560538,
+      "angle_deg": 0.2821509145696104,
+      "success": true,
+      "latency_ms": 0.5959169939160347
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-3",
+      "method": "Huber+Precision",
+      "add_mm": 0.269449257943656,
+      "trans_mm": 0.21731083284056218,
+      "angle_deg": 0.32041633913485174,
+      "success": true,
+      "latency_ms": 0.6387090543285012
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-4",
+      "method": "L2",
+      "add_mm": 17.060688441960867,
+      "trans_mm": 16.37433651947399,
+      "angle_deg": 10.861189216342856,
+      "success": false,
+      "latency_ms": 0.5722499918192625
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-4",
+      "method": "Huber",
+      "add_mm": 1.478557065462235,
+      "trans_mm": 1.2979877709347796,
+      "angle_deg": 1.466684812765397,
+      "success": true,
+      "latency_ms": 0.8873750921338797
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-4",
+      "method": "Cauchy",
+      "add_mm": 0.29998970964512445,
+      "trans_mm": 0.20807147212144422,
+      "angle_deg": 0.35071855067576957,
+      "success": true,
+      "latency_ms": 0.6329169264063239
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-4",
+      "method": "Precision",
+      "add_mm": 0.4924603108173366,
+      "trans_mm": 0.3246961295222152,
+      "angle_deg": 0.6320025896510807,
+      "success": true,
+      "latency_ms": 0.5923749413341284
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-4",
+      "method": "Huber+Precision",
+      "add_mm": 0.3300280753266431,
+      "trans_mm": 0.3102458400619246,
+      "angle_deg": 0.18975103634305499,
+      "success": true,
+      "latency_ms": 0.6312080658972263
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-5",
+      "method": "L2",
+      "add_mm": 16.323507968597152,
+      "trans_mm": 16.38555551007163,
+      "angle_deg": 2.820852080332105,
+      "success": false,
+      "latency_ms": 0.5716249579563737
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-5",
+      "method": "Huber",
+      "add_mm": 1.398676304795888,
+      "trans_mm": 1.3948658036463872,
+      "angle_deg": 0.20955531054677817,
+      "success": true,
+      "latency_ms": 0.6079999729990959
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-5",
+      "method": "Cauchy",
+      "add_mm": 0.3344851522853375,
+      "trans_mm": 0.20081739916709213,
+      "angle_deg": 0.45804746240722705,
+      "success": true,
+      "latency_ms": 0.6129579851403832
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-5",
+      "method": "Precision",
+      "add_mm": 0.5204430186934503,
+      "trans_mm": 0.4772700587592971,
+      "angle_deg": 0.29342136200042485,
+      "success": true,
+      "latency_ms": 0.5895000649616122
+    },
+    {
+      "seed": 461,
+      "scene_id": "461-5",
+      "method": "Huber+Precision",
+      "add_mm": 0.2989748706205438,
+      "trans_mm": 0.17987721771158585,
+      "angle_deg": 0.392075405096491,
+      "success": true,
+      "latency_ms": 0.6282079266384244
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-0",
+      "method": "L2",
+      "add_mm": 17.2079562691764,
+      "trans_mm": 17.164577341537694,
+      "angle_deg": 3.5779477050808794,
+      "success": false,
+      "latency_ms": 0.562917091883719
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-0",
+      "method": "Huber",
+      "add_mm": 1.61711662654086,
+      "trans_mm": 1.596482121278739,
+      "angle_deg": 0.3411695456864484,
+      "success": true,
+      "latency_ms": 0.6032920209690928
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-0",
+      "method": "Cauchy",
+      "add_mm": 0.44418408526944614,
+      "trans_mm": 0.3448707959275437,
+      "angle_deg": 0.5039187070782383,
+      "success": true,
+      "latency_ms": 0.6141250487416983
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-0",
+      "method": "Precision",
+      "add_mm": 0.7508797533807368,
+      "trans_mm": 0.6877666030489289,
+      "angle_deg": 0.5002415988372878,
+      "success": true,
+      "latency_ms": 0.5869590677320957
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-0",
+      "method": "Huber+Precision",
+      "add_mm": 0.4705706241445399,
+      "trans_mm": 0.27892632648390814,
+      "angle_deg": 0.6290865869149946,
+      "success": true,
+      "latency_ms": 0.624332926236093
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-1",
+      "method": "L2",
+      "add_mm": 16.14322208527834,
+      "trans_mm": 16.178419142110144,
+      "angle_deg": 3.5064826494303403,
+      "success": false,
+      "latency_ms": 0.5614999681711197
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-1",
+      "method": "Huber",
+      "add_mm": 1.480625292664987,
+      "trans_mm": 1.4781109934574446,
+      "angle_deg": 0.4116231432147708,
+      "success": true,
+      "latency_ms": 0.6056660786271095
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-1",
+      "method": "Cauchy",
+      "add_mm": 0.24346600055710868,
+      "trans_mm": 0.21888501118565296,
+      "angle_deg": 0.21422704183601213,
+      "success": true,
+      "latency_ms": 0.6104590138420463
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-1",
+      "method": "Precision",
+      "add_mm": 0.5803143062291759,
+      "trans_mm": 0.5638679549583727,
+      "angle_deg": 0.27401888123697327,
+      "success": true,
+      "latency_ms": 0.5870830500498414
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-1",
+      "method": "Huber+Precision",
+      "add_mm": 0.2502988020779805,
+      "trans_mm": 0.2073968522697402,
+      "angle_deg": 0.2128984749713749,
+      "success": true,
+      "latency_ms": 0.628042034804821
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-2",
+      "method": "L2",
+      "add_mm": 16.423725793959267,
+      "trans_mm": 16.401698718132664,
+      "angle_deg": 3.60697969501815,
+      "success": false,
+      "latency_ms": 0.561750028282404
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-2",
+      "method": "Huber",
+      "add_mm": 1.3361795881200411,
+      "trans_mm": 1.2759235205922033,
+      "angle_deg": 0.7932500401297148,
+      "success": true,
+      "latency_ms": 0.6107920780777931
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-2",
+      "method": "Cauchy",
+      "add_mm": 0.40994683741320814,
+      "trans_mm": 0.1444027318605599,
+      "angle_deg": 0.6276663855471097,
+      "success": true,
+      "latency_ms": 0.6257910281419754
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-2",
+      "method": "Precision",
+      "add_mm": 0.5404785408756874,
+      "trans_mm": 0.3687085197331402,
+      "angle_deg": 0.6278514794882306,
+      "success": true,
+      "latency_ms": 0.5826250417158008
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-2",
+      "method": "Huber+Precision",
+      "add_mm": 0.43055464564177004,
+      "trans_mm": 0.2615230410585684,
+      "angle_deg": 0.5694448649105772,
+      "success": true,
+      "latency_ms": 0.6227910052984953
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-3",
+      "method": "L2",
+      "add_mm": 16.188409798404845,
+      "trans_mm": 16.21425403022072,
+      "angle_deg": 1.9176261946755067,
+      "success": false,
+      "latency_ms": 0.5639159353449941
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-3",
+      "method": "Huber",
+      "add_mm": 1.523730520843941,
+      "trans_mm": 1.5300182723419709,
+      "angle_deg": 0.16891317899921354,
+      "success": true,
+      "latency_ms": 0.6679999642074108
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-3",
+      "method": "Cauchy",
+      "add_mm": 0.37207409536576425,
+      "trans_mm": 0.37270671948936973,
+      "angle_deg": 0.1593055081599917,
+      "success": true,
+      "latency_ms": 0.7768329232931137
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-3",
+      "method": "Precision",
+      "add_mm": 0.6364174298378694,
+      "trans_mm": 0.6408481116461646,
+      "angle_deg": 0.11962255167715607,
+      "success": true,
+      "latency_ms": 0.6094169802963734
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-3",
+      "method": "Huber+Precision",
+      "add_mm": 0.3293777554481125,
+      "trans_mm": 0.3237428170382312,
+      "angle_deg": 0.15896945373939333,
+      "success": true,
+      "latency_ms": 0.6378330290317535
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-4",
+      "method": "L2",
+      "add_mm": 16.548384865445563,
+      "trans_mm": 16.385569853325308,
+      "angle_deg": 3.9993827207740735,
+      "success": false,
+      "latency_ms": 0.573083059862256
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-4",
+      "method": "Huber",
+      "add_mm": 1.5507816807165558,
+      "trans_mm": 1.4649858467551395,
+      "angle_deg": 0.975277527153459,
+      "success": true,
+      "latency_ms": 0.6126660155132413
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-4",
+      "method": "Cauchy",
+      "add_mm": 0.4489046370700266,
+      "trans_mm": 0.23298117006140673,
+      "angle_deg": 0.6431674505932586,
+      "success": true,
+      "latency_ms": 0.6177079631015658
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-4",
+      "method": "Precision",
+      "add_mm": 0.6492312440103671,
+      "trans_mm": 0.5195853758570744,
+      "angle_deg": 0.7204166199710299,
+      "success": true,
+      "latency_ms": 0.598000013269484
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-4",
+      "method": "Huber+Precision",
+      "add_mm": 0.38936106063131154,
+      "trans_mm": 0.14083373245039058,
+      "angle_deg": 0.5918600733249102,
+      "success": true,
+      "latency_ms": 0.6355410441756248
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-5",
+      "method": "L2",
+      "add_mm": 17.571395548596048,
+      "trans_mm": 17.528421487424815,
+      "angle_deg": 2.246635433800067,
+      "success": false,
+      "latency_ms": 0.5710419500246644
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-5",
+      "method": "Huber",
+      "add_mm": 1.3860466995771648,
+      "trans_mm": 1.3833026459471398,
+      "angle_deg": 0.16819350778963896,
+      "success": true,
+      "latency_ms": 0.6092090625315905
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-5",
+      "method": "Cauchy",
+      "add_mm": 0.11311650970998473,
+      "trans_mm": 0.10163837628955245,
+      "angle_deg": 0.07896788993765251,
+      "success": true,
+      "latency_ms": 0.6187499966472387
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-5",
+      "method": "Precision",
+      "add_mm": 0.5017786846847031,
+      "trans_mm": 0.5000076012922801,
+      "angle_deg": 0.0816513029592171,
+      "success": true,
+      "latency_ms": 0.6047079805284739
+    },
+    {
+      "seed": 462,
+      "scene_id": "462-5",
+      "method": "Huber+Precision",
+      "add_mm": 0.09910422598279796,
+      "trans_mm": 0.09905061652064763,
+      "angle_deg": 0.011866786882013204,
+      "success": true,
+      "latency_ms": 0.6329170428216457
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-0",
+      "method": "L2",
+      "add_mm": 16.788209454331376,
+      "trans_mm": 16.48895230815778,
+      "angle_deg": 7.22719384579299,
+      "success": false,
+      "latency_ms": 0.5715839797630906
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-0",
+      "method": "Huber",
+      "add_mm": 1.620760045329309,
+      "trans_mm": 1.577108124566502,
+      "angle_deg": 0.7924969990997811,
+      "success": true,
+      "latency_ms": 0.6127499509602785
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-0",
+      "method": "Cauchy",
+      "add_mm": 0.3304587303111441,
+      "trans_mm": 0.2921425146908297,
+      "angle_deg": 0.21804747454780404,
+      "success": true,
+      "latency_ms": 0.6209999555721879
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-0",
+      "method": "Precision",
+      "add_mm": 0.725140909077383,
+      "trans_mm": 0.6866797210245885,
+      "angle_deg": 0.43100307248285874,
+      "success": true,
+      "latency_ms": 0.5969159537926316
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-0",
+      "method": "Huber+Precision",
+      "add_mm": 0.2620742611641184,
+      "trans_mm": 0.22029032077548094,
+      "angle_deg": 0.21576825799855254,
+      "success": true,
+      "latency_ms": 0.5674579879269004
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-1",
+      "method": "L2",
+      "add_mm": 17.971238737677062,
+      "trans_mm": 17.82658686528795,
+      "angle_deg": 4.493003332523772,
+      "success": false,
+      "latency_ms": 0.5053329514339566
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-1",
+      "method": "Huber",
+      "add_mm": 1.955980505647297,
+      "trans_mm": 1.93454814030699,
+      "angle_deg": 0.3752489951308695,
+      "success": true,
+      "latency_ms": 0.5673330742865801
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-1",
+      "method": "Cauchy",
+      "add_mm": 0.5898396323207042,
+      "trans_mm": 0.5449737938325296,
+      "angle_deg": 0.4282082954547199,
+      "success": true,
+      "latency_ms": 0.58133399579674
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-1",
+      "method": "Precision",
+      "add_mm": 1.0637770314871737,
+      "trans_mm": 1.0443056711497292,
+      "angle_deg": 0.2819719918432215,
+      "success": true,
+      "latency_ms": 0.5365000106394291
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-1",
+      "method": "Huber+Precision",
+      "add_mm": 0.5254414219044562,
+      "trans_mm": 0.47807703748405556,
+      "angle_deg": 0.4103376084661286,
+      "success": true,
+      "latency_ms": 0.5912079941481352
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-2",
+      "method": "L2",
+      "add_mm": 17.090911927566697,
+      "trans_mm": 17.03946950536146,
+      "angle_deg": 4.630685477326902,
+      "success": false,
+      "latency_ms": 0.5119579145684838
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-2",
+      "method": "Huber",
+      "add_mm": 1.346701258348946,
+      "trans_mm": 1.3368905889360263,
+      "angle_deg": 0.25575581373377027,
+      "success": true,
+      "latency_ms": 0.5717499880120158
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-2",
+      "method": "Cauchy",
+      "add_mm": 0.2579765201548513,
+      "trans_mm": 0.050846486225425015,
+      "angle_deg": 0.4534376715565579,
+      "success": true,
+      "latency_ms": 0.5654580891132355
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-2",
+      "method": "Precision",
+      "add_mm": 0.46773370502482714,
+      "trans_mm": 0.4326094800427523,
+      "angle_deg": 0.30159927576765516,
+      "success": true,
+      "latency_ms": 0.5953339859843254
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-2",
+      "method": "Huber+Precision",
+      "add_mm": 0.27459033681206124,
+      "trans_mm": 0.1318596305104819,
+      "angle_deg": 0.4441207350068254,
+      "success": true,
+      "latency_ms": 0.615416094660759
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-3",
+      "method": "L2",
+      "add_mm": 17.891466836795843,
+      "trans_mm": 17.964265913492312,
+      "angle_deg": 3.093206798003281,
+      "success": false,
+      "latency_ms": 0.509583973325789
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-3",
+      "method": "Huber",
+      "add_mm": 1.7173402604959889,
+      "trans_mm": 1.6911661491381615,
+      "angle_deg": 0.44652887291458226,
+      "success": true,
+      "latency_ms": 0.5362919764593244
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-3",
+      "method": "Cauchy",
+      "add_mm": 0.4520481246587288,
+      "trans_mm": 0.34799773201140066,
+      "angle_deg": 0.44340160572592874,
+      "success": true,
+      "latency_ms": 0.5373749881982803
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-3",
+      "method": "Precision",
+      "add_mm": 0.8437440470239932,
+      "trans_mm": 0.7874270706652519,
+      "angle_deg": 0.4144261516397423,
+      "success": true,
+      "latency_ms": 0.523083028383553
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-3",
+      "method": "Huber+Precision",
+      "add_mm": 0.3857779858105775,
+      "trans_mm": 0.24216410132224198,
+      "angle_deg": 0.47035981178749836,
+      "success": true,
+      "latency_ms": 0.5542089929804206
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-4",
+      "method": "L2",
+      "add_mm": 16.771269473947143,
+      "trans_mm": 16.495991327684273,
+      "angle_deg": 6.9754022692176845,
+      "success": false,
+      "latency_ms": 0.4967499990016222
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-4",
+      "method": "Huber",
+      "add_mm": 1.314054190735119,
+      "trans_mm": 1.294831763142421,
+      "angle_deg": 0.46642523637932626,
+      "success": true,
+      "latency_ms": 0.5336669273674488
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-4",
+      "method": "Cauchy",
+      "add_mm": 0.25966419736397967,
+      "trans_mm": 0.21830094231007216,
+      "angle_deg": 0.21842423867022864,
+      "success": true,
+      "latency_ms": 0.5415839841589332
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-4",
+      "method": "Precision",
+      "add_mm": 0.4542193841490775,
+      "trans_mm": 0.43524210725141843,
+      "angle_deg": 0.1846717461517449,
+      "success": true,
+      "latency_ms": 0.539334025233984
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-4",
+      "method": "Huber+Precision",
+      "add_mm": 0.3532882246916237,
+      "trans_mm": 0.30020410958076643,
+      "angle_deg": 0.3110830843043144,
+      "success": true,
+      "latency_ms": 0.5619170842692256
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-5",
+      "method": "L2",
+      "add_mm": 16.85706442486683,
+      "trans_mm": 16.899757097904736,
+      "angle_deg": 4.168276396125861,
+      "success": false,
+      "latency_ms": 0.5204579792916775
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-5",
+      "method": "Huber",
+      "add_mm": 1.391471283308994,
+      "trans_mm": 1.3867662324911953,
+      "angle_deg": 0.5158223573289152,
+      "success": true,
+      "latency_ms": 0.5615000845864415
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-5",
+      "method": "Cauchy",
+      "add_mm": 0.09772837000880187,
+      "trans_mm": 0.05876977690524782,
+      "angle_deg": 0.11745135238614351,
+      "success": true,
+      "latency_ms": 0.5623340839520097
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-5",
+      "method": "Precision",
+      "add_mm": 0.48461734637345816,
+      "trans_mm": 0.47224597115136907,
+      "angle_deg": 0.2774765678678238,
+      "success": true,
+      "latency_ms": 0.5450829630717635
+    },
+    {
+      "seed": 463,
+      "scene_id": "463-5",
+      "method": "Huber+Precision",
+      "add_mm": 0.14679587644482667,
+      "trans_mm": 0.10574877200422902,
+      "angle_deg": 0.14818782452715581,
+      "success": true,
+      "latency_ms": 0.5835829069837928
+    }
+  ],
+  "test": [
+    {
+      "seed": 471,
+      "scene_id": "471-0",
+      "method": "L2",
+      "add_mm": 16.863827537130007,
+      "trans_mm": 17.015890780094896,
+      "angle_deg": 4.4857186831609726,
+      "success": false,
+      "latency_ms": 0.5152499070391059
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-0",
+      "method": "Huber",
+      "add_mm": 1.5293990490253786,
+      "trans_mm": 1.546180131600093,
+      "angle_deg": 0.7200146812537971,
+      "success": true,
+      "latency_ms": 0.5713329883292317
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-0",
+      "method": "Cauchy",
+      "add_mm": 0.39309937529701094,
+      "trans_mm": 0.34798753440470553,
+      "angle_deg": 0.3448141435131736,
+      "success": true,
+      "latency_ms": 0.5710840923711658
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-0",
+      "method": "Precision",
+      "add_mm": 0.6785959713788439,
+      "trans_mm": 0.6795552473428759,
+      "angle_deg": 0.4459262562580269,
+      "success": true,
+      "latency_ms": 0.5495420191437006
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-0",
+      "method": "Huber+Precision",
+      "add_mm": 0.3478023436628817,
+      "trans_mm": 0.29184576050596245,
+      "angle_deg": 0.2965233958595553,
+      "success": true,
+      "latency_ms": 0.5839579971507192
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-1",
+      "method": "L2",
+      "add_mm": 16.757529845630568,
+      "trans_mm": 16.814862156042626,
+      "angle_deg": 3.104157658965167,
+      "success": false,
+      "latency_ms": 0.5349169950932264
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-1",
+      "method": "Huber",
+      "add_mm": 1.488016629851238,
+      "trans_mm": 1.48643145778223,
+      "angle_deg": 0.1879394449758276,
+      "success": true,
+      "latency_ms": 0.5620419979095459
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-1",
+      "method": "Cauchy",
+      "add_mm": 0.5485482736798984,
+      "trans_mm": 0.48087785664246463,
+      "angle_deg": 0.5723934365694905,
+      "success": true,
+      "latency_ms": 0.5844169063493609
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-1",
+      "method": "Precision",
+      "add_mm": 0.7015705272647905,
+      "trans_mm": 0.6701144737834891,
+      "angle_deg": 0.4587195477072726,
+      "success": true,
+      "latency_ms": 0.5616249982267618
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-1",
+      "method": "Huber+Precision",
+      "add_mm": 0.5491692030448693,
+      "trans_mm": 0.4720086610291614,
+      "angle_deg": 0.622714271387548,
+      "success": true,
+      "latency_ms": 0.5816670600324869
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-2",
+      "method": "L2",
+      "add_mm": 16.244432923636698,
+      "trans_mm": 15.839748506702596,
+      "angle_deg": 6.802443161188586,
+      "success": false,
+      "latency_ms": 0.5350420251488686
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-2",
+      "method": "Huber",
+      "add_mm": 1.270369780512345,
+      "trans_mm": 1.2524174842723363,
+      "angle_deg": 0.4389648753928681,
+      "success": true,
+      "latency_ms": 0.5663330666720867
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-2",
+      "method": "Cauchy",
+      "add_mm": 0.3360971517224988,
+      "trans_mm": 0.19182434063747136,
+      "angle_deg": 0.5185979414061591,
+      "success": true,
+      "latency_ms": 0.663416925817728
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-2",
+      "method": "Precision",
+      "add_mm": 0.3812068544955649,
+      "trans_mm": 0.3499019339136602,
+      "angle_deg": 0.30841905022966415,
+      "success": true,
+      "latency_ms": 0.5387079436331987
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-2",
+      "method": "Huber+Precision",
+      "add_mm": 0.3689781715125401,
+      "trans_mm": 0.22172664748188003,
+      "angle_deg": 0.5586494388158139,
+      "success": true,
+      "latency_ms": 0.5770419957116246
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-3",
+      "method": "L2",
+      "add_mm": 15.838911816883561,
+      "trans_mm": 15.688964045716725,
+      "angle_deg": 4.232696221630706,
+      "success": false,
+      "latency_ms": 0.5011670291423798
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-3",
+      "method": "Huber",
+      "add_mm": 1.4364442229380452,
+      "trans_mm": 1.4053761502922182,
+      "angle_deg": 0.6026461474197099,
+      "success": true,
+      "latency_ms": 0.5376660265028477
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-3",
+      "method": "Cauchy",
+      "add_mm": 0.28752966945871566,
+      "trans_mm": 0.22252154284905565,
+      "angle_deg": 0.3123088504204885,
+      "success": true,
+      "latency_ms": 0.5463340785354376
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-3",
+      "method": "Precision",
+      "add_mm": 0.5593618633076183,
+      "trans_mm": 0.5321306063327375,
+      "angle_deg": 0.3617091797781764,
+      "success": true,
+      "latency_ms": 0.5421660607680678
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-3",
+      "method": "Huber+Precision",
+      "add_mm": 0.32009634304652956,
+      "trans_mm": 0.27778378107277646,
+      "angle_deg": 0.25416806707652545,
+      "success": true,
+      "latency_ms": 0.5717079620808363
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-4",
+      "method": "L2",
+      "add_mm": 17.25191738913755,
+      "trans_mm": 16.986800764320318,
+      "angle_deg": 6.267403226027464,
+      "success": false,
+      "latency_ms": 0.5345420213416219
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-4",
+      "method": "Huber",
+      "add_mm": 1.831777101428561,
+      "trans_mm": 1.80289806475372,
+      "angle_deg": 0.656380403315895,
+      "success": true,
+      "latency_ms": 0.562917091883719
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-4",
+      "method": "Cauchy",
+      "add_mm": 0.47114423593144655,
+      "trans_mm": 0.45914830028480247,
+      "angle_deg": 0.13206125925514595,
+      "success": true,
+      "latency_ms": 0.5680830217897892
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-4",
+      "method": "Precision",
+      "add_mm": 0.8690914709439078,
+      "trans_mm": 0.8641628402949656,
+      "angle_deg": 0.1872932612930704,
+      "success": true,
+      "latency_ms": 0.5470830947160721
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-4",
+      "method": "Huber+Precision",
+      "add_mm": 0.43689488230139,
+      "trans_mm": 0.4311015890834584,
+      "angle_deg": 0.0868132205752289,
+      "success": true,
+      "latency_ms": 0.5923340795561671
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-5",
+      "method": "L2",
+      "add_mm": 16.52981280767738,
+      "trans_mm": 16.403810396741882,
+      "angle_deg": 4.037907129298421,
+      "success": false,
+      "latency_ms": 0.5236660363152623
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-5",
+      "method": "Huber",
+      "add_mm": 1.6565448748545257,
+      "trans_mm": 1.6408324208652896,
+      "angle_deg": 0.46064331684988147,
+      "success": true,
+      "latency_ms": 0.5701669724658132
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-5",
+      "method": "Cauchy",
+      "add_mm": 0.5479911165757578,
+      "trans_mm": 0.5168542594276475,
+      "angle_deg": 0.3452368073269441,
+      "success": true,
+      "latency_ms": 0.5722499918192625
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-5",
+      "method": "Precision",
+      "add_mm": 0.7827703512971685,
+      "trans_mm": 0.7721317825215596,
+      "angle_deg": 0.2655696159940261,
+      "success": true,
+      "latency_ms": 0.5595419788733125
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-5",
+      "method": "Huber+Precision",
+      "add_mm": 0.4921571761999844,
+      "trans_mm": 0.4658091411672162,
+      "angle_deg": 0.3134374855819755,
+      "success": true,
+      "latency_ms": 0.5946250166743994
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-6",
+      "method": "L2",
+      "add_mm": 17.113853523688576,
+      "trans_mm": 16.833135766936895,
+      "angle_deg": 5.187260451030142,
+      "success": false,
+      "latency_ms": 0.5224999040365219
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-6",
+      "method": "Huber",
+      "add_mm": 1.5160498039720962,
+      "trans_mm": 1.4654706384901897,
+      "angle_deg": 0.6872662526970137,
+      "success": true,
+      "latency_ms": 0.5838340148329735
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-6",
+      "method": "Cauchy",
+      "add_mm": 0.33142439383194816,
+      "trans_mm": 0.28772395715587673,
+      "angle_deg": 0.2804179116362349,
+      "success": true,
+      "latency_ms": 0.5830409936606884
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-6",
+      "method": "Precision",
+      "add_mm": 0.55838217125747,
+      "trans_mm": 0.5265705467062408,
+      "angle_deg": 0.35780721498609275,
+      "success": true,
+      "latency_ms": 0.5724169313907623
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-6",
+      "method": "Huber+Precision",
+      "add_mm": 0.2901528458926541,
+      "trans_mm": 0.26096865404567304,
+      "angle_deg": 0.22938138669509842,
+      "success": true,
+      "latency_ms": 0.613166019320488
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-7",
+      "method": "L2",
+      "add_mm": 15.968685970982472,
+      "trans_mm": 16.013696409435532,
+      "angle_deg": 6.637520366379557,
+      "success": false,
+      "latency_ms": 0.5246249493211508
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-7",
+      "method": "Huber",
+      "add_mm": 1.1496744133672454,
+      "trans_mm": 1.1253501879485748,
+      "angle_deg": 0.7092626994354295,
+      "success": true,
+      "latency_ms": 0.5823340034112334
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-7",
+      "method": "Cauchy",
+      "add_mm": 0.373143713631703,
+      "trans_mm": 0.2615084324321713,
+      "angle_deg": 0.4203697576461341,
+      "success": true,
+      "latency_ms": 0.5890830652788281
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-7",
+      "method": "Precision",
+      "add_mm": 0.33676851180878986,
+      "trans_mm": 0.27001067577583954,
+      "angle_deg": 0.40520710918160696,
+      "success": true,
+      "latency_ms": 0.5477920640259981
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-7",
+      "method": "Huber+Precision",
+      "add_mm": 0.4278554396832678,
+      "trans_mm": 0.3861759041259205,
+      "angle_deg": 0.2837992198071873,
+      "success": true,
+      "latency_ms": 0.5912079941481352
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-8",
+      "method": "L2",
+      "add_mm": 17.815420486087085,
+      "trans_mm": 17.57383893041273,
+      "angle_deg": 3.8594576368467646,
+      "success": false,
+      "latency_ms": 0.6131249247118831
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-8",
+      "method": "Huber",
+      "add_mm": 1.7806169115001858,
+      "trans_mm": 1.6935873541298818,
+      "angle_deg": 0.7955656789811208,
+      "success": true,
+      "latency_ms": 0.5522499559447169
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-8",
+      "method": "Cauchy",
+      "add_mm": 0.5259129502027103,
+      "trans_mm": 0.3883458551150163,
+      "angle_deg": 0.5307312688192516,
+      "success": true,
+      "latency_ms": 0.5537909455597401
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-8",
+      "method": "Precision",
+      "add_mm": 0.9090302253079245,
+      "trans_mm": 0.8080785406058913,
+      "angle_deg": 0.6092865601166767,
+      "success": true,
+      "latency_ms": 0.5202919710427523
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-8",
+      "method": "Huber+Precision",
+      "add_mm": 0.4879074413957471,
+      "trans_mm": 0.3310043681091963,
+      "angle_deg": 0.526509647044927,
+      "success": true,
+      "latency_ms": 0.5533749936148524
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-9",
+      "method": "L2",
+      "add_mm": 17.22508153850475,
+      "trans_mm": 17.11923938464276,
+      "angle_deg": 3.380542224229328,
+      "success": false,
+      "latency_ms": 0.5010839086025953
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-9",
+      "method": "Huber",
+      "add_mm": 1.4914920076599087,
+      "trans_mm": 1.482683853683861,
+      "angle_deg": 0.2893919950614594,
+      "success": true,
+      "latency_ms": 0.5334169836714864
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-9",
+      "method": "Cauchy",
+      "add_mm": 0.2364695209452611,
+      "trans_mm": 0.21358412343699573,
+      "angle_deg": 0.15117285178270953,
+      "success": true,
+      "latency_ms": 0.573999946936965
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-9",
+      "method": "Precision",
+      "add_mm": 0.5739433731694453,
+      "trans_mm": 0.5658381281206298,
+      "angle_deg": 0.19991056334787363,
+      "success": true,
+      "latency_ms": 0.5326670361682773
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-9",
+      "method": "Huber+Precision",
+      "add_mm": 0.20521189753100566,
+      "trans_mm": 0.16742709771287012,
+      "angle_deg": 0.19922578269105712,
+      "success": true,
+      "latency_ms": 0.5896659567952156
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-10",
+      "method": "L2",
+      "add_mm": 17.576167342315713,
+      "trans_mm": 17.615969396740894,
+      "angle_deg": 6.133496019356436,
+      "success": false,
+      "latency_ms": 0.5192500539124012
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-10",
+      "method": "Huber",
+      "add_mm": 1.7619347198666875,
+      "trans_mm": 1.6923504801928153,
+      "angle_deg": 1.1348883707477322,
+      "success": true,
+      "latency_ms": 0.5636248970404267
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-10",
+      "method": "Cauchy",
+      "add_mm": 0.655214940824733,
+      "trans_mm": 0.49103679989582527,
+      "angle_deg": 0.7134591612999356,
+      "success": true,
+      "latency_ms": 0.5619159201160073
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-10",
+      "method": "Precision",
+      "add_mm": 0.8938279149077096,
+      "trans_mm": 0.7737551496785968,
+      "angle_deg": 0.8013851100827538,
+      "success": true,
+      "latency_ms": 0.5516670644283295
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-10",
+      "method": "Huber+Precision",
+      "add_mm": 0.5612947212489394,
+      "trans_mm": 0.4221740650770895,
+      "angle_deg": 0.6129620224068668,
+      "success": true,
+      "latency_ms": 0.5816249176859856
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-11",
+      "method": "L2",
+      "add_mm": 17.43386847387298,
+      "trans_mm": 16.452138147431253,
+      "angle_deg": 8.556562964631784,
+      "success": false,
+      "latency_ms": 0.5268750246614218
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-11",
+      "method": "Huber",
+      "add_mm": 1.737427311222012,
+      "trans_mm": 1.618366271312326,
+      "angle_deg": 0.9553854484104618,
+      "success": true,
+      "latency_ms": 0.5611670203506947
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-11",
+      "method": "Cauchy",
+      "add_mm": 0.32183819644637696,
+      "trans_mm": 0.2862074998418776,
+      "angle_deg": 0.2348220978302258,
+      "success": true,
+      "latency_ms": 0.5735420854762197
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-11",
+      "method": "Precision",
+      "add_mm": 0.7401176282043037,
+      "trans_mm": 0.6829555486664548,
+      "angle_deg": 0.44640840166364243,
+      "success": true,
+      "latency_ms": 0.5437919171527028
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-11",
+      "method": "Huber+Precision",
+      "add_mm": 0.1996802177276992,
+      "trans_mm": 0.175049565130596,
+      "angle_deg": 0.15510057170386185,
+      "success": true,
+      "latency_ms": 0.5843329709023237
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-0",
+      "method": "L2",
+      "add_mm": 16.375841641346312,
+      "trans_mm": 16.284150283576498,
+      "angle_deg": 1.8462171954984226,
+      "success": false,
+      "latency_ms": 0.534375081770122
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-0",
+      "method": "Huber",
+      "add_mm": 1.3480291854020496,
+      "trans_mm": 1.313108958144203,
+      "angle_deg": 0.4662984475447702,
+      "success": true,
+      "latency_ms": 0.573083059862256
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-0",
+      "method": "Cauchy",
+      "add_mm": 0.3454838236843399,
+      "trans_mm": 0.10307570943796071,
+      "angle_deg": 0.5276540179966576,
+      "success": true,
+      "latency_ms": 0.5850839661434293
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-0",
+      "method": "Precision",
+      "add_mm": 0.4826390829936688,
+      "trans_mm": 0.3991025797663874,
+      "angle_deg": 0.4493190638184327,
+      "success": true,
+      "latency_ms": 0.551957986317575
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-0",
+      "method": "Huber+Precision",
+      "add_mm": 0.3661133529892987,
+      "trans_mm": 0.23225103665571406,
+      "angle_deg": 0.4531947902885061,
+      "success": true,
+      "latency_ms": 0.5882079713046551
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-1",
+      "method": "L2",
+      "add_mm": 16.765405771746565,
+      "trans_mm": 16.705708206607547,
+      "angle_deg": 4.025329667770786,
+      "success": false,
+      "latency_ms": 0.5344999954104424
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-1",
+      "method": "Huber",
+      "add_mm": 1.5028989623393008,
+      "trans_mm": 1.478296014655482,
+      "angle_deg": 0.647371584614793,
+      "success": true,
+      "latency_ms": 0.5568750202655792
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-1",
+      "method": "Cauchy",
+      "add_mm": 0.3743758745217674,
+      "trans_mm": 0.2992004310646512,
+      "angle_deg": 0.3820658051756143,
+      "success": true,
+      "latency_ms": 0.5852909525856376
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-1",
+      "method": "Precision",
+      "add_mm": 0.63502026376566,
+      "trans_mm": 0.6058174180043188,
+      "angle_deg": 0.4392259214083697,
+      "success": true,
+      "latency_ms": 0.5529170157387853
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-1",
+      "method": "Huber+Precision",
+      "add_mm": 0.33309389496534625,
+      "trans_mm": 0.24716677922660968,
+      "angle_deg": 0.3989558289732269,
+      "success": true,
+      "latency_ms": 0.6447919877246022
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-2",
+      "method": "L2",
+      "add_mm": 17.05652970626989,
+      "trans_mm": 16.994372215842233,
+      "angle_deg": 4.789791796102693,
+      "success": false,
+      "latency_ms": 0.5331250140443444
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-2",
+      "method": "Huber",
+      "add_mm": 1.5412280053963523,
+      "trans_mm": 1.5453283954122583,
+      "angle_deg": 0.5459937687059196,
+      "success": true,
+      "latency_ms": 0.5784590030089021
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-2",
+      "method": "Cauchy",
+      "add_mm": 0.37730364828559093,
+      "trans_mm": 0.324102052159211,
+      "angle_deg": 0.3863506922232142,
+      "success": true,
+      "latency_ms": 0.5819590296596289
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-2",
+      "method": "Precision",
+      "add_mm": 0.6741817450123399,
+      "trans_mm": 0.6695120823596624,
+      "angle_deg": 0.3748249432457406,
+      "success": true,
+      "latency_ms": 0.5507910391315818
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-2",
+      "method": "Huber+Precision",
+      "add_mm": 0.36018709370074636,
+      "trans_mm": 0.3059031225907024,
+      "angle_deg": 0.35982941363462406,
+      "success": true,
+      "latency_ms": 0.5895830690860748
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-3",
+      "method": "L2",
+      "add_mm": 16.884387384922533,
+      "trans_mm": 16.78254394715813,
+      "angle_deg": 7.820053281444927,
+      "success": false,
+      "latency_ms": 0.5347500555217266
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-3",
+      "method": "Huber",
+      "add_mm": 1.6737631315427133,
+      "trans_mm": 1.5558271457359292,
+      "angle_deg": 1.4910782889167877,
+      "success": true,
+      "latency_ms": 0.5715839797630906
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-3",
+      "method": "Cauchy",
+      "add_mm": 0.6654082797731911,
+      "trans_mm": 0.34616136308671147,
+      "angle_deg": 1.058770713374224,
+      "success": true,
+      "latency_ms": 0.5829170113429427
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-3",
+      "method": "Precision",
+      "add_mm": 0.8535178939751723,
+      "trans_mm": 0.6402325371194676,
+      "angle_deg": 1.132811673518174,
+      "success": true,
+      "latency_ms": 0.5573750240728259
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-3",
+      "method": "Huber+Precision",
+      "add_mm": 0.5987363200020365,
+      "trans_mm": 0.25106954491675976,
+      "angle_deg": 0.9726428871482168,
+      "success": true,
+      "latency_ms": 0.5873750196769834
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-4",
+      "method": "L2",
+      "add_mm": 16.87106622680056,
+      "trans_mm": 16.915386077787645,
+      "angle_deg": 2.7983167918416503,
+      "success": false,
+      "latency_ms": 0.5286659579724073
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-4",
+      "method": "Huber",
+      "add_mm": 1.6000654141057022,
+      "trans_mm": 1.5778607903227628,
+      "angle_deg": 0.572156182916587,
+      "success": true,
+      "latency_ms": 0.5726669915020466
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-4",
+      "method": "Cauchy",
+      "add_mm": 0.43761003824594596,
+      "trans_mm": 0.3250026054489689,
+      "angle_deg": 0.5626240246600375,
+      "success": true,
+      "latency_ms": 0.5832089809700847
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-4",
+      "method": "Precision",
+      "add_mm": 0.7412555897489896,
+      "trans_mm": 0.7005776469262005,
+      "angle_deg": 0.4916008455845184,
+      "success": true,
+      "latency_ms": 0.5549580091610551
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-4",
+      "method": "Huber+Precision",
+      "add_mm": 0.3984162455123557,
+      "trans_mm": 0.33767352864789607,
+      "angle_deg": 0.49052165665944986,
+      "success": true,
+      "latency_ms": 0.5867080762982368
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-5",
+      "method": "L2",
+      "add_mm": 16.597574522788136,
+      "trans_mm": 16.45000086410141,
+      "angle_deg": 3.488565196814338,
+      "success": false,
+      "latency_ms": 0.5324999801814556
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-5",
+      "method": "Huber",
+      "add_mm": 1.6055145204757426,
+      "trans_mm": 1.5575251596227253,
+      "angle_deg": 0.6434906928975813,
+      "success": true,
+      "latency_ms": 0.5659590242430568
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-5",
+      "method": "Cauchy",
+      "add_mm": 0.3377074147922503,
+      "trans_mm": 0.261066879775606,
+      "angle_deg": 0.3393681576594004,
+      "success": true,
+      "latency_ms": 0.5820420337840915
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-5",
+      "method": "Precision",
+      "add_mm": 0.7076175766827076,
+      "trans_mm": 0.6538063467697344,
+      "angle_deg": 0.47995666113801205,
+      "success": true,
+      "latency_ms": 0.5591659573838115
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-5",
+      "method": "Huber+Precision",
+      "add_mm": 0.3040411913156363,
+      "trans_mm": 0.18327700228674276,
+      "angle_deg": 0.40062024019399073,
+      "success": true,
+      "latency_ms": 0.595084042288363
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-6",
+      "method": "L2",
+      "add_mm": 16.74181640118251,
+      "trans_mm": 16.57985834738982,
+      "angle_deg": 9.265779484135194,
+      "success": false,
+      "latency_ms": 0.5400000372901559
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-6",
+      "method": "Huber",
+      "add_mm": 1.5647373575096652,
+      "trans_mm": 1.5517302417017966,
+      "angle_deg": 0.7819740217766613,
+      "success": true,
+      "latency_ms": 0.5822919774800539
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-6",
+      "method": "Cauchy",
+      "add_mm": 0.3264299499279114,
+      "trans_mm": 0.23904201801461544,
+      "angle_deg": 0.3579140569800591,
+      "success": true,
+      "latency_ms": 0.5790829891338944
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-6",
+      "method": "Precision",
+      "add_mm": 0.6579733110671684,
+      "trans_mm": 0.6517623057528125,
+      "angle_deg": 0.19700759898926878,
+      "success": true,
+      "latency_ms": 0.5546249449253082
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-6",
+      "method": "Huber+Precision",
+      "add_mm": 0.3064165240343626,
+      "trans_mm": 0.18884584411080513,
+      "angle_deg": 0.37028191209732636,
+      "success": true,
+      "latency_ms": 0.5959999980404973
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-7",
+      "method": "L2",
+      "add_mm": 17.656920631311106,
+      "trans_mm": 17.67768876354383,
+      "angle_deg": 5.694649115422328,
+      "success": false,
+      "latency_ms": 0.5212499527260661
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-7",
+      "method": "Huber",
+      "add_mm": 1.7157675671208066,
+      "trans_mm": 1.7043050247175868,
+      "angle_deg": 0.9497847293127731,
+      "success": true,
+      "latency_ms": 0.5627080099657178
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-7",
+      "method": "Cauchy",
+      "add_mm": 0.37479860392851316,
+      "trans_mm": 0.2957230740915207,
+      "angle_deg": 0.4336404460380743,
+      "success": true,
+      "latency_ms": 0.6039999425411224
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-7",
+      "method": "Precision",
+      "add_mm": 0.8223749722880032,
+      "trans_mm": 0.7945119715935328,
+      "angle_deg": 0.6043395913969221,
+      "success": true,
+      "latency_ms": 0.5667089717462659
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-7",
+      "method": "Huber+Precision",
+      "add_mm": 0.35681138283871666,
+      "trans_mm": 0.27651868730260043,
+      "angle_deg": 0.40874510191401325,
+      "success": true,
+      "latency_ms": 0.6498750299215317
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-8",
+      "method": "L2",
+      "add_mm": 16.33099476544929,
+      "trans_mm": 16.227741630055075,
+      "angle_deg": 3.5644088052684872,
+      "success": false,
+      "latency_ms": 0.5296249873936176
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-8",
+      "method": "Huber",
+      "add_mm": 1.6819764771349361,
+      "trans_mm": 1.6508219086832947,
+      "angle_deg": 0.4773808813643444,
+      "success": true,
+      "latency_ms": 0.5677080480381846
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-8",
+      "method": "Cauchy",
+      "add_mm": 0.49612002485266793,
+      "trans_mm": 0.3799242059533333,
+      "angle_deg": 0.5570943626968325,
+      "success": true,
+      "latency_ms": 0.5803329404443502
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-8",
+      "method": "Precision",
+      "add_mm": 0.7821196616502423,
+      "trans_mm": 0.7280367378389608,
+      "angle_deg": 0.46510997040875657,
+      "success": true,
+      "latency_ms": 0.5542500875890255
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-8",
+      "method": "Huber+Precision",
+      "add_mm": 0.3710958857858726,
+      "trans_mm": 0.23698886449365855,
+      "angle_deg": 0.47881058767967233,
+      "success": true,
+      "latency_ms": 0.5951670464128256
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-9",
+      "method": "L2",
+      "add_mm": 18.0312481443208,
+      "trans_mm": 17.547903629281297,
+      "angle_deg": 5.478016634070392,
+      "success": false,
+      "latency_ms": 0.5350830033421516
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-9",
+      "method": "Huber",
+      "add_mm": 1.7926503675255467,
+      "trans_mm": 1.7243675211053282,
+      "angle_deg": 0.7680528899777033,
+      "success": true,
+      "latency_ms": 0.5809580907225609
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-9",
+      "method": "Cauchy",
+      "add_mm": 0.42849255100610295,
+      "trans_mm": 0.38666652638979637,
+      "angle_deg": 0.3449409823429066,
+      "success": true,
+      "latency_ms": 0.5852499743923545
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-9",
+      "method": "Precision",
+      "add_mm": 0.8904897332328783,
+      "trans_mm": 0.8410918127201475,
+      "angle_deg": 0.5031322983263256,
+      "success": true,
+      "latency_ms": 0.56395900901407
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-9",
+      "method": "Huber+Precision",
+      "add_mm": 0.37064081596831855,
+      "trans_mm": 0.33200044580491217,
+      "angle_deg": 0.327350349952036,
+      "success": true,
+      "latency_ms": 0.6097080186009407
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-10",
+      "method": "L2",
+      "add_mm": 17.2457004930469,
+      "trans_mm": 17.16259199636121,
+      "angle_deg": 3.6884180930066797,
+      "success": false,
+      "latency_ms": 0.5398750072345138
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-10",
+      "method": "Huber",
+      "add_mm": 1.5032889824519013,
+      "trans_mm": 1.4799349179939072,
+      "angle_deg": 0.602130469515125,
+      "success": true,
+      "latency_ms": 0.5682919872924685
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-10",
+      "method": "Cauchy",
+      "add_mm": 0.17918776889018243,
+      "trans_mm": 0.1072800968242079,
+      "angle_deg": 0.2631422563054961,
+      "success": true,
+      "latency_ms": 0.5817909259349108
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-10",
+      "method": "Precision",
+      "add_mm": 0.5759051218333661,
+      "trans_mm": 0.546001931573447,
+      "angle_deg": 0.4232912163356505,
+      "success": true,
+      "latency_ms": 0.5543750012293458
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-10",
+      "method": "Huber+Precision",
+      "add_mm": 0.16449413855657505,
+      "trans_mm": 0.04146570905347776,
+      "angle_deg": 0.29198497595356265,
+      "success": true,
+      "latency_ms": 0.5945829907432199
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-11",
+      "method": "L2",
+      "add_mm": 17.546171763247944,
+      "trans_mm": 17.555517518676627,
+      "angle_deg": 0.5392441594190829,
+      "success": false,
+      "latency_ms": 0.5310840206220746
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-11",
+      "method": "Huber",
+      "add_mm": 1.740374903900688,
+      "trans_mm": 1.741612556357346,
+      "angle_deg": 0.3803653488488006,
+      "success": true,
+      "latency_ms": 0.56583306286484
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-11",
+      "method": "Cauchy",
+      "add_mm": 0.4607068516040107,
+      "trans_mm": 0.37369407584305137,
+      "angle_deg": 0.40036458948405884,
+      "success": true,
+      "latency_ms": 0.5911249900236726
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-11",
+      "method": "Precision",
+      "add_mm": 0.8738977210246158,
+      "trans_mm": 0.8528559668695864,
+      "angle_deg": 0.38113369986258444,
+      "success": true,
+      "latency_ms": 0.5481659900397062
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-11",
+      "method": "Huber+Precision",
+      "add_mm": 0.4148599012145477,
+      "trans_mm": 0.3235828882884881,
+      "angle_deg": 0.3917656288211774,
+      "success": true,
+      "latency_ms": 0.6116669392213225
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-0",
+      "method": "L2",
+      "add_mm": 16.487777157132683,
+      "trans_mm": 16.426267311474227,
+      "angle_deg": 5.951033368918003,
+      "success": false,
+      "latency_ms": 0.5383340176194906
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-0",
+      "method": "Huber",
+      "add_mm": 1.5269638959286989,
+      "trans_mm": 1.4180768465946756,
+      "angle_deg": 1.2658978829211336,
+      "success": true,
+      "latency_ms": 0.5662080366164446
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-0",
+      "method": "Cauchy",
+      "add_mm": 0.5093452216065844,
+      "trans_mm": 0.2631476819933055,
+      "angle_deg": 0.7856161406167387,
+      "success": true,
+      "latency_ms": 0.582000007852912
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-0",
+      "method": "Precision",
+      "add_mm": 0.7363477219980268,
+      "trans_mm": 0.5362482591382393,
+      "angle_deg": 0.9527191909243885,
+      "success": true,
+      "latency_ms": 0.5576669936999679
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-0",
+      "method": "Huber+Precision",
+      "add_mm": 0.49862271842003264,
+      "trans_mm": 0.2629390539077281,
+      "angle_deg": 0.8032008732015773,
+      "success": true,
+      "latency_ms": 0.5937500391155481
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-1",
+      "method": "L2",
+      "add_mm": 16.749481808891474,
+      "trans_mm": 16.696184270968267,
+      "angle_deg": 1.426479542037384,
+      "success": false,
+      "latency_ms": 0.612459029071033
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-1",
+      "method": "Huber",
+      "add_mm": 1.7991954719097683,
+      "trans_mm": 1.7713209298276862,
+      "angle_deg": 0.6307928096016923,
+      "success": true,
+      "latency_ms": 0.5797080229967833
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-1",
+      "method": "Cauchy",
+      "add_mm": 0.5784595971223044,
+      "trans_mm": 0.5090648493861477,
+      "angle_deg": 0.5810449839573845,
+      "success": true,
+      "latency_ms": 0.5625829799100757
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-1",
+      "method": "Precision",
+      "add_mm": 0.913831639999329,
+      "trans_mm": 0.8759152689134426,
+      "angle_deg": 0.5693487513603961,
+      "success": true,
+      "latency_ms": 0.5244999192655087
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-1",
+      "method": "Huber+Precision",
+      "add_mm": 0.4765582804846883,
+      "trans_mm": 0.38743137534805216,
+      "angle_deg": 0.5558303293297027,
+      "success": true,
+      "latency_ms": 0.5604159086942673
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-2",
+      "method": "L2",
+      "add_mm": 16.494511390272965,
+      "trans_mm": 16.306823389407516,
+      "angle_deg": 2.862724974146815,
+      "success": false,
+      "latency_ms": 0.506624928675592
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-2",
+      "method": "Huber",
+      "add_mm": 1.4226421665737214,
+      "trans_mm": 1.3979775567563713,
+      "angle_deg": 0.38853562226337524,
+      "success": true,
+      "latency_ms": 0.561750028282404
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-2",
+      "method": "Cauchy",
+      "add_mm": 0.22526583251503515,
+      "trans_mm": 0.20158506972892454,
+      "angle_deg": 0.1677476888936231,
+      "success": true,
+      "latency_ms": 0.5578749114647508
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-2",
+      "method": "Precision",
+      "add_mm": 0.49170660992403487,
+      "trans_mm": 0.4653775293340971,
+      "angle_deg": 0.2330874688084154,
+      "success": true,
+      "latency_ms": 0.5564580205827951
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-2",
+      "method": "Huber+Precision",
+      "add_mm": 0.2551466675902455,
+      "trans_mm": 0.20303613194879613,
+      "angle_deg": 0.21864454554564364,
+      "success": true,
+      "latency_ms": 0.5708339158445597
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-3",
+      "method": "L2",
+      "add_mm": 16.703042788522453,
+      "trans_mm": 16.787557120993068,
+      "angle_deg": 2.1898053342567367,
+      "success": false,
+      "latency_ms": 0.5209579830989242
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-3",
+      "method": "Huber",
+      "add_mm": 1.7885434638508413,
+      "trans_mm": 1.8023239228093764,
+      "angle_deg": 0.4276610768094625,
+      "success": true,
+      "latency_ms": 0.564417103305459
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-3",
+      "method": "Cauchy",
+      "add_mm": 0.5519419865915564,
+      "trans_mm": 0.5552277192567833,
+      "angle_deg": 0.21829668084528023,
+      "success": true,
+      "latency_ms": 0.5804579704999924
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-3",
+      "method": "Precision",
+      "add_mm": 0.8499257708842298,
+      "trans_mm": 0.8594623689895464,
+      "angle_deg": 0.24083449359428377,
+      "success": true,
+      "latency_ms": 0.5480829859152436
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-3",
+      "method": "Huber+Precision",
+      "add_mm": 0.3517831939708126,
+      "trans_mm": 0.35622318922214896,
+      "angle_deg": 0.15566103003862872,
+      "success": true,
+      "latency_ms": 0.5825420375913382
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-4",
+      "method": "L2",
+      "add_mm": 16.604250468670763,
+      "trans_mm": 16.27040590860547,
+      "angle_deg": 4.6508445329158805,
+      "success": false,
+      "latency_ms": 0.5303750513121486
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-4",
+      "method": "Huber",
+      "add_mm": 1.78126516915963,
+      "trans_mm": 1.710735054230513,
+      "angle_deg": 0.8284457489662375,
+      "success": true,
+      "latency_ms": 0.5703750066459179
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-4",
+      "method": "Cauchy",
+      "add_mm": 0.592099346871882,
+      "trans_mm": 0.4870686423652077,
+      "angle_deg": 0.5776246251347787,
+      "success": true,
+      "latency_ms": 0.5770829739049077
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-4",
+      "method": "Precision",
+      "add_mm": 0.8464567171809421,
+      "trans_mm": 0.7789726341386933,
+      "angle_deg": 0.5844497394045248,
+      "success": true,
+      "latency_ms": 0.5647499347105622
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-4",
+      "method": "Huber+Precision",
+      "add_mm": 0.4502829914014433,
+      "trans_mm": 0.34522823906287664,
+      "angle_deg": 0.4773301647827742,
+      "success": true,
+      "latency_ms": 0.5859999218955636
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-5",
+      "method": "L2",
+      "add_mm": 16.83946403069528,
+      "trans_mm": 16.709468697184146,
+      "angle_deg": 3.053434913639338,
+      "success": false,
+      "latency_ms": 0.5204580957069993
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-5",
+      "method": "Huber",
+      "add_mm": 1.3748204407385205,
+      "trans_mm": 1.3386606392871885,
+      "angle_deg": 0.6430706054506193,
+      "success": true,
+      "latency_ms": 0.5731249693781137
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-5",
+      "method": "Cauchy",
+      "add_mm": 0.452320051587563,
+      "trans_mm": 0.43871430215582724,
+      "angle_deg": 0.2928454117333346,
+      "success": true,
+      "latency_ms": 0.578666920773685
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-5",
+      "method": "Precision",
+      "add_mm": 0.5640279183793623,
+      "trans_mm": 0.518432283759341,
+      "angle_deg": 0.49056435112550645,
+      "success": true,
+      "latency_ms": 0.5787080153822899
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-5",
+      "method": "Huber+Precision",
+      "add_mm": 0.4782262050757581,
+      "trans_mm": 0.4415281777669212,
+      "angle_deg": 0.42662934105297845,
+      "success": true,
+      "latency_ms": 0.586083042435348
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-6",
+      "method": "L2",
+      "add_mm": 16.874004989696303,
+      "trans_mm": 16.76569724204366,
+      "angle_deg": 5.805693720189374,
+      "success": false,
+      "latency_ms": 0.5376250483095646
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-6",
+      "method": "Huber",
+      "add_mm": 1.4073769826598805,
+      "trans_mm": 1.2917359981376597,
+      "angle_deg": 1.3180395321058183,
+      "success": true,
+      "latency_ms": 0.5684579955413938
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-6",
+      "method": "Cauchy",
+      "add_mm": 0.4493238041483905,
+      "trans_mm": 0.16185470748406086,
+      "angle_deg": 0.7478884892086237,
+      "success": true,
+      "latency_ms": 0.5886669969186187
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-6",
+      "method": "Precision",
+      "add_mm": 0.601081832374172,
+      "trans_mm": 0.39320086130567183,
+      "angle_deg": 0.906566695082572,
+      "success": true,
+      "latency_ms": 0.5819579819217324
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-6",
+      "method": "Huber+Precision",
+      "add_mm": 0.46457483741873906,
+      "trans_mm": 0.23568630244708566,
+      "angle_deg": 0.7041537356178835,
+      "success": true,
+      "latency_ms": 0.6137500749900937
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-7",
+      "method": "L2",
+      "add_mm": 16.50749569501945,
+      "trans_mm": 16.097478325219196,
+      "angle_deg": 8.102657397273148,
+      "success": false,
+      "latency_ms": 0.5580829456448555
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-7",
+      "method": "Huber",
+      "add_mm": 1.408422123087217,
+      "trans_mm": 1.3212523324307879,
+      "angle_deg": 1.0353074836159677,
+      "success": true,
+      "latency_ms": 0.628374982625246
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-7",
+      "method": "Cauchy",
+      "add_mm": 0.3501601088587811,
+      "trans_mm": 0.18639900471909507,
+      "angle_deg": 0.4799989263698262,
+      "success": true,
+      "latency_ms": 0.5987499607726932
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-7",
+      "method": "Precision",
+      "add_mm": 0.4452943493498917,
+      "trans_mm": 0.36798059478357437,
+      "angle_deg": 0.4592050393811583,
+      "success": true,
+      "latency_ms": 0.5658329464495182
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-7",
+      "method": "Huber+Precision",
+      "add_mm": 0.318536019610252,
+      "trans_mm": 0.23821248931873096,
+      "angle_deg": 0.3404957570031313,
+      "success": true,
+      "latency_ms": 0.5923750577494502
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-8",
+      "method": "L2",
+      "add_mm": 17.15840332137616,
+      "trans_mm": 17.170053470987117,
+      "angle_deg": 2.196101804209125,
+      "success": false,
+      "latency_ms": 0.5439580418169498
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-8",
+      "method": "Huber",
+      "add_mm": 1.6996037557878962,
+      "trans_mm": 1.697659577196418,
+      "angle_deg": 0.16512126138584501,
+      "success": true,
+      "latency_ms": 0.5825409898534417
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-8",
+      "method": "Cauchy",
+      "add_mm": 0.41648600160171084,
+      "trans_mm": 0.36483603872035025,
+      "angle_deg": 0.36896481155868144,
+      "success": true,
+      "latency_ms": 0.5896249786019325
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-8",
+      "method": "Precision",
+      "add_mm": 0.7732547693422395,
+      "trans_mm": 0.7520569723130969,
+      "angle_deg": 0.3607440190585407,
+      "success": true,
+      "latency_ms": 0.557416002266109
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-8",
+      "method": "Huber+Precision",
+      "add_mm": 0.35350407894712826,
+      "trans_mm": 0.24410315678937722,
+      "angle_deg": 0.43970928532329223,
+      "success": true,
+      "latency_ms": 0.6001249421387911
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-9",
+      "method": "L2",
+      "add_mm": 16.22573946747852,
+      "trans_mm": 16.111963087684284,
+      "angle_deg": 4.266154752574892,
+      "success": false,
+      "latency_ms": 0.5337920738384128
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-9",
+      "method": "Huber",
+      "add_mm": 1.6694421876596102,
+      "trans_mm": 1.6443718931728615,
+      "angle_deg": 0.5942755783351047,
+      "success": true,
+      "latency_ms": 0.5830839509144425
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-9",
+      "method": "Cauchy",
+      "add_mm": 0.38600103718780154,
+      "trans_mm": 0.32794247263637893,
+      "angle_deg": 0.3277539640187327,
+      "success": true,
+      "latency_ms": 0.5864580161869526
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-9",
+      "method": "Precision",
+      "add_mm": 0.7302081189677996,
+      "trans_mm": 0.711078482075616,
+      "angle_deg": 0.304560198346021,
+      "success": true,
+      "latency_ms": 0.5615829722955823
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-9",
+      "method": "Huber+Precision",
+      "add_mm": 0.25164873396351645,
+      "trans_mm": 0.20065634746169486,
+      "angle_deg": 0.249958010016404,
+      "success": true,
+      "latency_ms": 0.6042090244591236
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-10",
+      "method": "L2",
+      "add_mm": 15.412512068329333,
+      "trans_mm": 15.470469875316857,
+      "angle_deg": 3.9096223105716716,
+      "success": false,
+      "latency_ms": 0.536083010956645
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-10",
+      "method": "Huber",
+      "add_mm": 1.2744503724928076,
+      "trans_mm": 1.2762457308226025,
+      "angle_deg": 0.3130563069023401,
+      "success": true,
+      "latency_ms": 0.5816250341013074
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-10",
+      "method": "Cauchy",
+      "add_mm": 0.40096598518882653,
+      "trans_mm": 0.21256911128797407,
+      "angle_deg": 0.6100351368311363,
+      "success": true,
+      "latency_ms": 0.5862499820068479
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-10",
+      "method": "Precision",
+      "add_mm": 0.42152034526223214,
+      "trans_mm": 0.34279872957049495,
+      "angle_deg": 0.44047609098957,
+      "success": true,
+      "latency_ms": 0.5596670089289546
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-10",
+      "method": "Huber+Precision",
+      "add_mm": 0.4353423281752126,
+      "trans_mm": 0.3244986534347623,
+      "angle_deg": 0.5604197932178923,
+      "success": true,
+      "latency_ms": 0.6005839677527547
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-11",
+      "method": "L2",
+      "add_mm": 17.001460501717112,
+      "trans_mm": 16.613655405076237,
+      "angle_deg": 7.003442357532134,
+      "success": false,
+      "latency_ms": 0.568708055652678
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-11",
+      "method": "Huber",
+      "add_mm": 1.5421404178231253,
+      "trans_mm": 1.3468589226679515,
+      "angle_deg": 1.4302892068011308,
+      "success": true,
+      "latency_ms": 0.7875829469412565
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-11",
+      "method": "Cauchy",
+      "add_mm": 0.4632715530614722,
+      "trans_mm": 0.11006046760220785,
+      "angle_deg": 0.8357975987714131,
+      "success": true,
+      "latency_ms": 0.5616249982267618
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-11",
+      "method": "Precision",
+      "add_mm": 0.7124662088548894,
+      "trans_mm": 0.451632919562345,
+      "angle_deg": 1.0045347963994125,
+      "success": true,
+      "latency_ms": 0.5307500250637531
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-11",
+      "method": "Huber+Precision",
+      "add_mm": 0.44585800135475206,
+      "trans_mm": 0.1669062540865041,
+      "angle_deg": 0.7773577349767664,
+      "success": true,
+      "latency_ms": 0.5677500739693642
+    }
+  ],
+  "ood": [
+    {
+      "seed": 471,
+      "scene_id": "471-0",
+      "method": "L2",
+      "add_mm": 16.863827537130007,
+      "trans_mm": 17.015890780094896,
+      "angle_deg": 4.4857186831609726,
+      "success": false,
+      "latency_ms": 0.5795829929411411
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-0",
+      "method": "Huber",
+      "add_mm": 1.5293990490253786,
+      "trans_mm": 1.546180131600093,
+      "angle_deg": 0.7200146812537971,
+      "success": true,
+      "latency_ms": 0.5911249900236726
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-0",
+      "method": "Cauchy",
+      "add_mm": 0.39309937529701094,
+      "trans_mm": 0.34798753440470553,
+      "angle_deg": 0.3448141435131736,
+      "success": true,
+      "latency_ms": 0.5575839895755053
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-0",
+      "method": "Precision",
+      "add_mm": 76.0821522263593,
+      "trans_mm": 76.02122566033655,
+      "angle_deg": 7.995847137255863,
+      "success": false,
+      "latency_ms": 0.5773339653387666
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-0",
+      "method": "Huber+Precision",
+      "add_mm": 82.78900194084387,
+      "trans_mm": 82.56592113197642,
+      "angle_deg": 7.357068301647316,
+      "success": false,
+      "latency_ms": 0.5908749299123883
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-1",
+      "method": "L2",
+      "add_mm": 16.757529845630568,
+      "trans_mm": 16.814862156042626,
+      "angle_deg": 3.104157658965167,
+      "success": false,
+      "latency_ms": 0.5224579945206642
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-1",
+      "method": "Huber",
+      "add_mm": 1.488016629851238,
+      "trans_mm": 1.48643145778223,
+      "angle_deg": 0.1879394449758276,
+      "success": true,
+      "latency_ms": 0.5695420550182462
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-1",
+      "method": "Cauchy",
+      "add_mm": 0.5485482736798984,
+      "trans_mm": 0.48087785664246463,
+      "angle_deg": 0.5723934365694905,
+      "success": true,
+      "latency_ms": 0.5825000116601586
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-1",
+      "method": "Precision",
+      "add_mm": 75.74723596036687,
+      "trans_mm": 75.80659871255375,
+      "angle_deg": 2.086962926509863,
+      "success": false,
+      "latency_ms": 0.5718329921364784
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-1",
+      "method": "Huber+Precision",
+      "add_mm": 82.08595928107081,
+      "trans_mm": 82.12608532335724,
+      "angle_deg": 1.2584449313562582,
+      "success": false,
+      "latency_ms": 0.5875410279259086
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-2",
+      "method": "L2",
+      "add_mm": 16.244432923636698,
+      "trans_mm": 15.839748506702596,
+      "angle_deg": 6.802443161188586,
+      "success": false,
+      "latency_ms": 0.5272079724818468
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-2",
+      "method": "Huber",
+      "add_mm": 1.270369780512345,
+      "trans_mm": 1.2524174842723363,
+      "angle_deg": 0.4389648753928681,
+      "success": true,
+      "latency_ms": 0.5737920291721821
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-2",
+      "method": "Cauchy",
+      "add_mm": 0.3360971517224988,
+      "trans_mm": 0.19182434063747136,
+      "angle_deg": 0.5185979414061591,
+      "success": true,
+      "latency_ms": 0.5644579650834203
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-2",
+      "method": "Precision",
+      "add_mm": 73.09697333613103,
+      "trans_mm": 72.88381530378231,
+      "angle_deg": 4.931843186048996,
+      "success": false,
+      "latency_ms": 0.5559170385822654
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-2",
+      "method": "Huber+Precision",
+      "add_mm": 80.61724015961619,
+      "trans_mm": 80.50038120462696,
+      "angle_deg": 7.058230153341952,
+      "success": false,
+      "latency_ms": 0.5978749832138419
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-3",
+      "method": "L2",
+      "add_mm": 15.838911816883561,
+      "trans_mm": 15.688964045716725,
+      "angle_deg": 4.232696221630706,
+      "success": false,
+      "latency_ms": 0.5309999687597156
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-3",
+      "method": "Huber",
+      "add_mm": 1.4364442229380452,
+      "trans_mm": 1.4053761502922182,
+      "angle_deg": 0.6026461474197099,
+      "success": true,
+      "latency_ms": 0.5659169983118773
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-3",
+      "method": "Cauchy",
+      "add_mm": 0.28752966945871566,
+      "trans_mm": 0.22252154284905565,
+      "angle_deg": 0.3123088504204885,
+      "success": true,
+      "latency_ms": 0.579542014747858
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-3",
+      "method": "Precision",
+      "add_mm": 71.40998507160637,
+      "trans_mm": 71.29331405500596,
+      "angle_deg": 7.101180289249189,
+      "success": false,
+      "latency_ms": 0.5587500054389238
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-3",
+      "method": "Huber+Precision",
+      "add_mm": 76.68276346646864,
+      "trans_mm": 76.63567260066387,
+      "angle_deg": 4.317247018014901,
+      "success": false,
+      "latency_ms": 0.5973749794065952
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-4",
+      "method": "L2",
+      "add_mm": 17.25191738913755,
+      "trans_mm": 16.986800764320318,
+      "angle_deg": 6.267403226027464,
+      "success": false,
+      "latency_ms": 0.5347080295905471
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-4",
+      "method": "Huber",
+      "add_mm": 1.831777101428561,
+      "trans_mm": 1.80289806475372,
+      "angle_deg": 0.656380403315895,
+      "success": true,
+      "latency_ms": 0.5837080534547567
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-4",
+      "method": "Cauchy",
+      "add_mm": 0.47114423593144655,
+      "trans_mm": 0.45914830028480247,
+      "angle_deg": 0.13206125925514595,
+      "success": true,
+      "latency_ms": 0.5791670409962535
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-4",
+      "method": "Precision",
+      "add_mm": 73.67663298083815,
+      "trans_mm": 73.51791050061588,
+      "angle_deg": 4.761803254582251,
+      "success": false,
+      "latency_ms": 0.5819579819217324
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-4",
+      "method": "Huber+Precision",
+      "add_mm": 78.35838804258135,
+      "trans_mm": 78.18215110317327,
+      "angle_deg": 5.896699662023017,
+      "success": false,
+      "latency_ms": 0.5989159690216184
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-5",
+      "method": "L2",
+      "add_mm": 16.52981280767738,
+      "trans_mm": 16.403810396741882,
+      "angle_deg": 4.037907129298421,
+      "success": false,
+      "latency_ms": 0.5344169912859797
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-5",
+      "method": "Huber",
+      "add_mm": 1.6565448748545257,
+      "trans_mm": 1.6408324208652896,
+      "angle_deg": 0.46064331684988147,
+      "success": true,
+      "latency_ms": 0.5691669648513198
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-5",
+      "method": "Cauchy",
+      "add_mm": 0.5479911165757578,
+      "trans_mm": 0.5168542594276475,
+      "angle_deg": 0.3452368073269441,
+      "success": true,
+      "latency_ms": 0.5753339501097798
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-5",
+      "method": "Precision",
+      "add_mm": 73.10361884595243,
+      "trans_mm": 73.04870466748018,
+      "angle_deg": 4.4317643378192075,
+      "success": false,
+      "latency_ms": 0.7537920027971268
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-5",
+      "method": "Huber+Precision",
+      "add_mm": 79.38996680050329,
+      "trans_mm": 79.34355271725431,
+      "angle_deg": 3.4118111228552523,
+      "success": false,
+      "latency_ms": 0.6615000311285257
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-6",
+      "method": "L2",
+      "add_mm": 17.113853523688576,
+      "trans_mm": 16.833135766936895,
+      "angle_deg": 5.187260451030142,
+      "success": false,
+      "latency_ms": 0.615416094660759
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-6",
+      "method": "Huber",
+      "add_mm": 1.5160498039720962,
+      "trans_mm": 1.4654706384901897,
+      "angle_deg": 0.6872662526970137,
+      "success": true,
+      "latency_ms": 0.5501669365912676
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-6",
+      "method": "Cauchy",
+      "add_mm": 0.33142439383194816,
+      "trans_mm": 0.28772395715587673,
+      "angle_deg": 0.2804179116362349,
+      "success": true,
+      "latency_ms": 0.554082915186882
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-6",
+      "method": "Precision",
+      "add_mm": 76.4597656833287,
+      "trans_mm": 76.44617801592845,
+      "angle_deg": 4.82503046407861,
+      "success": false,
+      "latency_ms": 0.5298750475049019
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-6",
+      "method": "Huber+Precision",
+      "add_mm": 82.6766867769372,
+      "trans_mm": 82.66651445271904,
+      "angle_deg": 5.578822994482631,
+      "success": false,
+      "latency_ms": 0.5807919660583138
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-7",
+      "method": "L2",
+      "add_mm": 15.968685970982472,
+      "trans_mm": 16.013696409435532,
+      "angle_deg": 6.637520366379557,
+      "success": false,
+      "latency_ms": 0.5145840113982558
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-7",
+      "method": "Huber",
+      "add_mm": 1.1496744133672454,
+      "trans_mm": 1.1253501879485748,
+      "angle_deg": 0.7092626994354295,
+      "success": true,
+      "latency_ms": 0.5506250308826566
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-7",
+      "method": "Cauchy",
+      "add_mm": 0.373143713631703,
+      "trans_mm": 0.2615084324321713,
+      "angle_deg": 0.4203697576461341,
+      "success": true,
+      "latency_ms": 0.5543750012293458
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-7",
+      "method": "Precision",
+      "add_mm": 72.30115911152731,
+      "trans_mm": 72.59513546675615,
+      "angle_deg": 11.703858673429156,
+      "success": false,
+      "latency_ms": 0.5450829630717635
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-7",
+      "method": "Huber+Precision",
+      "add_mm": 77.69938553140219,
+      "trans_mm": 77.9875616331757,
+      "angle_deg": 9.426065002332676,
+      "success": false,
+      "latency_ms": 0.5665840581059456
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-8",
+      "method": "L2",
+      "add_mm": 17.815420486087085,
+      "trans_mm": 17.57383893041273,
+      "angle_deg": 3.8594576368467646,
+      "success": false,
+      "latency_ms": 0.5427500000223517
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-8",
+      "method": "Huber",
+      "add_mm": 1.7806169115001858,
+      "trans_mm": 1.6935873541298818,
+      "angle_deg": 0.7955656789811208,
+      "success": true,
+      "latency_ms": 0.5430419696494937
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-8",
+      "method": "Cauchy",
+      "add_mm": 0.5259129502027103,
+      "trans_mm": 0.3883458551150163,
+      "angle_deg": 0.5307312688192516,
+      "success": true,
+      "latency_ms": 0.5769170820713043
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-8",
+      "method": "Precision",
+      "add_mm": 77.98964911310297,
+      "trans_mm": 77.7807235194709,
+      "angle_deg": 4.647895219226676,
+      "success": false,
+      "latency_ms": 0.5488749593496323
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-8",
+      "method": "Huber+Precision",
+      "add_mm": 83.95601987280939,
+      "trans_mm": 83.66746201315351,
+      "angle_deg": 6.280770710967432,
+      "success": false,
+      "latency_ms": 0.5834579933434725
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-9",
+      "method": "L2",
+      "add_mm": 17.22508153850475,
+      "trans_mm": 17.11923938464276,
+      "angle_deg": 3.380542224229328,
+      "success": false,
+      "latency_ms": 0.5503750871866941
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-9",
+      "method": "Huber",
+      "add_mm": 1.4914920076599087,
+      "trans_mm": 1.482683853683861,
+      "angle_deg": 0.2893919950614594,
+      "success": true,
+      "latency_ms": 0.5482920678332448
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-9",
+      "method": "Cauchy",
+      "add_mm": 0.2364695209452611,
+      "trans_mm": 0.21358412343699573,
+      "angle_deg": 0.15117285178270953,
+      "success": true,
+      "latency_ms": 0.590291921980679
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-9",
+      "method": "Precision",
+      "add_mm": 77.3736219076936,
+      "trans_mm": 77.35888242050235,
+      "angle_deg": 1.4319806174661651,
+      "success": false,
+      "latency_ms": 0.5586249753832817
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-9",
+      "method": "Huber+Precision",
+      "add_mm": 83.37130331220862,
+      "trans_mm": 83.36525996908334,
+      "angle_deg": 2.0189060716486025,
+      "success": false,
+      "latency_ms": 0.6016249535605311
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-10",
+      "method": "L2",
+      "add_mm": 17.576167342315713,
+      "trans_mm": 17.615969396740894,
+      "angle_deg": 6.133496019356436,
+      "success": false,
+      "latency_ms": 0.555667094886303
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-10",
+      "method": "Huber",
+      "add_mm": 1.7619347198666875,
+      "trans_mm": 1.6923504801928153,
+      "angle_deg": 1.1348883707477322,
+      "success": true,
+      "latency_ms": 0.5788340931758285
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-10",
+      "method": "Cauchy",
+      "add_mm": 0.655214940824733,
+      "trans_mm": 0.49103679989582527,
+      "angle_deg": 0.7134591612999356,
+      "success": true,
+      "latency_ms": 0.5784160457551479
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-10",
+      "method": "Precision",
+      "add_mm": 77.48910861052768,
+      "trans_mm": 77.64673331950803,
+      "angle_deg": 4.828521694086055,
+      "success": false,
+      "latency_ms": 0.5578330019488931
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-10",
+      "method": "Huber+Precision",
+      "add_mm": 84.90558549462874,
+      "trans_mm": 85.01887801387534,
+      "angle_deg": 3.0687874674208544,
+      "success": false,
+      "latency_ms": 0.6096670404076576
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-11",
+      "method": "L2",
+      "add_mm": 17.43386847387298,
+      "trans_mm": 16.452138147431253,
+      "angle_deg": 8.556562964631784,
+      "success": false,
+      "latency_ms": 0.5346669349819422
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-11",
+      "method": "Huber",
+      "add_mm": 1.737427311222012,
+      "trans_mm": 1.618366271312326,
+      "angle_deg": 0.9553854484104618,
+      "success": true,
+      "latency_ms": 0.6448751082643867
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-11",
+      "method": "Cauchy",
+      "add_mm": 0.32183819644637696,
+      "trans_mm": 0.2862074998418776,
+      "angle_deg": 0.2348220978302258,
+      "success": true,
+      "latency_ms": 0.552999903447926
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-11",
+      "method": "Precision",
+      "add_mm": 73.02938613729324,
+      "trans_mm": 72.67017721425036,
+      "angle_deg": 5.954057521759153,
+      "success": false,
+      "latency_ms": 0.5334590096026659
+    },
+    {
+      "seed": 471,
+      "scene_id": "471-11",
+      "method": "Huber+Precision",
+      "add_mm": 78.82152207659782,
+      "trans_mm": 78.71831431474618,
+      "angle_deg": 2.0854433452973713,
+      "success": false,
+      "latency_ms": 0.551957986317575
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-0",
+      "method": "L2",
+      "add_mm": 16.375841641346312,
+      "trans_mm": 16.284150283576498,
+      "angle_deg": 1.8462171954984226,
+      "success": false,
+      "latency_ms": 0.49816700629889965
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-0",
+      "method": "Huber",
+      "add_mm": 1.3480291854020496,
+      "trans_mm": 1.313108958144203,
+      "angle_deg": 0.4662984475447702,
+      "success": true,
+      "latency_ms": 0.5355830071493983
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-0",
+      "method": "Cauchy",
+      "add_mm": 0.3454838236843399,
+      "trans_mm": 0.10307570943796071,
+      "angle_deg": 0.5276540179966576,
+      "success": true,
+      "latency_ms": 0.5538749974220991
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-0",
+      "method": "Precision",
+      "add_mm": 73.95034738190579,
+      "trans_mm": 73.6375741565911,
+      "angle_deg": 5.752101074522651,
+      "success": false,
+      "latency_ms": 0.532749923877418
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-0",
+      "method": "Huber+Precision",
+      "add_mm": 79.72458743842877,
+      "trans_mm": 79.24334179226743,
+      "angle_deg": 8.923938103786785,
+      "success": false,
+      "latency_ms": 0.564709072932601
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-1",
+      "method": "L2",
+      "add_mm": 16.765405771746565,
+      "trans_mm": 16.705708206607547,
+      "angle_deg": 4.025329667770786,
+      "success": false,
+      "latency_ms": 0.5134589737281203
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-1",
+      "method": "Huber",
+      "add_mm": 1.5028989623393008,
+      "trans_mm": 1.478296014655482,
+      "angle_deg": 0.647371584614793,
+      "success": true,
+      "latency_ms": 0.5612079985439777
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-1",
+      "method": "Cauchy",
+      "add_mm": 0.3743758745217674,
+      "trans_mm": 0.2992004310646512,
+      "angle_deg": 0.3820658051756143,
+      "success": true,
+      "latency_ms": 0.5611249944195151
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-1",
+      "method": "Precision",
+      "add_mm": 75.61730351326854,
+      "trans_mm": 75.57308352347877,
+      "angle_deg": 4.051783041822683,
+      "success": false,
+      "latency_ms": 0.5429579177871346
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-1",
+      "method": "Huber+Precision",
+      "add_mm": 80.52285845958987,
+      "trans_mm": 80.5071427078014,
+      "angle_deg": 1.8687992418404227,
+      "success": false,
+      "latency_ms": 0.5867080762982368
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-2",
+      "method": "L2",
+      "add_mm": 17.05652970626989,
+      "trans_mm": 16.994372215842233,
+      "angle_deg": 4.789791796102693,
+      "success": false,
+      "latency_ms": 0.5171670345589519
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-2",
+      "method": "Huber",
+      "add_mm": 1.5412280053963523,
+      "trans_mm": 1.5453283954122583,
+      "angle_deg": 0.5459937687059196,
+      "success": true,
+      "latency_ms": 0.5707499803975224
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-2",
+      "method": "Cauchy",
+      "add_mm": 0.37730364828559093,
+      "trans_mm": 0.324102052159211,
+      "angle_deg": 0.3863506922232142,
+      "success": true,
+      "latency_ms": 0.5675420397892594
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-2",
+      "method": "Precision",
+      "add_mm": 74.914613734092,
+      "trans_mm": 74.72351844802436,
+      "angle_deg": 9.318935460635622,
+      "success": false,
+      "latency_ms": 0.5543750012293458
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-2",
+      "method": "Huber+Precision",
+      "add_mm": 81.11509281072507,
+      "trans_mm": 80.73809048313258,
+      "angle_deg": 10.94923769658603,
+      "success": false,
+      "latency_ms": 0.58320804964751
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-3",
+      "method": "L2",
+      "add_mm": 16.884387384922533,
+      "trans_mm": 16.78254394715813,
+      "angle_deg": 7.820053281444927,
+      "success": false,
+      "latency_ms": 0.5297090392559767
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-3",
+      "method": "Huber",
+      "add_mm": 1.6737631315427133,
+      "trans_mm": 1.5558271457359292,
+      "angle_deg": 1.4910782889167877,
+      "success": true,
+      "latency_ms": 0.5564159946516156
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-3",
+      "method": "Cauchy",
+      "add_mm": 0.6654082797731911,
+      "trans_mm": 0.34616136308671147,
+      "angle_deg": 1.058770713374224,
+      "success": true,
+      "latency_ms": 0.5730829434469342
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-3",
+      "method": "Precision",
+      "add_mm": 73.24136923603169,
+      "trans_mm": 73.44297587035425,
+      "angle_deg": 7.425919423454857,
+      "success": false,
+      "latency_ms": 0.5675000138580799
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-3",
+      "method": "Huber+Precision",
+      "add_mm": 80.02393396684366,
+      "trans_mm": 80.14429845697225,
+      "angle_deg": 4.351259481218099,
+      "success": false,
+      "latency_ms": 0.6128749810159206
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-4",
+      "method": "L2",
+      "add_mm": 16.87106622680056,
+      "trans_mm": 16.915386077787645,
+      "angle_deg": 2.7983167918416503,
+      "success": false,
+      "latency_ms": 0.5273750284686685
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-4",
+      "method": "Huber",
+      "add_mm": 1.6000654141057022,
+      "trans_mm": 1.5778607903227628,
+      "angle_deg": 0.572156182916587,
+      "success": true,
+      "latency_ms": 0.5644579650834203
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-4",
+      "method": "Cauchy",
+      "add_mm": 0.43761003824594596,
+      "trans_mm": 0.3250026054489689,
+      "angle_deg": 0.5626240246600375,
+      "success": true,
+      "latency_ms": 0.5759999621659517
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-4",
+      "method": "Precision",
+      "add_mm": 75.70900924226262,
+      "trans_mm": 75.82451046006308,
+      "angle_deg": 7.133713598374586,
+      "success": false,
+      "latency_ms": 0.5597919225692749
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-4",
+      "method": "Huber+Precision",
+      "add_mm": 81.809007162921,
+      "trans_mm": 81.89783262350865,
+      "angle_deg": 9.182670040916989,
+      "success": false,
+      "latency_ms": 0.6199580384418368
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-5",
+      "method": "L2",
+      "add_mm": 16.597574522788136,
+      "trans_mm": 16.45000086410141,
+      "angle_deg": 3.488565196814338,
+      "success": false,
+      "latency_ms": 0.5636250134557486
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-5",
+      "method": "Huber",
+      "add_mm": 1.6055145204757426,
+      "trans_mm": 1.5575251596227253,
+      "angle_deg": 0.6434906928975813,
+      "success": true,
+      "latency_ms": 0.5784160457551479
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-5",
+      "method": "Cauchy",
+      "add_mm": 0.3377074147922503,
+      "trans_mm": 0.261066879775606,
+      "angle_deg": 0.3393681576594004,
+      "success": true,
+      "latency_ms": 0.5726669915020466
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-5",
+      "method": "Precision",
+      "add_mm": 74.09145713210404,
+      "trans_mm": 73.87295071486994,
+      "angle_deg": 6.753086352764839,
+      "success": false,
+      "latency_ms": 0.5499169928953052
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-5",
+      "method": "Huber+Precision",
+      "add_mm": 78.4382609892086,
+      "trans_mm": 78.17036038627779,
+      "angle_deg": 7.6353510955494,
+      "success": false,
+      "latency_ms": 0.5969170015305281
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-6",
+      "method": "L2",
+      "add_mm": 16.74181640118251,
+      "trans_mm": 16.57985834738982,
+      "angle_deg": 9.265779484135194,
+      "success": false,
+      "latency_ms": 0.5319580668583512
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-6",
+      "method": "Huber",
+      "add_mm": 1.5647373575096652,
+      "trans_mm": 1.5517302417017966,
+      "angle_deg": 0.7819740217766613,
+      "success": true,
+      "latency_ms": 0.565374968573451
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-6",
+      "method": "Cauchy",
+      "add_mm": 0.3264299499279114,
+      "trans_mm": 0.23904201801461544,
+      "angle_deg": 0.3579140569800591,
+      "success": true,
+      "latency_ms": 0.5739170592278242
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-6",
+      "method": "Precision",
+      "add_mm": 74.32911007357067,
+      "trans_mm": 74.48473807464727,
+      "angle_deg": 8.539039438878847,
+      "success": false,
+      "latency_ms": 0.5585000617429614
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-6",
+      "method": "Huber+Precision",
+      "add_mm": 81.34277625576536,
+      "trans_mm": 81.37335274089531,
+      "angle_deg": 8.656441399221112,
+      "success": false,
+      "latency_ms": 0.5946659948676825
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-7",
+      "method": "L2",
+      "add_mm": 17.656920631311106,
+      "trans_mm": 17.67768876354383,
+      "angle_deg": 5.694649115422328,
+      "success": false,
+      "latency_ms": 0.5355840548872948
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-7",
+      "method": "Huber",
+      "add_mm": 1.7157675671208066,
+      "trans_mm": 1.7043050247175868,
+      "angle_deg": 0.9497847293127731,
+      "success": true,
+      "latency_ms": 0.5720000481233001
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-7",
+      "method": "Cauchy",
+      "add_mm": 0.37479860392851316,
+      "trans_mm": 0.2957230740915207,
+      "angle_deg": 0.4336404460380743,
+      "success": true,
+      "latency_ms": 0.5826660199090838
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-7",
+      "method": "Precision",
+      "add_mm": 77.83757623434045,
+      "trans_mm": 77.89834689647238,
+      "angle_deg": 5.6642043557385,
+      "success": false,
+      "latency_ms": 0.5565830506384373
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-7",
+      "method": "Huber+Precision",
+      "add_mm": 84.04594097550215,
+      "trans_mm": 83.93174183436301,
+      "angle_deg": 6.079916944347317,
+      "success": false,
+      "latency_ms": 0.595791032537818
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-8",
+      "method": "L2",
+      "add_mm": 16.33099476544929,
+      "trans_mm": 16.227741630055075,
+      "angle_deg": 3.5644088052684872,
+      "success": false,
+      "latency_ms": 0.5320420023053885
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-8",
+      "method": "Huber",
+      "add_mm": 1.6819764771349361,
+      "trans_mm": 1.6508219086832947,
+      "angle_deg": 0.4773808813643444,
+      "success": true,
+      "latency_ms": 0.5722090136259794
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-8",
+      "method": "Cauchy",
+      "add_mm": 0.49612002485266793,
+      "trans_mm": 0.3799242059533333,
+      "angle_deg": 0.5570943626968325,
+      "success": true,
+      "latency_ms": 0.5704170325770974
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-8",
+      "method": "Precision",
+      "add_mm": 72.81657722259946,
+      "trans_mm": 72.64751218307646,
+      "angle_deg": 10.797947570123485,
+      "success": false,
+      "latency_ms": 0.5505840526893735
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-8",
+      "method": "Huber+Precision",
+      "add_mm": 79.42875418578768,
+      "trans_mm": 79.32103638021096,
+      "angle_deg": 10.068050539003588,
+      "success": false,
+      "latency_ms": 0.5955420201644301
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-9",
+      "method": "L2",
+      "add_mm": 18.0312481443208,
+      "trans_mm": 17.547903629281297,
+      "angle_deg": 5.478016634070392,
+      "success": false,
+      "latency_ms": 0.5471659824252129
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-9",
+      "method": "Huber",
+      "add_mm": 1.7926503675255467,
+      "trans_mm": 1.7243675211053282,
+      "angle_deg": 0.7680528899777033,
+      "success": true,
+      "latency_ms": 0.5953749641776085
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-9",
+      "method": "Cauchy",
+      "add_mm": 0.42849255100610295,
+      "trans_mm": 0.38666652638979637,
+      "angle_deg": 0.3449409823429066,
+      "success": true,
+      "latency_ms": 0.5829589208588004
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-9",
+      "method": "Precision",
+      "add_mm": 77.56574281982188,
+      "trans_mm": 77.07854063889988,
+      "angle_deg": 8.175102172809847,
+      "success": false,
+      "latency_ms": 0.555667094886303
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-9",
+      "method": "Huber+Precision",
+      "add_mm": 82.81403802537487,
+      "trans_mm": 82.64707385373794,
+      "angle_deg": 7.123730316389088,
+      "success": false,
+      "latency_ms": 0.5990000208839774
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-10",
+      "method": "L2",
+      "add_mm": 17.2457004930469,
+      "trans_mm": 17.16259199636121,
+      "angle_deg": 3.6884180930066797,
+      "success": false,
+      "latency_ms": 0.5348330596461892
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-10",
+      "method": "Huber",
+      "add_mm": 1.5032889824519013,
+      "trans_mm": 1.4799349179939072,
+      "angle_deg": 0.602130469515125,
+      "success": true,
+      "latency_ms": 0.5722080823034048
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-10",
+      "method": "Cauchy",
+      "add_mm": 0.17918776889018243,
+      "trans_mm": 0.1072800968242079,
+      "angle_deg": 0.2631422563054961,
+      "success": true,
+      "latency_ms": 0.583041924983263
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-10",
+      "method": "Precision",
+      "add_mm": 76.83248028931527,
+      "trans_mm": 76.73493511299358,
+      "angle_deg": 5.819947868149497,
+      "success": false,
+      "latency_ms": 0.5955829983577132
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-10",
+      "method": "Huber+Precision",
+      "add_mm": 83.90890784240123,
+      "trans_mm": 83.83721121523301,
+      "angle_deg": 4.817815642333164,
+      "success": false,
+      "latency_ms": 0.6090829847380519
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-11",
+      "method": "L2",
+      "add_mm": 17.546171763247944,
+      "trans_mm": 17.555517518676627,
+      "angle_deg": 0.5392441594190829,
+      "success": false,
+      "latency_ms": 0.5317500326782465
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-11",
+      "method": "Huber",
+      "add_mm": 1.740374903900688,
+      "trans_mm": 1.741612556357346,
+      "angle_deg": 0.3803653488488006,
+      "success": true,
+      "latency_ms": 0.568249961361289
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-11",
+      "method": "Cauchy",
+      "add_mm": 0.4607068516040107,
+      "trans_mm": 0.37369407584305137,
+      "angle_deg": 0.40036458948405884,
+      "success": true,
+      "latency_ms": 0.5772500298917294
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-11",
+      "method": "Precision",
+      "add_mm": 78.25279806146895,
+      "trans_mm": 78.19707542944786,
+      "angle_deg": 2.0484738074552205,
+      "success": false,
+      "latency_ms": 0.553834019228816
+    },
+    {
+      "seed": 472,
+      "scene_id": "472-11",
+      "method": "Huber+Precision",
+      "add_mm": 84.37602213387599,
+      "trans_mm": 84.41401928732101,
+      "angle_deg": 0.9907154537453605,
+      "success": false,
+      "latency_ms": 0.5923329154029489
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-0",
+      "method": "L2",
+      "add_mm": 16.487777157132683,
+      "trans_mm": 16.426267311474227,
+      "angle_deg": 5.951033368918003,
+      "success": false,
+      "latency_ms": 0.5317919421941042
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-0",
+      "method": "Huber",
+      "add_mm": 1.5269638959286989,
+      "trans_mm": 1.4180768465946756,
+      "angle_deg": 1.2658978829211336,
+      "success": true,
+      "latency_ms": 0.5755419842898846
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-0",
+      "method": "Cauchy",
+      "add_mm": 0.5093452216065844,
+      "trans_mm": 0.2631476819933055,
+      "angle_deg": 0.7856161406167387,
+      "success": true,
+      "latency_ms": 0.5802500527352095
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-0",
+      "method": "Precision",
+      "add_mm": 74.99142331147945,
+      "trans_mm": 75.03048446106887,
+      "angle_deg": 2.905858986835896,
+      "success": false,
+      "latency_ms": 0.5531249335035682
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-0",
+      "method": "Huber+Precision",
+      "add_mm": 79.4734076924401,
+      "trans_mm": 79.45829143074712,
+      "angle_deg": 1.4025604934749787,
+      "success": false,
+      "latency_ms": 0.5936670349910855
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-1",
+      "method": "L2",
+      "add_mm": 16.749481808891474,
+      "trans_mm": 16.696184270968267,
+      "angle_deg": 1.426479542037384,
+      "success": false,
+      "latency_ms": 0.5324999801814556
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-1",
+      "method": "Huber",
+      "add_mm": 1.7991954719097683,
+      "trans_mm": 1.7713209298276862,
+      "angle_deg": 0.6307928096016923,
+      "success": true,
+      "latency_ms": 0.5797910271212459
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-1",
+      "method": "Cauchy",
+      "add_mm": 0.5784595971223044,
+      "trans_mm": 0.5090648493861477,
+      "angle_deg": 0.5810449839573845,
+      "success": true,
+      "latency_ms": 0.5784579552710056
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-1",
+      "method": "Precision",
+      "add_mm": 73.98799040023313,
+      "trans_mm": 74.07214740364336,
+      "angle_deg": 5.320530827071128,
+      "success": false,
+      "latency_ms": 0.5526249296963215
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-1",
+      "method": "Huber+Precision",
+      "add_mm": 78.19324586165737,
+      "trans_mm": 78.31573660238305,
+      "angle_deg": 7.078150105958799,
+      "success": false,
+      "latency_ms": 0.5908330203965306
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-2",
+      "method": "L2",
+      "add_mm": 16.494511390272965,
+      "trans_mm": 16.306823389407516,
+      "angle_deg": 2.862724974146815,
+      "success": false,
+      "latency_ms": 0.5397499771788716
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-2",
+      "method": "Huber",
+      "add_mm": 1.4226421665737214,
+      "trans_mm": 1.3979775567563713,
+      "angle_deg": 0.38853562226337524,
+      "success": true,
+      "latency_ms": 0.6032079691067338
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-2",
+      "method": "Cauchy",
+      "add_mm": 0.22526583251503515,
+      "trans_mm": 0.20158506972892454,
+      "angle_deg": 0.1677476888936231,
+      "success": true,
+      "latency_ms": 0.6357909878715873
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-2",
+      "method": "Precision",
+      "add_mm": 73.60440629194571,
+      "trans_mm": 73.51556152259013,
+      "angle_deg": 1.7260915611328076,
+      "success": false,
+      "latency_ms": 0.5583750316873193
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-2",
+      "method": "Huber+Precision",
+      "add_mm": 78.84503689661214,
+      "trans_mm": 78.75267854101888,
+      "angle_deg": 1.755330047926121,
+      "success": false,
+      "latency_ms": 0.5934590008109808
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-3",
+      "method": "L2",
+      "add_mm": 16.703042788522453,
+      "trans_mm": 16.787557120993068,
+      "angle_deg": 2.1898053342567367,
+      "success": false,
+      "latency_ms": 0.5614579422399402
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-3",
+      "method": "Huber",
+      "add_mm": 1.7885434638508413,
+      "trans_mm": 1.8023239228093764,
+      "angle_deg": 0.4276610768094625,
+      "success": true,
+      "latency_ms": 0.5709169199690223
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-3",
+      "method": "Cauchy",
+      "add_mm": 0.5519419865915564,
+      "trans_mm": 0.5552277192567833,
+      "angle_deg": 0.21829668084528023,
+      "success": true,
+      "latency_ms": 0.5847919965162873
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-3",
+      "method": "Precision",
+      "add_mm": 74.9845478502521,
+      "trans_mm": 74.96693142792272,
+      "angle_deg": 2.3885876993657282,
+      "success": false,
+      "latency_ms": 0.5479169776663184
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-3",
+      "method": "Huber+Precision",
+      "add_mm": 79.71070739095873,
+      "trans_mm": 79.72630306430273,
+      "angle_deg": 2.5428958086608997,
+      "success": false,
+      "latency_ms": 0.5960830021649599
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-4",
+      "method": "L2",
+      "add_mm": 16.604250468670763,
+      "trans_mm": 16.27040590860547,
+      "angle_deg": 4.6508445329158805,
+      "success": false,
+      "latency_ms": 0.5467080045491457
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-4",
+      "method": "Huber",
+      "add_mm": 1.78126516915963,
+      "trans_mm": 1.710735054230513,
+      "angle_deg": 0.8284457489662375,
+      "success": true,
+      "latency_ms": 0.6365829613059759
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-4",
+      "method": "Cauchy",
+      "add_mm": 0.592099346871882,
+      "trans_mm": 0.4870686423652077,
+      "angle_deg": 0.5776246251347787,
+      "success": true,
+      "latency_ms": 0.5884170532226562
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-4",
+      "method": "Precision",
+      "add_mm": 72.55028602277214,
+      "trans_mm": 72.34171430999558,
+      "angle_deg": 5.3919418584939685,
+      "success": false,
+      "latency_ms": 0.5515420343726873
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-4",
+      "method": "Huber+Precision",
+      "add_mm": 78.78636225959852,
+      "trans_mm": 78.57808276483613,
+      "angle_deg": 6.019098608339159,
+      "success": false,
+      "latency_ms": 0.5946250166743994
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-5",
+      "method": "L2",
+      "add_mm": 16.83946403069528,
+      "trans_mm": 16.709468697184146,
+      "angle_deg": 3.053434913639338,
+      "success": false,
+      "latency_ms": 0.5330409621819854
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-5",
+      "method": "Huber",
+      "add_mm": 1.3748204407385205,
+      "trans_mm": 1.3386606392871885,
+      "angle_deg": 0.6430706054506193,
+      "success": true,
+      "latency_ms": 0.5785829853266478
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-5",
+      "method": "Cauchy",
+      "add_mm": 0.452320051587563,
+      "trans_mm": 0.43871430215582724,
+      "angle_deg": 0.2928454117333346,
+      "success": true,
+      "latency_ms": 0.5789999850094318
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-5",
+      "method": "Precision",
+      "add_mm": 75.6303239353433,
+      "trans_mm": 75.50414041538498,
+      "angle_deg": 3.9296490299457476,
+      "success": false,
+      "latency_ms": 0.5593750393018126
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-5",
+      "method": "Huber+Precision",
+      "add_mm": 81.54199134267834,
+      "trans_mm": 81.4537012107914,
+      "angle_deg": 4.146994820004791,
+      "success": false,
+      "latency_ms": 0.5856669740751386
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-6",
+      "method": "L2",
+      "add_mm": 16.874004989696303,
+      "trans_mm": 16.76569724204366,
+      "angle_deg": 5.805693720189374,
+      "success": false,
+      "latency_ms": 0.5387499695643783
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-6",
+      "method": "Huber",
+      "add_mm": 1.4073769826598805,
+      "trans_mm": 1.2917359981376597,
+      "angle_deg": 1.3180395321058183,
+      "success": true,
+      "latency_ms": 0.5769169656559825
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-6",
+      "method": "Cauchy",
+      "add_mm": 0.4493238041483905,
+      "trans_mm": 0.16185470748406086,
+      "angle_deg": 0.7478884892086237,
+      "success": true,
+      "latency_ms": 0.5795839242637157
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-6",
+      "method": "Precision",
+      "add_mm": 76.5960907407538,
+      "trans_mm": 76.58121865860869,
+      "angle_deg": 5.714385736222305,
+      "success": false,
+      "latency_ms": 0.5680000176653266
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-6",
+      "method": "Huber+Precision",
+      "add_mm": 83.20241610525815,
+      "trans_mm": 83.17253558888042,
+      "angle_deg": 6.171739050114573,
+      "success": false,
+      "latency_ms": 0.5963330622762442
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-7",
+      "method": "L2",
+      "add_mm": 16.50749569501945,
+      "trans_mm": 16.097478325219196,
+      "angle_deg": 8.102657397273148,
+      "success": false,
+      "latency_ms": 0.5333749577403069
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-7",
+      "method": "Huber",
+      "add_mm": 1.408422123087217,
+      "trans_mm": 1.3212523324307879,
+      "angle_deg": 1.0353074836159677,
+      "success": true,
+      "latency_ms": 0.5731669953092933
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-7",
+      "method": "Cauchy",
+      "add_mm": 0.3501601088587811,
+      "trans_mm": 0.18639900471909507,
+      "angle_deg": 0.4799989263698262,
+      "success": true,
+      "latency_ms": 0.5817499477416277
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-7",
+      "method": "Precision",
+      "add_mm": 72.35580314004496,
+      "trans_mm": 72.29840204018019,
+      "angle_deg": 8.927760711439449,
+      "success": false,
+      "latency_ms": 0.562917091883719
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-7",
+      "method": "Huber+Precision",
+      "add_mm": 79.4085081219432,
+      "trans_mm": 79.41186573347763,
+      "angle_deg": 8.132582029134953,
+      "success": false,
+      "latency_ms": 0.5947499303147197
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-8",
+      "method": "L2",
+      "add_mm": 17.15840332137616,
+      "trans_mm": 17.170053470987117,
+      "angle_deg": 2.196101804209125,
+      "success": false,
+      "latency_ms": 0.5316660972312093
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-8",
+      "method": "Huber",
+      "add_mm": 1.6996037557878962,
+      "trans_mm": 1.697659577196418,
+      "angle_deg": 0.16512126138584501,
+      "success": true,
+      "latency_ms": 0.594333978369832
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-8",
+      "method": "Cauchy",
+      "add_mm": 0.41648600160171084,
+      "trans_mm": 0.36483603872035025,
+      "angle_deg": 0.36896481155868144,
+      "success": true,
+      "latency_ms": 0.584291061386466
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-8",
+      "method": "Precision",
+      "add_mm": 76.65415162270139,
+      "trans_mm": 76.56518927098821,
+      "angle_deg": 3.963558145043766,
+      "success": false,
+      "latency_ms": 0.5872909678146243
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-8",
+      "method": "Huber+Precision",
+      "add_mm": 82.36924682170144,
+      "trans_mm": 82.25428188643163,
+      "angle_deg": 3.86345887458972,
+      "success": false,
+      "latency_ms": 0.5957919638603926
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-9",
+      "method": "L2",
+      "add_mm": 16.22573946747852,
+      "trans_mm": 16.111963087684284,
+      "angle_deg": 4.266154752574892,
+      "success": false,
+      "latency_ms": 0.5308749387040734
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-9",
+      "method": "Huber",
+      "add_mm": 1.6694421876596102,
+      "trans_mm": 1.6443718931728615,
+      "angle_deg": 0.5942755783351047,
+      "success": true,
+      "latency_ms": 0.5782919470220804
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-9",
+      "method": "Cauchy",
+      "add_mm": 0.38600103718780154,
+      "trans_mm": 0.32794247263637893,
+      "angle_deg": 0.3277539640187327,
+      "success": true,
+      "latency_ms": 0.5774580640718341
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-9",
+      "method": "Precision",
+      "add_mm": 72.07263580668766,
+      "trans_mm": 72.09369651039621,
+      "angle_deg": 5.0894299049164,
+      "success": false,
+      "latency_ms": 0.6104169879108667
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-9",
+      "method": "Huber+Precision",
+      "add_mm": 77.79303772350487,
+      "trans_mm": 77.84748781798534,
+      "angle_deg": 8.355124845616944,
+      "success": false,
+      "latency_ms": 0.6250418955460191
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-10",
+      "method": "L2",
+      "add_mm": 15.412512068329333,
+      "trans_mm": 15.470469875316857,
+      "angle_deg": 3.9096223105716716,
+      "success": false,
+      "latency_ms": 0.5177910206839442
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-10",
+      "method": "Huber",
+      "add_mm": 1.2744503724928076,
+      "trans_mm": 1.2762457308226025,
+      "angle_deg": 0.3130563069023401,
+      "success": true,
+      "latency_ms": 0.54574990645051
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-10",
+      "method": "Cauchy",
+      "add_mm": 0.40096598518882653,
+      "trans_mm": 0.21256911128797407,
+      "angle_deg": 0.6100351368311363,
+      "success": true,
+      "latency_ms": 0.5492080235853791
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-10",
+      "method": "Precision",
+      "add_mm": 70.03646992474486,
+      "trans_mm": 70.20180934456187,
+      "angle_deg": 3.4420206917825324,
+      "success": false,
+      "latency_ms": 0.530333025380969
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-10",
+      "method": "Huber+Precision",
+      "add_mm": 76.68460930710944,
+      "trans_mm": 76.720386350303,
+      "angle_deg": 1.4551774751969462,
+      "success": false,
+      "latency_ms": 0.5664170021191239
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-11",
+      "method": "L2",
+      "add_mm": 17.001460501717112,
+      "trans_mm": 16.613655405076237,
+      "angle_deg": 7.003442357532134,
+      "success": false,
+      "latency_ms": 0.5107499891892076
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-11",
+      "method": "Huber",
+      "add_mm": 1.5421404178231253,
+      "trans_mm": 1.3468589226679515,
+      "angle_deg": 1.4302892068011308,
+      "success": true,
+      "latency_ms": 0.5446670111268759
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-11",
+      "method": "Cauchy",
+      "add_mm": 0.4632715530614722,
+      "trans_mm": 0.11006046760220785,
+      "angle_deg": 0.8357975987714131,
+      "success": true,
+      "latency_ms": 0.5509170005097985
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-11",
+      "method": "Precision",
+      "add_mm": 75.3237125074285,
+      "trans_mm": 75.29339900043337,
+      "angle_deg": 5.343101962039849,
+      "success": false,
+      "latency_ms": 0.5352080333977938
+    },
+    {
+      "seed": 473,
+      "scene_id": "473-11",
+      "method": "Huber+Precision",
+      "add_mm": 81.2332399062675,
+      "trans_mm": 81.24690912955538,
+      "angle_deg": 4.19711045226358,
+      "success": false,
+      "latency_ms": 0.5840410012751818
+    }
+  ]
+}

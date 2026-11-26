@@ -1,0 +1,43 @@
+{
+  "config": {
+    "seed": 42,
+    "metric": "ADD for identity-rotation translation-only box",
+    "threshold_m": 0.01,
+    "comparator": "<",
+    "missing_predictions": "failure",
+    "split": "test",
+    "target_policy": "all specified test instances"
+  },
+  "manifest": {
+    "data_sha256": "b437ab8b2da5fc32ad73b4ff1c86362a7e6af8d0d8842a0a633e2efbcfc54dc3",
+    "config_sha256": "f078be52eeb821fec5ce59d37448cabfddfd615de5001f794de80949ebfce6de",
+    "script_sha256": "d1eaf9c65e17d59d4bf1644d7d94356c26f53809386ba0f7fbbd01fd4e316072",
+    "evaluation_sha256": "6107129da259bcf829350494b58f96c161de8468a5591c77f59f62aaf42fff55",
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "injected_record_count": 62,
+  "clean_record_count": 60,
+  "audit_issue_count": 9,
+  "audit_codes": {
+    "unit_contract": 1,
+    "invalid_rotation": 1,
+    "invalid_intrinsics": 1,
+    "depth_scale": 1,
+    "nonmonotonic_time": 2,
+    "missing_calibration": 1,
+    "duplicate_target": 1,
+    "scene_leakage": 1
+  },
+  "invalid_dataset_blocked": true,
+  "repeated_evaluation_identical": true,
+  "evaluation": {
+    "targets": 20,
+    "predictions": 15,
+    "successes": 10,
+    "recall": 0.5
+  },
+  "elapsed_seconds": 0.00893987505696714,
+  "scope": "Synthetic module verification; no trained NOCS/EPro-PnP baseline, official benchmark or user assessment"
+}

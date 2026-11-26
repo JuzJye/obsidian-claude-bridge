@@ -1,0 +1,199 @@
+{
+  "seed": 47,
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9"
+  },
+  "units": "m, N, kg, radians internally",
+  "timestamp": "synthetic t=0",
+  "frame_convention": "T_AB maps B to A; gripper x=approach, y=closing, z=x cross y",
+  "geometry": "analytic elliptical cylinder, radii 28/40 mm; hard point contacts with Coulomb friction",
+  "mu": 0.4,
+  "max_width_mm": 80.0,
+  "opening_margin_mm": 4,
+  "mass_kg": 0.25,
+  "force_per_finger_N": 4.0,
+  "load_margin_N": 0.7475,
+  "candidate_count": 54,
+  "predicates_pass": 15,
+  "robot_attempts": 0,
+  "optimization_training_steps": 0,
+  "generate_and_perturb_ms": 1.982916030101478,
+  "chosen_candidate": {
+    "id": "a0-h0.050",
+    "angle_deg": 0.0,
+    "center_m": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "rotation": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "width_m": 0.06,
+    "contact_width_m": 0.056,
+    "minimum_mu": 0.0,
+    "beta_deg": 0.0,
+    "width_ok": true,
+    "friction_ok": true,
+    "load_ok": true,
+    "coupled_load_margin_N": 0.7475,
+    "geometric_candidate": true,
+    "score": 0.25,
+    "perturbation_passes": 296,
+    "perturbation_trials": 300
+  },
+  "transform_example_even_if_rejected": {
+    "T_BC": [
+      [
+        6.123233995736766e-17,
+        -1.0,
+        0.0,
+        0.4
+      ],
+      [
+        1.0,
+        6.123233995736766e-17,
+        0.0,
+        -0.2
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.1
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_CO": [
+      [
+        0.8660254037844387,
+        -0.49999999999999994,
+        0.0,
+        0.1
+      ],
+      [
+        0.49999999999999994,
+        0.8660254037844387,
+        0.0,
+        -0.03
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.6
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_OG": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.05
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_BG": [
+      [
+        0.0,
+        -0.4999999999999999,
+        0.8660254037844387,
+        0.43000000000000005
+      ],
+      [
+        0.0,
+        0.8660254037844387,
+        0.4999999999999999,
+        -0.1
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.75
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_BF": [
+      [
+        0.0,
+        -0.4999999999999999,
+        0.8660254037844387,
+        0.43000000000000005
+      ],
+      [
+        0.0,
+        0.8660254037844387,
+        0.4999999999999999,
+        -0.1
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.85
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pregrasp_B_m": [
+      0.43000000000000005,
+      -0.1,
+      0.83
+    ]
+  },
+  "scope": "Analytic candidate predicates, not full 6D force closure, collision/IK, grasp policy, or robot success; scores are not calibrated probabilities."
+}

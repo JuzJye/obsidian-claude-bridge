@@ -1,0 +1,76 @@
+{
+  "seed_rule": "5500 + case_id, reset separately for each method",
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "depth_bias_mm": 8.0,
+  "control_dt_s": 0.02,
+  "camera_period_s": 0.1,
+  "summary": {
+    "frozen_pose": {
+      "attempts": 40,
+      "proxy_successes": 10,
+      "outcomes": {
+        "proxy_success": 10,
+        "geometric_capture_miss": 10,
+        "stale_or_missing_observation": 10,
+        "unreachable": 10
+      },
+      "by_condition": {
+        "static": {
+          "successes": 10,
+          "attempts": 10
+        },
+        "object_shift": {
+          "successes": 0,
+          "attempts": 10
+        },
+        "sensor_loss": {
+          "successes": 0,
+          "attempts": 10
+        },
+        "unreachable": {
+          "successes": 0,
+          "attempts": 10
+        }
+      }
+    },
+    "reobserve": {
+      "attempts": 40,
+      "proxy_successes": 20,
+      "outcomes": {
+        "proxy_success": 20,
+        "stale_or_missing_observation": 10,
+        "unreachable": 10
+      },
+      "by_condition": {
+        "static": {
+          "successes": 10,
+          "attempts": 10
+        },
+        "object_shift": {
+          "successes": 10,
+          "attempts": 10
+        },
+        "sensor_loss": {
+          "successes": 0,
+          "attempts": 10
+        },
+        "unreachable": {
+          "successes": 0,
+          "attempts": 10
+        }
+      }
+    }
+  },
+  "wall_seconds": 3.526129041099921,
+  "scene": "analytic RGB-D pinhole camera, rectangular block, planar 2R plus vertical and wrist axes",
+  "success_definition": "geometric capture AND synthetic attachment AND >60mm rise AND 15-step hold",
+  "limitations": [
+    "no MuJoCo/PyBullet",
+    "no contact/friction/inertia",
+    "no real RGB-D",
+    "no official pose model",
+    "not project physical-grasp acceptance"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "seed": 48,
+  "trials": 80,
+  "device": "CPU",
+  "data": "synthetic planar 3R, known circle obstacle",
+  "unit": "m, rad",
+  "frame": "planar base x-y; object local grasp offset",
+  "timestamp": "static scene, path interpolation parameter is not seconds",
+  "start_q_rad": [
+    -1.2217304763960306,
+    1.7453292519943295,
+    -0.5235987755982988
+  ],
+  "link_lengths_m": [
+    0.35,
+    0.3,
+    0.12
+  ],
+  "margin_mm": 0,
+  "path_samples": 61,
+  "training_samples": 0,
+  "real_robot_interactions": 0,
+  "nominal_branches": 2,
+  "nominal_clear_endpoints": 2,
+  "counterexample_q_rad": [
+    1.0964312821688225,
+    0.7585475588091541,
+    2.047039573744652
+  ],
+  "rows": [
+    {
+      "translation_std_mm": 0,
+      "yaw_std_deg": 0,
+      "trials": 80,
+      "mean_target_error_mm": 0.0,
+      "ik": 80,
+      "endpoint": 80,
+      "path": 80,
+      "capture_proxy": 80
+    },
+    {
+      "translation_std_mm": 2,
+      "yaw_std_deg": 1,
+      "trials": 80,
+      "mean_target_error_mm": 2.9005722408903134,
+      "ik": 80,
+      "endpoint": 80,
+      "path": 80,
+      "capture_proxy": 80
+    },
+    {
+      "translation_std_mm": 5,
+      "yaw_std_deg": 3,
+      "trials": 80,
+      "mean_target_error_mm": 7.749645551653948,
+      "ik": 80,
+      "endpoint": 80,
+      "path": 70,
+      "capture_proxy": 43
+    },
+    {
+      "translation_std_mm": 10,
+      "yaw_std_deg": 5,
+      "trials": 80,
+      "mean_target_error_mm": 14.508568917596632,
+      "ik": 80,
+      "endpoint": 80,
+      "path": 63,
+      "capture_proxy": 20
+    }
+  ],
+  "elapsed_s": 1.1838065829360858
+}

@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-11-11T12:44:39.927858+00:00",
+  "seed": 62,
+  "data": "synthetic local deviations",
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "remove_action": true,
+  "dt_s": 0.05,
+  "action_unit": "mm/s",
+  "frame": "local normal compression axis",
+  "train_episodes": 60,
+  "val_episodes": 20,
+  "test_episodes": 20,
+  "train_transitions": 2400,
+  "test_windows_per_horizon": 620,
+  "val_rmse_dx_mm_dF_N": [
+    0.05888063361283318,
+    0.0360899480670666
+  ],
+  "free_rollout": {
+    "1": {
+      "windows": 620,
+      "rmse_dx_mm": 0.05928627661419199,
+      "rmse_dF_N": 0.03603559833973733,
+      "persistence_rmse_dx_mm": 0.05993474814330929
+    },
+    "5": {
+      "windows": 620,
+      "rmse_dx_mm": 0.11703138012673302,
+      "rmse_dF_N": 0.17556718522152767,
+      "persistence_rmse_dx_mm": 0.12342530020567417
+    },
+    "10": {
+      "windows": 620,
+      "rmse_dx_mm": 0.15157798631566116,
+      "rmse_dF_N": 0.3139687397140489,
+      "persistence_rmse_dx_mm": 0.16847483451098091
+    }
+  },
+  "counterfactual_predictions_dx_mm_dF_N": [
+    [
+      0.19051523125030662,
+      0.5941394678003276
+    ],
+    [
+      0.19051523125030662,
+      0.5941394678003276
+    ]
+  ],
+  "parameters": 8,
+  "robot_attempts": 0,
+  "environment_interactions": "4000 synthetic transitions, including held-out episodes",
+  "script_sha256": "8a42bb563e00bf3b67522d91d3108fd7d9e4ded33e0f951e6a9c2ba2206eceae",
+  "limits": "Not calibrated contact dynamics; overlapping test windows are correlated; no confidence interval.",
+  "wall_time_s": 0.32908245897851884
+}

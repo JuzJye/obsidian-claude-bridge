@@ -1,0 +1,66 @@
+{
+  "day": 37,
+  "verified_on": "2026-10-24",
+  "seed": 37,
+  "split_seeds": [
+    370,
+    371
+  ],
+  "device": "CPU",
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.9",
+  "data": "30 synthetic scenes x 20 frames, random scene background and target",
+  "jitter": 0.03,
+  "comparison": [
+    {
+      "split": "frame_random",
+      "train": 360,
+      "val": 120,
+      "test": 120,
+      "shared_train_test_scenes": 30,
+      "test_rmse_m": 0.0014040304187304625
+    },
+    {
+      "split": "scene_grouped",
+      "train": 360,
+      "val": 120,
+      "test": 120,
+      "shared_train_test_scenes": 0,
+      "test_rmse_m": 0.09805541183493137
+    }
+  ],
+  "training": "1-NN memorization, no parameter updates",
+  "batch_rgb_shape": [
+    2,
+    3,
+    12,
+    16
+  ],
+  "batch_depth_shape": [
+    2,
+    12,
+    16
+  ],
+  "invalid_depth_per_frame": 16,
+  "masked_centroid_x": [
+    2.0,
+    6.0
+  ],
+  "naive_centroid_x": [
+    2.0,
+    3.0
+  ],
+  "heldout_normalized_feature_mean": [
+    0.46444686450578515,
+    -0.2649114005796764,
+    0.38180576955439044,
+    -0.16319706571464704,
+    0.24816058906315644,
+    0.39327183207420996,
+    0.7715101618411928,
+    -0.35165746401741943
+  ],
+  "hardware_interactions": 0,
+  "elapsed_s": 0.014083415968343616
+}

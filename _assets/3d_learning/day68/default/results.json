@@ -1,0 +1,165 @@
+{
+  "source": "synthetic_1d_unilateral_spring_feature_observations",
+  "dt_s": 0.02,
+  "mass_kg": 0.5,
+  "damping_Ns_m": 1.0,
+  "test_touch_bias_N": 0.0,
+  "created_utc": "2026-11-11T14:17:48.062316+00:00",
+  "seed_train_val_test_ood": [
+    680,
+    681,
+    682,
+    683
+  ],
+  "environment": {
+    "python": "3.11.15",
+    "torch": "2.13.0.dev20260423",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.9",
+    "device": "cpu"
+  },
+  "split_episodes": {
+    "train": 96,
+    "validation": 32,
+    "test": 32,
+    "ood": 32
+  },
+  "steps_per_episode": 30,
+  "optimizer_steps_each": 300,
+  "training_seconds": 1.1619563340209424,
+  "script_sha256": "84403c5730f497e6f2eb97a378b04e40e6a7716685e7242687a65dbadce8766d",
+  "robot_attempts": 0,
+  "metrics": {
+    "vision_action": {
+      "best_epoch": 300,
+      "validation_normalized_mse": 0.0506461039185524,
+      "total_parameters": 1490,
+      "weights_sha256": "fdb87bcd2f32605ec085ce045fc4f4b16958a50fd4cb00ee15118c47a7fd52ca",
+      "test": {
+        "count": 960,
+        "x_rmse_mm": 0.33445481676608324,
+        "v_rmse_mm_s": 6.460176315158606,
+        "contact_correct": 956,
+        "contact_count": 290,
+        "contact_agreement": 0.9958333333333333,
+        "contact_v_rmse_mm_s": 9.002923965454102,
+        "free_v_rmse_mm_s": 4.971448797732592
+      },
+      "ood_stiffness": {
+        "count": 960,
+        "x_rmse_mm": 0.46769980690442026,
+        "v_rmse_mm_s": 17.98166148364544,
+        "contact_correct": 954,
+        "contact_count": 197,
+        "contact_agreement": 0.99375,
+        "contact_v_rmse_mm_s": 38.297396153211594,
+        "free_v_rmse_mm_s": 5.3044268861413
+      },
+      "cpu_prediction_latency_by_batch_size": {
+        "1": {
+          "median_ms": 0.02887495793402195,
+          "p95_ms": 0.02946017775684595
+        },
+        "960": {
+          "median_ms": 0.2657914883457124,
+          "p95_ms": 0.2938895660918206
+        }
+      }
+    },
+    "vision_touch": {
+      "best_epoch": 300,
+      "validation_normalized_mse": 0.481352299451828,
+      "total_parameters": 1490,
+      "weights_sha256": "785e12d0d999671a8ea15cd670baf635d21b443f8b36f24c06d4d2c0ce09d1bd",
+      "test": {
+        "count": 960,
+        "x_rmse_mm": 0.5439388914965093,
+        "v_rmse_mm_s": 21.96166105568409,
+        "contact_correct": 949,
+        "contact_count": 290,
+        "contact_agreement": 0.9885416666666667,
+        "contact_v_rmse_mm_s": 24.651942774653435,
+        "free_v_rmse_mm_s": 20.689012482762337
+      },
+      "ood_stiffness": {
+        "count": 960,
+        "x_rmse_mm": 0.5967810866422951,
+        "v_rmse_mm_s": 24.617893621325493,
+        "contact_correct": 951,
+        "contact_count": 197,
+        "contact_agreement": 0.990625,
+        "contact_v_rmse_mm_s": 26.045624166727066,
+        "free_v_rmse_mm_s": 24.23560805618763
+      },
+      "cpu_prediction_latency_by_batch_size": {
+        "1": {
+          "median_ms": 0.028875074349343777,
+          "p95_ms": 0.029916991479694843
+        },
+        "960": {
+          "median_ms": 0.28962496435269713,
+          "p95_ms": 0.30236601014621556
+        }
+      }
+    },
+    "vision_touch_action": {
+      "best_epoch": 300,
+      "validation_normalized_mse": 0.028496602550148964,
+      "total_parameters": 1490,
+      "weights_sha256": "236fb17fddf079a4ad30a920d28ade6b0e7e9d00431ead4c331f82c86215d746",
+      "test": {
+        "count": 960,
+        "x_rmse_mm": 0.3200623905286193,
+        "v_rmse_mm_s": 4.777866881340742,
+        "contact_correct": 956,
+        "contact_count": 290,
+        "contact_agreement": 0.9958333333333333,
+        "contact_v_rmse_mm_s": 4.674638621509075,
+        "free_v_rmse_mm_s": 4.821862559765577
+      },
+      "ood_stiffness": {
+        "count": 960,
+        "x_rmse_mm": 0.3358698158990592,
+        "v_rmse_mm_s": 6.7661721259355545,
+        "contact_correct": 956,
+        "contact_count": 197,
+        "contact_agreement": 0.9958333333333333,
+        "contact_v_rmse_mm_s": 11.328466236591339,
+        "free_v_rmse_mm_s": 4.946372471749783
+      },
+      "cpu_prediction_latency_by_batch_size": {
+        "1": {
+          "median_ms": 0.027582980692386627,
+          "p95_ms": 0.028002139879390597
+        },
+        "960": {
+          "median_ms": 0.2756669418886304,
+          "p95_ms": 0.29411013238132
+        }
+      }
+    },
+    "persistence": {
+      "test": {
+        "count": 960,
+        "x_rmse_mm": 3.140156390145421,
+        "v_rmse_mm_s": 25.366103276610374,
+        "contact_correct": 917,
+        "contact_count": 290,
+        "contact_agreement": 0.9552083333333333,
+        "contact_v_rmse_mm_s": 31.693749129772186,
+        "free_v_rmse_mm_s": 22.07174338400364
+      },
+      "ood_stiffness": {
+        "count": 960,
+        "x_rmse_mm": 3.581852884963155,
+        "v_rmse_mm_s": 31.870190054178238,
+        "contact_correct": 921,
+        "contact_count": 197,
+        "contact_agreement": 0.959375,
+        "contact_v_rmse_mm_s": 50.686731934547424,
+        "free_v_rmse_mm_s": 24.791637435555458
+      }
+    }
+  },
+  "limits": "One-step only; 1D spring; no rendered RGB, physical tactile sensor, rotation or closed-loop task success."
+}
