@@ -88,6 +88,9 @@ class Bridge:
         if self.root == self.vault or self.vault in self.root.parents or self.root in self.vault.parents:
             raise BridgeError('桥接目录与 vault 必须相互独立。')
         self.files = self.config['files']
+        self.visibility = self.config.get('visibility', 'private')
+        if self.visibility not in {'private', 'public'}:
+            raise BridgeError('visibility must be private or public.')
         if not self.files or len(set(self.files)) != len(self.files):
             raise BridgeError('清单必须非空且不能重复。')
         if self.config['branch'] != 'main' or not re.fullmatch(r'[\w.-]+/[\w.-]+', self.config['repository']):
@@ -132,12 +135,13 @@ class Bridge:
             raise BridgeError('清单缩小；请先审阅旧导出副本的撤下操作。')
         timestamp = state.get('exported_at') if state.get('files') == hashes else None
         timestamp = timestamp or datetime.now(ZoneInfo('Asia/Tokyo')).isoformat(timespec='seconds')
-        home = '# 给 Claude 的选定笔记\n\n'
-        home += f'导出时间：{timestamp}（Asia/Tokyo）。只代表这些副本的导出时间。\n\n'
-        home += 'Obsidian 是主本；本仓库为经过示例脱敏的副本。范围之外的内容未提供。\n\n'
+        home = '# Selected notes for Claude\n\n'
+        home += f'Exported at: {timestamp} (Asia/Tokyo). This is the export time of these note copies.\n\n'
+        home += f'Repository visibility: {self.visibility}.\n\n'
+        home += 'Obsidian is the source of truth. These are selected copies with sanitized examples; other vault content is excluded.\n\n'
         home += ''.join(f'- [{name}]({name})\n' for name in self.files)
-        home += '\n请阅读选定笔记后，按“笔记路径、建议、理由”给出反馈；由本地 Codex 核对后整理回主本。\n'
-        home += '\n[同步与协作说明](README.md)\n'
+        home += '\nPlease respond in English, citing the note path, suggested change, and reason. Local Codex reviews feedback before updating the source vault.\n'
+        home += '\n[Sync and collaboration guide](README.md)\n'
         notes['Home.md'] = home
         notes[STATE] = json_text({'exported_at': timestamp, 'files': hashes})
         return notes
@@ -165,8 +169,9 @@ class Bridge:
             raise BridgeError('origin 与配置不一致；停止。')
         result = subprocess.run(['gh', 'api', f'repos/{repo}', '--jq', '.private'],
                                 capture_output=True, text=True, timeout=30)
-        if result.returncode or result.stdout.strip() != 'true':
-            raise BridgeError('无法确认 GitHub 仓库为 private；停止。')
+        expected_private = 'true' if self.visibility == 'private' else 'false'
+        if result.returncode or result.stdout.strip() != expected_private:
+            raise BridgeError(f'GitHub visibility does not match configured {self.visibility}; stopped.')
         self.git('fetch', '--prune', 'origin')
         branch = self.git('symbolic-ref', '--short', 'HEAD').stdout.strip()
         if branch != 'main':
@@ -224,7 +229,7 @@ class Bridge:
             else:
                 print('无导出变化，不创建提交。')
             self.git('push', '-u', 'origin', 'HEAD:main')
-            print(f"已推送 private 仓库：https://github.com/{self.config['repository']}")
+            print(f"Pushed {self.visibility} repository: https://github.com/{self.config['repository']}")
             print(f"提交：{self.git('rev-parse', 'HEAD').stdout.strip()}")
 
 

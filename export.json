@@ -1,5 +1,6 @@
 {
   "repository": "JuzJye/obsidian-claude-bridge",
   "branch": "main",
+  "visibility": "public",
   "files": ["tools/git_commands.md", "tools/markdown_commands.md"]
 }

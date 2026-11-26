@@ -140,6 +140,20 @@ class BridgeTests(unittest.TestCase):
             self.sync()
         self.assertFalse((self.root / 'Home.md').exists())
 
+    def test_explicit_public_configuration_allows_public_repository(self):
+        config = json.loads((self.root / 'export.json').read_text())
+        config['visibility'] = 'public'
+        (self.root / 'export.json').write_text(json.dumps(config))
+        self.run_git(self.root, 'add', 'export.json')
+        self.run_git(self.root, 'commit', '-m', 'Explicitly configure public export')
+        self.bridge = Bridge(self.root)
+        self.private = False
+        self.sync()
+        self.assertIn('Repository visibility: public', (self.root / 'Home.md').read_text())
+        self.private = True
+        with self.assertRaises(BridgeError):
+            self.sync()
+
     def test_remote_ahead_blocks_without_overwriting(self):
         self.sync()
         other = self.base / 'other'
